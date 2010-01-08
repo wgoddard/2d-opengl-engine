@@ -14,6 +14,8 @@ namespace Prominence {
 			Texture * texture;
 			int width;
 			int height;
+			float xAnchor;
+			float yAnchor;
 		};
 
 		struct Sequence

@@ -100,7 +100,6 @@ namespace Prominence {
 
 	void Engine::Execute()
 	{
-
 		if (m_Initialized == false)
 		{
 			m_Logger->Outputf(P_ERROR, ENGINE, "Engine is not yet initialized.\n");
@@ -113,7 +112,7 @@ namespace Prominence {
 		if (m_FrameFunc == m_DefaultFrame) m_Logger->Outputf(P_WARNING, ENGINE, "No Frame function was defined.\n");
 		if (m_RenderFunc == m_DefaultRender) m_Logger->Outputf(P_WARNING, VIDEO, "No Render function was defined.\n");
 
-		//m_Renderer.Test2(); //display logo
+		//m_Renderer->Test2(); //display logo
 		//SDL_Delay(2000); //display logo
 
 		while (m_FrameFunc() && m_RenderFunc() )

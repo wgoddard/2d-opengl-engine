@@ -65,6 +65,9 @@ bool FrameFunc()
 				case SDLK_g:
 					anim->Animate("Skidding");
 					break;
+				case SDLK_h:
+					anim->Animate("Shooting");
+					break;
 				case SDLK_ESCAPE:
 					return false;
 				}
@@ -75,6 +78,7 @@ bool FrameFunc()
 
 	if (e.GetKeyDown(SDLK_RIGHT))
 	{
+		AnimatedSprite leaktest(e.GetResourceManager(), e.GetRenderer(), e.GetLogger(), "megaman6b.txt");
 		x++;
 	}
 	//SDL_Delay(12);
@@ -88,7 +92,7 @@ bool RenderFunc()
 
 
 	//sprite->Render((float)(x/5),100);
-	anim->Render(x/2.5, 0);
+	anim->Render(x/2.5, 100);
 	kis->Render(x/100, 600-256);
 
 	e.GetRenderer().EndFrame();
@@ -109,9 +113,9 @@ int main(int argc, char *argv[])
 
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
+	anim = e.CreateSprite("megaman6b.txt");
 	kis = e.CreateSprite("kis5.txt");
 	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
-	anim = e.CreateSprite("megaman5.txt");
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 

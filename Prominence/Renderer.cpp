@@ -25,12 +25,9 @@ namespace Prominence {
 
 		glEnable(GL_TEXTURE_2D);
 		 
-		glClearColor( 0.0f, 0.0f, 0.0f, 0.0f );
-		 
-		//glViewport( bounds->x, bounds->y, bounds->w, bounds->h ); //?
-		//AdjustViewport();
+		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 		
-		glClear( GL_COLOR_BUFFER_BIT );  //?
+		glClear(GL_COLOR_BUFFER_BIT);
 
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 		glEnable(GL_BLEND);
