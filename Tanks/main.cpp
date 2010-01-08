@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
 	//Engine f;
 	e.SetName("WordXX");
 	//e.SetMode(E_RELEASE);
-	e.Resize(300, 200, 32, false);
+	//e.Resize(300, 200, 32, false);
 	//e.GetWindow().ToggleFullscreen();
 
 	e.Initialize();
