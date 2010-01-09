@@ -9,6 +9,9 @@
 
 #include "AnimatedSprite.h"
 #include "SimpleSprite.h"
+#include "Entity.h"
+
+#include "World.h"
 
 #include <string>
 
@@ -24,6 +27,7 @@ namespace Prominence {
 		Logger * m_Logger;
 		Window * m_Window;
 		Renderer * m_Renderer;
+		World * m_World;
 		ResourceManager * m_ResourceManager;
 
 		std::string m_Name;
@@ -73,6 +77,7 @@ namespace Prominence {
 		AnimatedSprite * CreateSprite(std::string filename) { return new AnimatedSprite(*m_ResourceManager, *m_Renderer, *m_Logger, filename); }
 		SimpleSprite * CreateSprite(std::string tex_name, float tex_x, float tex_y, float w, float h, float tex_w, float tex_h)
 				{ return new SimpleSprite(*m_ResourceManager, *m_Renderer, tex_name, tex_x, tex_y, w, h, tex_w, tex_h); }
+		Entity * CreateEntity(AnimatedSprite * sprite, Uint32 width, Uint32 height);
 	};
 
 }

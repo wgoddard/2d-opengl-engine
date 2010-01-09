@@ -12,6 +12,7 @@ AnimatedSprite * anim;
 //AnimatedSprite * kis;
 
 Entity * megaman;
+//World * world;
 
 float x; float y;
 
@@ -29,6 +30,7 @@ bool FrameFunc()
 	//anim->Update(e.GetDelta());
 	//kis->Update(e.GetDelta());
 	megaman->Update(e.GetDelta());
+	//world->Update(e.GetDelta());
 	
 	e.SetName(name);
 
@@ -46,7 +48,7 @@ bool FrameFunc()
 			{
 				if (event.key.keysym.sym == SDLK_z)
 				{
-					e.Resize(300, 200, 32, true);
+					e.Resize(800, 600, 32, true);
 					std::cout << "Hello";
 				}
 				switch (event.key.keysym.sym)
@@ -112,6 +114,7 @@ bool RenderFunc()
 	//anim->Render(x/2.5, 100);
 	//kis->Render(x/100, 600-256);
 	megaman->Render();
+	//e.GetRenderer().AddQuad(0, world->GetBody());
 
 	e.GetRenderer().EndFrame();
 
@@ -129,13 +132,15 @@ int main(int argc, char *argv[])
 
 	e.Initialize();
 
+	//world = new World(e.GetLogger());
+
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
 	anim = e.CreateSprite("megaman6b.txt");
 	//kis = e.CreateSprite("kis5.txt");
 	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
-	megaman = new Entity(*anim);
+	megaman = e.CreateEntity(anim, 100, 100);//new Entity(*anim);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 
@@ -152,6 +157,7 @@ int main(int argc, char *argv[])
 	delete megaman;
 
 	e.GetLogger().Outputf(P_WARNING, AUDIO, "No sound yet!\n");
+
 
 
 	return 0;

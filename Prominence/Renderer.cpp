@@ -107,19 +107,19 @@ namespace Prominence {
 					{
 						//glColor4f(j->v[0].color[0], j->v[0].color[1], j->v[0].color[2], j->v[0].color[3]);
 						glTexCoord2f(j->v[0].tx, j->v[0].ty);
-						glVertex3d( j->v[0].x, j->v[0].y,  j->z );
+						glVertex3d( j->v[0].x, j->v[2].y,  j->z );
 
 						//glColor4f(j->v[1].color[0], j->v[1].color[1], j->v[1].color[2], j->v[1].color[3]);
 						glTexCoord2f(j->v[1].tx, j->v[1].ty);
-						glVertex3d( j->v[1].x, j->v[1].y,  j->z );
+						glVertex3d( j->v[1].x, j->v[3].y,  j->z );
 
 						//glColor4f(j->v[2].color[0], j->v[2].color[1], j->v[2].color[2], j->v[2].color[3]);
 						glTexCoord2f(j->v[2].tx, j->v[2].ty);
-						glVertex3d( j->v[2].x, j->v[2].y,  j->z );
+						glVertex3d( j->v[2].x, j->v[0].y,  j->z );
 
 						//glColor4f(j->v[3].color[0], j->v[3].color[1], j->v[3].color[2], j->v[3].color[3]);
 						glTexCoord2f(j->v[3].tx, j->v[3].ty);
-						glVertex3d( j->v[3].x, j->v[3].y,  j->z );
+						glVertex3d( j->v[3].x, j->v[1].y,  j->z );
 					}
 				glEnd();
 				//glPopMatrix();

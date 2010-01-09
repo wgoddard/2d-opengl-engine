@@ -2,7 +2,7 @@
 
 namespace Prominence {
 
-	Entity::Entity(AnimatedSprite & sprite) : m_Sprite(sprite)
+	Entity::Entity(AnimatedSprite & sprite, b2Body & body) : m_Sprite(sprite), m_Body(body)
 	{
 		m_CurrentSequence = 0;
 		m_CurrentFrame = 0;
@@ -92,7 +92,9 @@ namespace Prominence {
 
 	void Entity::Render()
 	{
-		m_Sprite.Render(m_X, m_Y, m_CurrentSequence, m_CurrentFrame, m_HFlip);
+		b2Vec2 pos = m_Body.GetPosition();
+
+		m_Sprite.Render(pos.x, pos.y, m_CurrentSequence, m_CurrentFrame, m_HFlip);
 	}
 
 	void Entity::Right(bool key)
@@ -118,7 +120,8 @@ namespace Prominence {
 			m_Skidding = true;
 			m_HFlip = false;
 			Animate("Skidding");
-			m_XV = 0.4;
+			//m_XV = 0.4;
+			m_Body.SetLinearVelocity(b2Vec2(300.0f, 0.0f));
 			//m_Right = false;
 			//m_Left = false;
 			return;
@@ -129,20 +132,25 @@ namespace Prominence {
 		}
 		else if (m_Right)
 		{
-			m_XV = 0.1;
+			//m_XV = 0.1;
+			//m_Body.ApplyForce(b2Vec2(1000.0f, 1000.0f), b2Vec2(10.0f,10.0f));
+			m_Body.WakeUp();
+			m_Body.SetLinearVelocity(b2Vec2(100.0f,0.0f));
 			Animate("Running");
 			m_HFlip = false;
 		}
 		else if (m_Left)
 		{
-			m_XV = -0.1;
+			//m_XV = -0.1;
+			m_Body.SetLinearVelocity(b2Vec2(-100.0f, 0.0f));
 			Animate("Running");
 			m_HFlip = true;
 		}
 		else
 		{
 			Animate("Still");
-			m_XV = 0;
+			//m_XV = 0;
+			m_Body.SetLinearVelocity(b2Vec2(0.0f,0.0f));
 		}
 	}
 

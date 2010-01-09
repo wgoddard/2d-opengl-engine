@@ -26,6 +26,7 @@ namespace Prominence {
 		m_Window = new Window(*m_Logger, m_ScreenWidth, m_ScreenHeight, m_ScreenBpp, m_Name);
 		m_Renderer = new Renderer(*m_Logger);
 		m_ResourceManager = new ResourceManager(*m_Logger);
+		m_World = new World(*m_Logger);
 
 		m_FrameFunc = &m_DefaultFrame;
 		m_RenderFunc = &m_DefaultRender;
@@ -52,6 +53,8 @@ namespace Prominence {
 			delete m_Window;
 		else
 			m_Logger->Outputf(P_WARNING, WINDOW, "Engine cannot destroy window.  It does not exist.\n");
+
+		delete m_World;
 
 
 		m_Logger->Outputf(P_INFO, ENGINE, "Engine destroyed.\n");
@@ -89,7 +92,7 @@ namespace Prominence {
 		else
 		{
 			m_Initialized = true;
-			m_Renderer->SetOrtho(0, m_ScreenWidth, m_ScreenHeight, 0);
+			m_Renderer->SetOrtho(0, m_ScreenWidth, 0, m_ScreenHeight);
 			m_Renderer->SetViewPort(0, 0, m_ScreenWidth, m_ScreenHeight);
 			//m_Renderer.Test2();
 		}
@@ -121,6 +124,7 @@ namespace Prominence {
 			m_DeltaTime = currentTime - m_StartTime;
 			m_StartTime = currentTime;
 			m_Frames++;
+			m_World->Update(m_DeltaTime);
 			m_ResourceManager->LoadTextures();
 			if (currentTime - m_FrameTimer >= 1000)
 			{
@@ -150,6 +154,12 @@ namespace Prominence {
 	bool Engine::m_DefaultRender()
 	{
 		return true;
+	}
+
+	Entity * Engine::CreateEntity(AnimatedSprite * sprite, Uint32 width, Uint32 height)
+	{
+		b2Body * body = m_World->CreateBody(width, height);
+		return new Entity(*sprite, *body);
 	}
 
 	bool Engine::m_Instantiated = false;

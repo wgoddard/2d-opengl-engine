@@ -60,7 +60,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="SDL.lib SDLmain.lib opengl32.lib glu32.lib SOIL_debug.lib tinyxml.lib"
+				AdditionalDependencies="SDL.lib SDLmain.lib opengl32.lib glu32.lib SOIL_debug.lib tinyxml.lib box2d_d.lib"
 				LinkIncremental="2"
 				IgnoreAllDefaultLibraries="false"
 				GenerateDebugInformation="true"
@@ -134,7 +134,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="SDL.lib SDLmain.lib opengl32.lib glu32.lib vcSOIL.lib tinyxml.lib"
+				AdditionalDependencies="SDL.lib SDLmain.lib opengl32.lib glu32.lib vcSOIL.lib tinyxml.lib box2d.lib"
 				LinkIncremental="1"
 				GenerateDebugInformation="true"
 				SubSystem="2"
@@ -221,6 +221,10 @@
 				RelativePath=".\Window.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\World.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -277,6 +281,10 @@
 			</File>
 			<File
 				RelativePath=".\Window.h"
+				>
+			</File>
+			<File
+				RelativePath=".\World.h"
 				>
 			</File>
 		</Filter>
