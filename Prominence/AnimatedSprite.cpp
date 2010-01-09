@@ -6,8 +6,6 @@ namespace Prominence {
 
 	AnimatedSprite::AnimatedSprite(ResourceManager & rm, Renderer & renderer, Logger & logger, std::string xml_file) : Sprite(rm, renderer), m_Logger(logger)
 	{
-		m_FrameTimer = m_CurrentFrame = 0;
-		m_CurrentSequence = NULL;
 
 		TiXmlDocument doc(xml_file.c_str());
 
@@ -15,8 +13,6 @@ namespace Prominence {
 		{
 			m_Logger.Outputf(P_WARNING, OTHER, "Failed to load XML %s.\n", xml_file.c_str());
 		}
-
-
 
 
 		TiXmlElement * root = doc.FirstChildElement("sprites");
@@ -65,6 +61,7 @@ namespace Prominence {
 
 			seq->name = elem->Attribute("Name");
 			seq->returnLoopFrame = atoi(elem->Attribute("Return_Loop_Frame"));
+			seq->loops = atoi(elem->Attribute("Loops"));
 			//std::cout << seq->name << '\n';
 
 			TiXmlElement * frameElem = elem->FirstChildElement("frame");
@@ -113,7 +110,6 @@ namespace Prominence {
 			} while (frameElem = frameElem->NextSiblingElement("frame"));
 
 			sequences.push_back(seq);
-			m_CurrentSequence = seq;
 		} while(elem = elem->NextSiblingElement("sequence"));
 
 
@@ -144,14 +140,16 @@ namespace Prominence {
 
 	}
 
-	void AnimatedSprite::Render(GLfloat x, GLfloat y)
+	void AnimatedSprite::Render(GLfloat x, GLfloat y, Uint32 sequence, Uint32 frame, bool hflip)
 	{
-		x -= m_CurrentSequence->frames[m_CurrentFrame]->xAnchor;
-		y -= m_CurrentSequence->frames[m_CurrentFrame]->yAnchor;
-		Quad & quad = m_CurrentSequence->frames[m_CurrentFrame]->quad;
+		Frame * workingFrame = sequences[sequence]->frames[frame];
 
-		int width = m_CurrentSequence->frames[m_CurrentFrame]->width;
-		int height = m_CurrentSequence->frames[m_CurrentFrame]->height;
+		x -= workingFrame->xAnchor;
+		y -= workingFrame->yAnchor;
+		Quad quad = workingFrame->quad;
+
+		int width = workingFrame->width;
+		int height = workingFrame->height;
 
 		quad.v[0].x = x;			quad.v[0].y = y;
 		//quad.v[0].tx = 0; quad.v[0].ty = 0; quad.v[0].x = 0; quad.v[0].y = 0; quad.v[0].color[3] = 0;
@@ -162,38 +160,19 @@ namespace Prominence {
 		//quad.v[3].tx = 0; quad.v[3].ty = 1; 
 		quad.v[3].x = x;			quad.v[3].y = y+height; //quad.v[3].color[3] = 0;
 		//std::cout << "rendering " << m_CurrentSequence->frames[m_CurrentFrame]->texture->GetId() << '\n';
-		m_Renderer.AddQuad(m_CurrentSequence->frames[m_CurrentFrame]->texture->GetId(), quad);
-	}
 
-	void AnimatedSprite::Update(Uint32 dt)
-	{
-		m_FrameTimer += dt;
-		if (m_FrameTimer > m_CurrentSequence->frames[m_CurrentFrame]->time * 1000)
+		if (hflip)
 		{
-			m_FrameTimer -= m_CurrentSequence->frames[m_CurrentFrame]->time * 1000;
-			m_CurrentFrame++;
-			if (m_CurrentFrame >= m_CurrentSequence->frames.size()) m_CurrentFrame = m_CurrentSequence->returnLoopFrame;
-		}
-		//std::cout << m_CurrentSequence->name << " " << m_FrameTimer << '\n';
-	}
+			GLfloat temp = quad.v[0].tx;
+			quad.v[0].tx  = quad.v[1].tx;
+			quad.v[1].tx = temp;
+			temp = quad.v[2].tx;
+			quad.v[2].tx = quad.v[3].tx;
+			quad.v[3].tx = temp;
 
-	void AnimatedSprite::Animate(std::string sequence_name)
-	{
-		if (sequence_name == m_CurrentSequence->name)
-			return;
-
-		std::vector<Sequence *>::iterator i;
-		
-		for (i = sequences.begin(); i != sequences.end(); ++i)
-		{
-			if (sequence_name == (*i)->name)
-			{
-				m_CurrentSequence = (*i);
-				m_CurrentFrame = 0;
-				m_FrameTimer = 0;
-				return;
-			}
 		}
 
+		m_Renderer.AddQuad(workingFrame->texture->GetId(), quad);
 	}
+
 }
