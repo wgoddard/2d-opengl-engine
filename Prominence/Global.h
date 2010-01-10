@@ -25,6 +25,8 @@ namespace Prominence {
 		//Blend
 	};
 
+	extern float PIXELS_PER_UNIT;
+
 }
 
 

@@ -178,11 +178,19 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Animator.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Engine.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\Entity.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Global.cpp"
 				>
 			</File>
 			<File
@@ -233,6 +241,10 @@
 			>
 			<File
 				RelativePath=".\AnimatedSprite.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Animator.h"
 				>
 			</File>
 			<File

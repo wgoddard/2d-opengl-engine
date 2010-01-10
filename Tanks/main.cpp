@@ -20,7 +20,7 @@ bool FrameFunc()
 {
 	//std::cout << "Hello\n";
 	//std::cout << e.GetDelta() << '\n';
-	e.Delay(10);
+	e.Delay(20);
 	char delta[10];
 	_itoa(e.GetDelta(), delta, 9);
 	char fps[10];
@@ -109,12 +109,14 @@ bool RenderFunc()
 	e.GetRenderer().StartFrame();
 	e.GetRenderer().ClearFrame();
 
+	//e.GetWorld().Update(0);
 
-	//sprite->Render((float)(x/5),100);
-	//anim->Render(x/2.5, 100);
-	//kis->Render(x/100, 600-256);
+
+	e.GetWorld().DrawBoxes();
 	megaman->Render();
-	//e.GetRenderer().AddQuad(0, world->GetBody());
+
+
+
 
 	e.GetRenderer().EndFrame();
 
@@ -140,7 +142,7 @@ int main(int argc, char *argv[])
 	//kis = e.CreateSprite("kis5.txt");
 	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
-	megaman = e.CreateEntity(anim, 100, 100);//new Entity(*anim);
+	megaman = e.CreateEntity(anim, 300,300);//new Entity(*anim);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 

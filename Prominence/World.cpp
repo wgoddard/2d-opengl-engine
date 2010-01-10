@@ -3,7 +3,7 @@
 
 namespace Prominence { 
 
-	World::World(Logger & logger) : m_Logger(logger)
+	World::World(Logger & logger, Renderer & renderer) : m_Logger(logger), m_Renderer(renderer)
 	{
 		b2AABB worldAABB;
 		worldAABB.lowerBound.Set(0.0f, 0.0f);
@@ -17,6 +17,7 @@ namespace Prominence {
 
 		// Construct a world object, which will hold and simulate the rigid bodies.
 		m_b2World = new b2World(worldAABB, gravity, doSleep);
+		//m_b2World->SetDebugDraw(new DebugDraw());
 
 		// Define the ground body.
 		b2BodyDef groundBodyDef;
@@ -88,7 +89,7 @@ namespace Prominence {
 	void World::Update(Uint32 dt)
 	{
 		int32 iterations = 10;
-		float32 timeStep = 1.0f / 120.0f;
+		float32 timeStep = 1.0f / 60.0f;
 		m_b2World->Step(timeStep, iterations);
 	}
 
@@ -106,30 +107,49 @@ namespace Prominence {
 		return q;
 	}
 
-	b2Body * World::CreateBody(Uint32 width, Uint32 height)
+	b2Body * World::CreateBody(b2PolygonDef * polyDef, float x, float y)
 	{
 		b2BodyDef bodyDef;
-		bodyDef.position.Set(100.0f, 500.0f);
+		bodyDef.position.Set(x, y);
 		b2Body * body = m_b2World->CreateBody(&bodyDef);
 
-		// Define another box shape for our dynamic body.
-		b2PolygonDef shapeDef;
-		shapeDef.SetAsBox(width, height);
 
-		// Set the box density to be non-zero, so it will be dynamic.
-		shapeDef.density = 1.0f;
 
-		// Override the default friction.
-		shapeDef.friction = 0.3f;
+
 
 		// Add the shape to the body.
-		body->CreateShape(&shapeDef);
+		body->CreateShape(polyDef);
 
 		// Now tell the dynamic body to compute it's mass properties base
 		// on its shape.
 		body->SetMassFromShapes();
 
 		return body;
+	}
+
+	void World::DrawBoxes()
+	{
+		for (b2Body* b = m_b2World->GetBodyList(); b; b = b->GetNext())
+		{
+			Quad q = {0};
+			b2Shape * shape = b->GetShapeList();
+			if (shape == NULL)
+			{
+				//std::cout << "NILL\n\n\n";
+				continue;
+			}
+			b2AABB bb;
+
+			shape->ComputeAABB(&bb, b[0].GetXForm());
+
+			q.v[0].x = bb.lowerBound.x;		q.v[0].y = bb.lowerBound.y;
+			q.v[1].x = bb.upperBound.x;		q.v[1].y = bb.lowerBound.y;
+			q.v[2].x = bb.upperBound.x;		q.v[2].y = bb.upperBound.y;
+			q.v[3].x = bb.lowerBound.x;		q.v[3].y = bb.upperBound.y;
+			q.z = 0.6f;
+
+			m_Renderer.AddFrame(q);
+		}
 	}
 
 }

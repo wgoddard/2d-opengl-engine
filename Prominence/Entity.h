@@ -3,6 +3,7 @@
 #include "Export.h"
 #include "AnimatedSprite.h"
 #include "Box2d.h"
+#include "Animator.h"
 
 namespace Prominence {
 
@@ -10,23 +11,14 @@ namespace Prominence {
 	{
 	private:
 		AnimatedSprite & m_Sprite;
+		Animator * m_Animator;
 		b2Body & m_Body;
-		Uint32 m_CurrentSequence;
-		Uint32 m_CurrentFrame;
-		Uint32 m_FrameTimer;
-		Uint32 m_LoopsPlayed;
 
-		GLfloat m_X;
-		GLfloat m_Y;
-
-		GLdouble m_XV;
-		GLdouble m_YV;
 
 		bool m_Right;
 		bool m_Left;
 
 		bool m_Skidding;
-		Uint32 m_SkiddingTimer;
 
 		bool m_HFlip;
 
@@ -35,9 +27,6 @@ namespace Prominence {
 
 		void UpdateState();
 
-
-
-		void Animate(std::string sequence_name);
 	public:
 		Entity(AnimatedSprite & sprite, b2Body & body);
 		virtual ~Entity();

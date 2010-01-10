@@ -32,8 +32,10 @@ namespace Prominence {
 			GLuint texture;
 		};
 		std::deque <QuadList> QuadLists;
+		std::deque <Quad> QuadFrames;
 
 		void RenderQuads();
+		void RenderFrames();
 	public:
 		Renderer(Logger & logger);
 		~Renderer(void);
@@ -46,6 +48,7 @@ namespace Prominence {
 		void ClearFrame(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)
 			{ glClearColor(red, green, blue, alpha); glClear(GL_COLOR_BUFFER_BIT); }
 		void AddQuad(GLuint texture, const Quad quad);
+		void AddFrame(const Quad quad);
 		void EndFrame();
 
 		void Test2();

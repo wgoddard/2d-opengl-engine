@@ -20,6 +20,20 @@ namespace Prominence {
 
 		TiXmlElement * elem = sprite->FirstChildElement("texture");
 
+		TiXmlElement * rect = sprite->FirstChildElement("rect");
+
+		if (rect == NULL)
+		{
+			m_Logger.Outputf(P_WARNING, OTHER, "%s (%s) has no bounding rect.\n", sprite->Attribute("Name"), xml_file);
+			throw("No bounding");
+		}
+		float rW, rH = 5.0f;
+		m_PolyDef = new b2PolygonDef();
+		rW = atof(rect->Attribute("Width")) / 2.0f / PIXELS_PER_UNIT;
+		rH = atof(rect->Attribute("Height")) / 2.0f / PIXELS_PER_UNIT;
+		m_PolyDef->SetAsBox(rW, rH);
+		m_PolyDef->density = 1.0f;
+
 		if (elem == 0)
 		{
 			//std::cout << "No textures?? error.\n";
@@ -137,6 +151,8 @@ namespace Prominence {
 			delete (*i);
 
 		}
+
+		delete m_PolyDef;
 
 	}
 

@@ -26,7 +26,7 @@ namespace Prominence {
 		m_Window = new Window(*m_Logger, m_ScreenWidth, m_ScreenHeight, m_ScreenBpp, m_Name);
 		m_Renderer = new Renderer(*m_Logger);
 		m_ResourceManager = new ResourceManager(*m_Logger);
-		m_World = new World(*m_Logger);
+		m_World = new World(*m_Logger, *m_Renderer);
 
 		m_FrameFunc = &m_DefaultFrame;
 		m_RenderFunc = &m_DefaultRender;
@@ -156,9 +156,9 @@ namespace Prominence {
 		return true;
 	}
 
-	Entity * Engine::CreateEntity(AnimatedSprite * sprite, Uint32 width, Uint32 height)
+	Entity * Engine::CreateEntity(AnimatedSprite * sprite, float x, float y)
 	{
-		b2Body * body = m_World->CreateBody(width, height);
+		b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
 		return new Entity(*sprite, *body);
 	}
 

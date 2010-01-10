@@ -87,6 +87,11 @@ namespace Prominence {
 
 	}
 
+	void Renderer::AddFrame(const Quad quad)
+	{
+		QuadFrames.push_back(quad);
+	}
+
 	void Renderer::StartFrame()
 	{
 	}
@@ -96,6 +101,8 @@ namespace Prominence {
 			std::deque<QuadList>::iterator i;
 			std::deque<Quad>::iterator j;
 
+			glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
+			
 			for (i = QuadLists.begin(); i != QuadLists.end(); ++i)
 			{
 				//glPushMatrix();
@@ -124,16 +131,44 @@ namespace Prominence {
 				glEnd();
 				//glPopMatrix();
 			}
+			
+	}
 
+	void Renderer::RenderFrames()
+	{
+			std::deque<Quad>::iterator i;
+			glBindTexture(GL_TEXTURE_2D, 0);
+			
+			glColor3f(1, 0, 0);
+			glBegin(GL_LINES);
+			for (i = QuadFrames.begin(); i != QuadFrames.end(); ++i)
+			{
+			//glBegin(GL_LINES);
+				glVertex3d( i->v[0].x, i->v[0].y,  i->z );
+				glVertex3d( i->v[1].x, i->v[1].y,  i->z );
+
+				glVertex3d( i->v[1].x, i->v[1].y,  i->z );
+				glVertex3d( i->v[2].x, i->v[2].y,  i->z );
+
+				glVertex3d( i->v[2].x, i->v[2].y,  i->z );
+				glVertex3d( i->v[3].x, i->v[3].y,  i->z );
+
+				glVertex3d( i->v[3].x, i->v[3].y,  i->z );
+				glVertex3d( i->v[0].x, i->v[0].y,  i->z );
+			//glEnd();
+			}
+			glEnd();
 	}
 
 	void Renderer::EndFrame()
 	{
 		RenderQuads();
+		RenderFrames();
 
 		SDL_GL_SwapBuffers();
 
 		QuadLists.clear();
+		QuadFrames.clear();
 	}
 
 	void Renderer::Test2()
