@@ -13,9 +13,14 @@ namespace Prominence {
 		~Texture();
 		std::string Name;
 		GLuint GetId();
+		void SetWidth(GLuint width) {m_width = width; }
+		void SetHeight(GLuint height) {m_height = height; }
+		GLuint GetWidth() const { return m_width; }
+		GLuint GetHeight() const { return m_height; }
 		void SetId(GLuint id); 
 	private:
 		GLuint Id;
+		GLuint m_width, m_height;
 	};
 
 }

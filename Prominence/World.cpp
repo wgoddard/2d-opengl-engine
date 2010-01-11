@@ -5,9 +5,11 @@ namespace Prominence {
 
 	World::World(Logger & logger, Renderer & renderer) : m_Logger(logger), m_Renderer(renderer)
 	{
+
 		b2AABB worldAABB;
 		worldAABB.lowerBound.Set(0.0f, 0.0f);
 		worldAABB.upperBound.Set(800.0f, 600.0f);
+
 
 		// Define the gravity vector.
 		b2Vec2 gravity(0.0f, -20.0f);
@@ -17,11 +19,18 @@ namespace Prominence {
 
 		// Construct a world object, which will hold and simulate the rigid bodies.
 		m_b2World = new b2World(worldAABB, gravity, doSleep);
-		//m_b2World->SetDebugDraw(new DebugDraw());
+
+		ContactListener * listen = new ContactListener;
+		m_b2World->SetContactListener(listen);
+
+		//b2Version ver = b2g
+		//m_Logger.Outputf(P_INFO, OTHER, "Initializing Box2d %i.%i.%i.\n", ver.major, ver.minor, ver.revision);
+
+		m_b2World->SetDebugDraw(new DebugDraw());
 
 		// Define the ground body.
 		b2BodyDef groundBodyDef;
-		groundBodyDef.position.Set(400.0f, 20.0f);
+		groundBodyDef.position.Set(400.0f, 0.0f);
 
 		// Call the body factory which allocates memory for the ground body
 		// from a pool and creates the ground box shape (also from a pool).
@@ -32,10 +41,14 @@ namespace Prominence {
 		b2PolygonDef groundShapeDef;
 
 		// The extents are the half-widths of the box.
-		groundShapeDef.SetAsBox(800.0f, 10.0f);
+		groundShapeDef.SetAsBox(400.0f, 5.0f);
 
 		// Add the ground shape to the ground body.
 		groundBody->CreateShape(&groundShapeDef);
+
+		//b2ContactListener listener;
+		//body->
+	//	m_b2World->SetContactListener(&listener);
 
 		// Define the dynamic body. We set its position and call the body factory.
 		//b2BodyDef bodyDef;
@@ -110,8 +123,10 @@ namespace Prominence {
 	b2Body * World::CreateBody(b2PolygonDef * polyDef, float x, float y)
 	{
 		b2BodyDef bodyDef;
+		bodyDef.fixedRotation = true;
 		bodyDef.position.Set(x, y);
 		b2Body * body = m_b2World->CreateBody(&bodyDef);
+		polyDef->friction = 0.0f;
 
 
 
@@ -123,6 +138,7 @@ namespace Prominence {
 		// Now tell the dynamic body to compute it's mass properties base
 		// on its shape.
 		body->SetMassFromShapes();
+
 
 		return body;
 	}

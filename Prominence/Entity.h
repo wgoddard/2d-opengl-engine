@@ -25,6 +25,8 @@ namespace Prominence {
 		Uint32 m_RightTimer;
 		Uint16 m_RightCounter;
 
+		int32 m_GroundedCount;
+
 		void UpdateState();
 
 	public:
@@ -35,6 +37,10 @@ namespace Prominence {
 
 		void Right(bool key);
 		void Left(bool key);
+		void Jump(bool key);
+
+		void TouchGround() { ++m_GroundedCount; std::cout << "weee\n";}
+		void UntouchGround() { --m_GroundedCount; }
 	};
 
 }

@@ -20,9 +20,17 @@ namespace Prominence {
 	ResourceManager::~ResourceManager(void)
 	{
 		std::vector<Texture*>::iterator i = textures.begin();
+		int size = textures.size();
+		GLuint * disposeList = new GLuint[size];
 
-		for (i = textures.begin(); i != textures.end(); ++i)
+		int j = 0;
+		for (i = textures.begin(); i != textures.end(); ++i, ++j)
+		{	
+			disposeList[j] = (*i)->GetId();
 			delete *i;
+		}
+		glDeleteTextures(size, disposeList);
+		delete [] disposeList;
 	}
 
 	Texture * ResourceManager::GetTexture(std::string name)
@@ -178,6 +186,8 @@ namespace Prominence {
 				//std::cout << "There are " << textures.size() << " textures\n";
 				std::vector<Texture*>::iterator j = textures.begin() + pending.index;
 				(*j)->SetId(tex);
+				(*j)->SetWidth(pending.width);
+				(*j)->SetHeight(pending.height);
 				//delete  pending.data;
 				SOIL_free_image_data(pending.data);
 

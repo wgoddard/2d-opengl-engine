@@ -18,9 +18,10 @@ float x; float y;
 
 bool FrameFunc()
 {
+
 	//std::cout << "Hello\n";
 	//std::cout << e.GetDelta() << '\n';
-	e.Delay(20);
+	e.Delay(10);
 	char delta[10];
 	_itoa(e.GetDelta(), delta, 9);
 	char fps[10];
@@ -76,6 +77,9 @@ bool FrameFunc()
 				case SDLK_h:
 					//anim->Animate("Shooting");
 					break;
+				case SDLK_w:
+					megaman->Jump(true);
+					break;
 				case SDLK_ESCAPE:
 					return false;
 				}
@@ -106,14 +110,15 @@ bool FrameFunc()
 
 bool RenderFunc()
 {
-	e.GetRenderer().StartFrame();
+	//e.GetRenderer().StartFrame();
 	e.GetRenderer().ClearFrame();
+	e.GetWorld().Update(0);
 
-	//e.GetWorld().Update(0);
 
-
-	e.GetWorld().DrawBoxes();
+	//e.GetWorld().DrawBoxes();
+	//sprite->Render(0,0);
 	megaman->Render();
+
 
 
 
@@ -138,11 +143,11 @@ int main(int argc, char *argv[])
 
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
-	anim = e.CreateSprite("megaman6b.txt");
+	anim = e.CreateSprite("megaman6c.txt");
 	//kis = e.CreateSprite("kis5.txt");
-	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
+	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 25, 25, 51, 51);
 
-	megaman = e.CreateEntity(anim, 300,300);//new Entity(*anim);
+	megaman = e.CreateEntity(anim, 0.10f, 20);//new Entity(*anim);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 

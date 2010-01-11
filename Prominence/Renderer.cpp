@@ -19,9 +19,11 @@ namespace Prominence {
 		SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 8 );
 		SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 8 );
 		SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
-		//SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 32 );
 		SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
 
+
+		//SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 32 );
+		//glEnable(GL_DEPTH_TEST);
 
 		glEnable(GL_TEXTURE_2D);
 		 
@@ -54,9 +56,10 @@ namespace Prominence {
 		glLoadIdentity();
 		 
 		glOrtho(left, right, bottom, top, -1.0f, 1.0f);
-
+		
 		glMatrixMode( GL_MODELVIEW );
 		glLoadIdentity();
+		glScaled(PIXELS_PER_UNIT, PIXELS_PER_UNIT, 0.0f);
 
 	}
 

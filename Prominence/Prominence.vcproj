@@ -182,15 +182,15 @@
 				>
 			</File>
 			<File
+				RelativePath=".\DebugDraw.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Engine.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\Entity.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Global.cpp"
 				>
 			</File>
 			<File
@@ -245,6 +245,10 @@
 			</File>
 			<File
 				RelativePath=".\Animator.h"
+				>
+			</File>
+			<File
+				RelativePath=".\DebugDraw.h"
 				>
 			</File>
 			<File

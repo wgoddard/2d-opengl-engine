@@ -5,6 +5,9 @@ namespace Prominence {
 	Entity::Entity(AnimatedSprite & sprite, b2Body & body) : m_Sprite(sprite), m_Body(body)
 	{
 		m_Animator = new Animator(sprite);
+		m_Body.SetUserData(this);
+
+		m_GroundedCount = 0;
 
 		m_Right = false;
 		m_Left = false;
@@ -17,6 +20,7 @@ namespace Prominence {
 	Entity::~Entity(void)
 	{
 		delete m_Animator;
+
 	}
 
 
@@ -66,6 +70,12 @@ namespace Prominence {
 		UpdateState();
 	}
 
+	void Entity::Jump(bool key)
+	{
+		if (key && m_GroundedCount > 0)
+			m_Body.ApplyImpulse(b2Vec2(0.0f, 6.0f), m_Body.GetWorldCenter());
+	}
+
 	void Entity::UpdateState()
 	{
 		if (m_Skidding) return;
@@ -77,7 +87,7 @@ namespace Prominence {
 			m_Animator->Animate("Skidding");
 			//m_XV = 0.4;
 			//m_Body.SetLinearVelocity(b2Vec2(300.0f, 0.0f));
-			m_Body.ApplyImpulse(b2Vec2(1200000.0f, 0.0f), m_Body.GetWorldCenter());
+			m_Body.ApplyImpulse(b2Vec2(6.0f, 0.0f), m_Body.GetWorldCenter());
 			//m_Right = false;
 			//m_Left = false;
 			return;
@@ -92,7 +102,7 @@ namespace Prominence {
 			//m_Body.ApplyForce(b2Vec2(1000.0f, 1000.0f), b2Vec2(10.0f,10.0f));
 			m_Body.WakeUp();
 			//m_Body.SetLinearVelocity(b2Vec2(100.0f,0.0f));
-			m_Body.ApplyImpulse(b2Vec2(300000.0f, 0.0f), m_Body.GetWorldCenter());
+			m_Body.ApplyImpulse(b2Vec2(3.0f, 0.0f), m_Body.GetWorldCenter());
 			//m_Body.ApplyForce(b2Vec2(3000000000.0f, 0.0), m_Body.GetWorldCenter());
 			m_Animator->Animate("Running");
 			m_HFlip = false;
@@ -101,7 +111,7 @@ namespace Prominence {
 		{
 			//m_XV = -0.1;
 			//m_Body.SetLinearVelocity(b2Vec2(-100.0f, 0.0f));
-			m_Body.ApplyImpulse(b2Vec2(-300000.0f, 0.0f), m_Body.GetWorldCenter());
+			m_Body.ApplyImpulse(b2Vec2(-3.0f, 0.0f), m_Body.GetWorldCenter());
 			m_Animator->Animate("Running");
 			m_HFlip = true;
 		}

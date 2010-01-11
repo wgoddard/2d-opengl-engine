@@ -1,6 +1,5 @@
 #include "AnimatedSprite.h"
 
-
 namespace Prominence {
 
 
@@ -89,8 +88,8 @@ namespace Prominence {
 				//Tex_X="206" Tex_Y="549" Width="39" Height="54" Anchor_X="19.5" Anchor_Y="27" Texture="0" />
 				int tex_x = atoi(frameElem->Attribute("Tex_X"));
 				int tex_y = atoi(frameElem->Attribute("Tex_Y"));
-				int width = atoi(frameElem->Attribute("Width"));
-				int height = atoi(frameElem->Attribute("Height"));
+				float width = atof(frameElem->Attribute("Width"));
+				float height = atof(frameElem->Attribute("Height"));
 				int texindex = atoi(frameElem->Attribute("Texture"));
 				float xAnchor = atof(frameElem->Attribute("Anchor_X"));
 				float yAnchor = atof(frameElem->Attribute("Anchor_Y"));
@@ -107,10 +106,10 @@ namespace Prominence {
 				}
 				frame->quad.z = 0.5f;
 
-				frame->width = width;
-				frame->height = height;
-				frame->xAnchor = xAnchor;
-				frame->yAnchor = yAnchor;
+				frame->width = width / PIXELS_PER_UNIT;
+				frame->height = height / PIXELS_PER_UNIT;
+				frame->xAnchor = xAnchor / PIXELS_PER_UNIT;
+				frame->yAnchor = yAnchor / PIXELS_PER_UNIT;
 
 				int texW = textures[texindex]->width;
 				int texH = textures[texindex]->height;
@@ -164,8 +163,8 @@ namespace Prominence {
 		y -= workingFrame->yAnchor;
 		Quad quad = workingFrame->quad;
 
-		int width = workingFrame->width;
-		int height = workingFrame->height;
+		float width = workingFrame->width;
+		float height = workingFrame->height;
 
 		quad.v[0].x = x;			quad.v[0].y = y;
 		//quad.v[0].tx = 0; quad.v[0].ty = 0; quad.v[0].x = 0; quad.v[0].y = 0; quad.v[0].color[3] = 0;

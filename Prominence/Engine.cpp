@@ -124,7 +124,7 @@ namespace Prominence {
 			m_DeltaTime = currentTime - m_StartTime;
 			m_StartTime = currentTime;
 			m_Frames++;
-			m_World->Update(m_DeltaTime);
+			//m_World->Update(m_DeltaTime);
 			m_ResourceManager->LoadTextures();
 			if (currentTime - m_FrameTimer >= 1000)
 			{
@@ -143,6 +143,8 @@ namespace Prominence {
 		m_ScreenHeight = height;
 		m_ScreenBpp = bpp;
 		m_Fullscreen = fullscreen;
+		m_Renderer->SetOrtho(0, 800, 0, 600);
+		m_Renderer->SetViewPort(0, 0, 800, 600);
 		return 0;
 	}
 

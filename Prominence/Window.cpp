@@ -26,7 +26,7 @@ int Window::Start()
 {
 
 	//Assume OpenGL
-	m_Flags |= SDL_OPENGL | SDL_RESIZABLE;
+	m_Flags |= SDL_OPENGL | SDL_RESIZABLE | SDL_DOUBLEBUF;
 
 	//if (m_Fullscreen)
 	//	m_Flags |= SDL_FULLSCREEN;
@@ -71,6 +71,8 @@ int Window::Start()
 
 int Window::ToggleFullscreen()
 {
+	//SDL_WM_ToggleFullScreen(m_Screen);
+	//return 0;
 	m_Flags ^= SDL_FULLSCREEN;
 
 	if (m_Screen == NULL)
@@ -95,6 +97,7 @@ int Window::ToggleFullscreen()
 
 int Window::ResizeWindow(Uint32 width, Uint32 height, Uint16 bpp, bool fullscreen)
 {
+
 	if (m_Screen == NULL)
 	{
 		m_Width = width;
@@ -105,7 +108,6 @@ int Window::ResizeWindow(Uint32 width, Uint32 height, Uint16 bpp, bool fullscree
 			m_Flags |= SDL_FULLSCREEN;
 		else
 			m_Flags &= ~(SDL_FULLSCREEN);
-		return 0;
 	}
 
 	SDL_Surface * tempscreen = NULL;

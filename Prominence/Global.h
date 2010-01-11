@@ -5,6 +5,8 @@
 #include "Texture.h"
 #include <string>
 
+#define PIXELS_PER_UNIT 44.0f
+
 namespace Prominence {
 
 	GLuint Load_Title();
@@ -25,7 +27,7 @@ namespace Prominence {
 		//Blend
 	};
 
-	extern float PIXELS_PER_UNIT;
+
 
 }
 
