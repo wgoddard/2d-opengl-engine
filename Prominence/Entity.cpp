@@ -41,6 +41,7 @@ namespace Prominence {
 		if (m_Skidding && m_Animator->Played() > 0)
 		{
 			m_Skidding = false;
+			m_Body.ApplyImpulse(b2Vec2(-6.0f, 0.0f), m_Body.GetWorldCenter());
 			UpdateState();
 		}
 

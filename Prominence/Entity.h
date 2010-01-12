@@ -39,7 +39,7 @@ namespace Prominence {
 		void Left(bool key);
 		void Jump(bool key);
 
-		void TouchGround() { ++m_GroundedCount; std::cout << "weee\n";}
+		void TouchGround() { ++m_GroundedCount;}
 		void UntouchGround() { --m_GroundedCount; }
 	};
 

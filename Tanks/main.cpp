@@ -12,6 +12,7 @@ AnimatedSprite * anim;
 //AnimatedSprite * kis;
 
 Entity * megaman;
+Entity * megaman2;
 //World * world;
 
 float x; float y;
@@ -26,11 +27,14 @@ bool FrameFunc()
 	_itoa(e.GetDelta(), delta, 9);
 	char fps[10];
 	_itoa(e.GetFPS(), fps, 9);
-	std::string name = std::string("Engine delta:") + delta + std::string(" fps: ") + fps;
+	char hz[10];
+	_snprintf(hz, 9, "%.3f", e.GetDelta()/1000.0f);
+	std::string name = std::string("Engine delta:") + delta + std::string(" fps: ") + fps + std::string(" timestep ") + hz;
 
 	//anim->Update(e.GetDelta());
 	//kis->Update(e.GetDelta());
 	megaman->Update(e.GetDelta());
+	megaman2->Update(e.GetDelta());
 	//world->Update(e.GetDelta());
 	
 	e.SetName(name);
@@ -112,12 +116,13 @@ bool RenderFunc()
 {
 	//e.GetRenderer().StartFrame();
 	e.GetRenderer().ClearFrame();
-	e.GetWorld().Update(0);
+	e.GetWorld().Update(e.GetDelta());
 
 
 	//e.GetWorld().DrawBoxes();
 	//sprite->Render(0,0);
 	megaman->Render();
+	megaman2->Render();
 
 
 
@@ -148,6 +153,7 @@ int main(int argc, char *argv[])
 	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 25, 25, 51, 51);
 
 	megaman = e.CreateEntity(anim, 0.10f, 20);//new Entity(*anim);
+	megaman2 = e.CreateEntity(anim, 10.0f, 20);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 
@@ -162,6 +168,7 @@ int main(int argc, char *argv[])
 	delete anim;
 	//delete kis;
 	delete megaman;
+	delete megaman2;
 
 	e.GetLogger().Outputf(P_WARNING, AUDIO, "No sound yet!\n");
 

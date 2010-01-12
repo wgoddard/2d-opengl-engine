@@ -8,7 +8,7 @@ namespace Prominence {
 
 		b2AABB worldAABB;
 		worldAABB.lowerBound.Set(0.0f, 0.0f);
-		worldAABB.upperBound.Set(800.0f, 600.0f);
+		worldAABB.upperBound.Set(1000.0f, 800.0f);
 
 
 		// Define the gravity vector.
@@ -41,10 +41,15 @@ namespace Prominence {
 		b2PolygonDef groundShapeDef;
 
 		// The extents are the half-widths of the box.
-		groundShapeDef.SetAsBox(400.0f, 5.0f);
+		groundShapeDef.SetAsBox(400.0f, 2.0f);
 
 		// Add the ground shape to the ground body.
 		groundBody->CreateShape(&groundShapeDef);
+
+		groundShapeDef.SetAsBox(5.0f, 400.0f);
+		groundBodyDef.position.Set(0.0f, 0.0f);
+		m_b2World->CreateBody(&groundBodyDef)->CreateShape(&groundShapeDef);
+
 
 		//b2ContactListener listener;
 		//body->
@@ -102,7 +107,8 @@ namespace Prominence {
 	void World::Update(Uint32 dt)
 	{
 		int32 iterations = 10;
-		float32 timeStep = 1.0f / 60.0f;
+		//float32 timeStep = 1.0f / 60.0f;
+		float32 timeStep = dt / 1000.0f;
 		m_b2World->Step(timeStep, iterations);
 	}
 
@@ -127,9 +133,37 @@ namespace Prominence {
 		bodyDef.position.Set(x, y);
 		b2Body * body = m_b2World->CreateBody(&bodyDef);
 		polyDef->friction = 0.0f;
+		polyDef->restitution = 0.0f;
+		//bodyDef.linearDamping = 100.0f;
+		//bodyDef.
+		
+
+		b2PolygonDef feet(*polyDef);
+
+		for (int i = 0; i < 4; ++i) {feet.vertices[i].y -= 0.5f; feet.vertices[i].x *= 0.9f; }
+		//feet.vertices[3].y = polyDef->vertices[0].y;
+		//feet.vertices[2].y = polyDef->vertices[1].y;
+		//feet.vertices[0].y = feet.vertices[3].y += 0.2f;
+		//feet.vertices[1].y = feet.vertices[2].y += 0.2f;
+		//feet.vertices[0].y = feet.vertices[3].y -= 0.3f;
+		//feet.vertices[1].y = feet.vertices[2].y -= 0.3f;
+
+		feet.isSensor = true;
+		feet.density = 0.0f;
+		feet.filter.
+		
+
+		std::cout << "1. x " << polyDef->vertices[0].x << "\t y " << polyDef->vertices[0].y << '\n';
+		std::cout << "2. x " << polyDef->vertices[1].x << "\t y " << polyDef->vertices[1].y << '\n';
+		std::cout << "3. x " << polyDef->vertices[2].x << "\t y " << polyDef->vertices[2].y << '\n';
+		std::cout << "4. x " << polyDef->vertices[3].x << "\t y " << polyDef->vertices[3].y << '\n';
+
+
+		b2Shape * s = body->CreateShape(&feet);
 
 
 
+		
 
 
 		// Add the shape to the body.

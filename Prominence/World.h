@@ -19,24 +19,15 @@ namespace Prominence {
 		public:
 			void Add(const b2ContactPoint* point)
 			{
-				std::cout << "Contact added." << point->id.key;
-				if (point->shape1->GetBody()->GetUserData() == NULL)
-					std::cout << "\tS1 No user data \n";
-				else
+				if (point->shape1->IsSensor())
 				{
-					std::cout << "\tS1Has User data\n";
-					Entity * temp = (Entity *)point->shape1->GetBody()->GetUserData();
-					temp->TouchGround();
+					Entity * entity = (Entity *)point->shape1->GetBody()->GetUserData();
+					entity->TouchGround();
 				}
-
-				if (point->shape2->GetBody()->GetUserData() == NULL)
-					std::cout << "\tS2 No user data \n";
-				else
+				if (point->shape2->IsSensor())
 				{
-					std::cout << "\tS2Has User data\n";
-					Entity * temp = (Entity *)point->shape2->GetBody()->GetUserData();
-					temp->TouchGround();
-					//((Entity*)point->shape1->GetBody()->GetUserData())->TouchGround();
+					Entity * entity = (Entity *)point->shape2->GetBody()->GetUserData();
+					entity->TouchGround();
 				}
 			}
 		    
@@ -47,11 +38,21 @@ namespace Prominence {
 		    
 			void Remove(const b2ContactPoint* point)
 			{
-				Entity * temp;
-				if (temp = (Entity*)point->shape1->GetBody()->GetUserData())
-					temp->UntouchGround();
-				if (temp = (Entity*)point->shape2->GetBody()->GetUserData())
-					temp->UntouchGround();
+				//Entity * temp;
+				//if (temp = (Entity*)point->shape1->GetBody()->GetUserData())
+				//	temp->UntouchGround();
+				//if (temp = (Entity*)point->shape2->GetBody()->GetUserData())
+				//	temp->UntouchGround();
+				if (point->shape1->IsSensor())
+				{
+					Entity * entity = (Entity *)point->shape1->GetBody()->GetUserData();
+					entity->UntouchGround();
+				}
+				if (point->shape2->IsSensor())
+				{
+					Entity * entity = (Entity *)point->shape2->GetBody()->GetUserData();
+					entity->UntouchGround();
+				}
 			}
 		    
 			void Result(const b2ContactResult* point)
