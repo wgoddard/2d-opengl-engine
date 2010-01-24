@@ -118,21 +118,27 @@ namespace Prominence {
 		//m_Renderer->Test2(); //display logo
 		//SDL_Delay(2000); //display logo
 
+		static int totalFrames = 0;
+		static int totalTime = SDL_GetTicks();
+
 		while (m_FrameFunc() && m_RenderFunc() )
 		{
 			Uint32 currentTime = SDL_GetTicks();
 			m_DeltaTime = currentTime - m_StartTime;
 			m_StartTime = currentTime;
 			m_Frames++;
+			totalFrames++;
 			//m_World->Update(m_DeltaTime);
 			m_ResourceManager->LoadTextures();
 			if (currentTime - m_FrameTimer >= 1000)
 			{
+				m_FPS = m_Frames * 1000 / (currentTime - m_FrameTimer);
 				m_FrameTimer = currentTime;
-				m_FPS = m_Frames;
 				m_Frames = 0;
 			}
 		}
+
+		std::cout << "Total FPS average = " << totalFrames / ((SDL_GetTicks()-totalTime)/1000) << '\n';
 	}
 
 	int Engine::Resize(Uint32 width, Uint32 height, Uint16 bpp, bool fullscreen)

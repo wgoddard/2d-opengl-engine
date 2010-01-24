@@ -1,13 +1,14 @@
 #include "..\Prominence\Prominence.h"
 //#include "..\Prominence\Engine.h"
-#include "SimpleSprite.h"
-#include "AnimatedSprite.h"
-#include "Entity.h"
+#include "..\Prominence\SimpleSprite.h"
+#include "..\Prominence\AnimatedSprite.h"
+#include "..\Prominence\Entity.h"
 
 using namespace Prominence;
 Engine e(E_DEBUG);
 
 SimpleSprite * sprite;
+SimpleSprite * wall;
 AnimatedSprite * anim;
 //AnimatedSprite * kis;
 
@@ -22,7 +23,7 @@ bool FrameFunc()
 
 	//std::cout << "Hello\n";
 	//std::cout << e.GetDelta() << '\n';
-	e.Delay(10);
+	//e.Delay(10);
 	char delta[10];
 	_itoa(e.GetDelta(), delta, 9);
 	char fps[10];
@@ -120,9 +121,11 @@ bool RenderFunc()
 
 
 	//e.GetWorld().DrawBoxes();
-	//sprite->Render(0,0);
+	sprite->Render(0,0);
+	wall->Render(5/44, 0);
 	megaman->Render();
 	megaman2->Render();
+
 
 
 
@@ -139,7 +142,7 @@ int main(int argc, char *argv[])
 	//Engine f;
 	e.SetName("WordXX");
 	//e.SetMode(E_RELEASE);
-	//e.Resize(300, 200, 32, false);
+	//e.Resize(640, 640, 32, false);
 	//e.GetWindow().ToggleFullscreen();
 
 	e.Initialize();
@@ -149,8 +152,9 @@ int main(int argc, char *argv[])
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
 	anim = e.CreateSprite("megaman6c.txt");
+	wall = e.CreateSprite("wall.png", 0.0f, 0.0f, 240/44, 480/44, 240/44, 480/44);
 	//kis = e.CreateSprite("kis5.txt");
-	sprite = e.CreateSprite("A.png", 0.25f, 0.25f, 25, 25, 51, 51);
+	sprite = e.CreateSprite("bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
 
 	megaman = e.CreateEntity(anim, 0.10f, 20);//new Entity(*anim);
 	megaman2 = e.CreateEntity(anim, 10.0f, 20);

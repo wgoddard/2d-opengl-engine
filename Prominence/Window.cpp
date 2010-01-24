@@ -25,8 +25,6 @@ Window::~Window(void)
 int Window::Start()
 {
 
-	//Assume OpenGL
-	m_Flags |= SDL_OPENGL | SDL_RESIZABLE | SDL_DOUBLEBUF;
 
 	//if (m_Fullscreen)
 	//	m_Flags |= SDL_FULLSCREEN;
@@ -41,7 +39,16 @@ int Window::Start()
 		errors++;
 	}
 
-	SDL_WM_SetCaption(m_Title.c_str(), m_Title.c_str());
+	
+	//Assume OpenGL
+		SDL_GL_SetAttribute( SDL_GL_RED_SIZE, 8 );
+		SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 8 );
+		SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 8 );
+		SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
+		SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
+	m_Flags |= SDL_OPENGL | SDL_RESIZABLE | SDL_DOUBLEBUF;
+
+	SDL_WM_SetCaption(m_Title.c_str(), NULL);
 
 
 	if(NULL == (m_Screen = SDL_SetVideoMode(m_Width, m_Height, m_Bpp, m_Flags)))

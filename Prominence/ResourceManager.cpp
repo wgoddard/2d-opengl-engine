@@ -68,6 +68,11 @@ namespace Prominence {
 
 				PendingInMemory pend;
 				std::ifstream in(current->Name.c_str(), std::ios_base::binary);
+				if (in.fail())
+				{
+					std::cout << "Failed to load " << current->Name << '\n';
+					return 1;
+				}
 				in.seekg(0, std::ios::end);
 				int length = in.tellg();
 				//std::cout << "File size is " << length << '\n';

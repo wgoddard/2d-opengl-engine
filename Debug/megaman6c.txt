@@ -2,7 +2,7 @@
 <sprites>
   <sprite Name="Megaman">
     <rect Width="34" Height="44" />
-    <texture File="C:\Users\William\Pictures\megaman_squared.png" Width="1024" Height="2048" />
+    <texture File="megamans.png" Width="1024" Height="2048" />
     <sequence Name="Enter" Return_Loop_Frame="0" Loops="0">
       <frame Time="0.1" Tex_X="35" Tex_Y="0" Width="42" Height="76" Anchor_X="21" Anchor_Y="35" Texture="0" />
       <frame Time="0.1" Tex_X="80" Tex_Y="0" Width="64" Height="76" Anchor_X="32" Anchor_Y="35" Texture="0" />

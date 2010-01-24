@@ -26,7 +26,7 @@ namespace Prominence {
 		//b2Version ver = b2g
 		//m_Logger.Outputf(P_INFO, OTHER, "Initializing Box2d %i.%i.%i.\n", ver.major, ver.minor, ver.revision);
 
-		m_b2World->SetDebugDraw(new DebugDraw());
+		//m_b2World->SetDebugDraw(new DebugDraw());
 
 		// Define the ground body.
 		b2BodyDef groundBodyDef;
@@ -107,7 +107,7 @@ namespace Prominence {
 	void World::Update(Uint32 dt)
 	{
 		int32 iterations = 10;
-		//float32 timeStep = 1.0f / 60.0f;
+		//float32 timeStep = 1.0f / 66.0f;
 		float32 timeStep = dt / 1000.0f;
 		m_b2World->Step(timeStep, iterations);
 	}
