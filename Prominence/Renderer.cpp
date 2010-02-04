@@ -3,7 +3,7 @@
 namespace Prominence {
 
 
-	Renderer::Renderer(Logger & logger) : m_Logger(logger)
+	Renderer::Renderer(Logger & logger) : m_Logger(logger), m_Frames(0)
 	{
 		m_Logger.Outputf(P_INFO, VIDEO, "Renderer instantiated.\n");
 	}
@@ -15,12 +15,6 @@ namespace Prominence {
 
 	int Renderer::Initialize()
 	{
-		SDL_GL_SetAttribute( SDL_GL_RED_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
-		SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
-
 
 		//SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 32 );
 		//glEnable(GL_DEPTH_TEST);
@@ -165,6 +159,7 @@ namespace Prominence {
 
 	void Renderer::EndFrame()
 	{
+		m_Frames++;
 		RenderQuads();
 		RenderFrames();
 

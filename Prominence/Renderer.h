@@ -34,6 +34,8 @@ namespace Prominence {
 		std::deque <QuadList> QuadLists;
 		std::deque <Quad> QuadFrames;
 
+		Uint32 m_Frames;
+
 		void RenderQuads();
 		void RenderFrames();
 	public:
@@ -50,6 +52,7 @@ namespace Prominence {
 		void AddQuad(GLuint texture, const Quad quad);
 		void AddFrame(const Quad quad);
 		void EndFrame();
+		Uint32 GetFrames() { Uint32 frames = m_Frames; m_Frames = 0; return frames; }
 
 		void Test2();
 	};

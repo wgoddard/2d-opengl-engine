@@ -4,6 +4,7 @@
 #include "..\Prominence\AnimatedSprite.h"
 #include "..\Prominence\Entity.h"
 
+
 using namespace Prominence;
 Engine e(E_DEBUG);
 
@@ -25,12 +26,17 @@ bool FrameFunc()
 	//std::cout << e.GetDelta() << '\n';
 	//e.Delay(10);
 	char delta[10];
-	_itoa(e.GetDelta(), delta, 9);
+	_itoa(e.GetDelta(), delta, 10);
 	char fps[10];
-	_itoa(e.GetFPS(), fps, 9);
+	_itoa(e.GetFPS(), fps, 10);
 	char hz[10];
 	_snprintf(hz, 9, "%.3f", e.GetDelta()/1000.0f);
 	std::string name = std::string("Engine delta:") + delta + std::string(" fps: ") + fps + std::string(" timestep ") + hz;
+
+	//std::cout << "Fps should be " << 1000.0f/e.GetDelta() << '\n';
+
+	//std::cout << "FPS: " << e.GetFPS() << " but is listed as " << fps << '\n';
+	
 
 	//anim->Update(e.GetDelta());
 	//kis->Update(e.GetDelta());

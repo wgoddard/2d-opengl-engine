@@ -121,18 +121,20 @@ namespace Prominence {
 		static int totalFrames = 0;
 		static int totalTime = SDL_GetTicks();
 
-		while (m_FrameFunc() && m_RenderFunc() )
+
+		while (m_FrameFunc() && m_RenderFunc())
 		{
 			Uint32 currentTime = SDL_GetTicks();
 			m_DeltaTime = currentTime - m_StartTime;
 			m_StartTime = currentTime;
-			m_Frames++;
+			//m_Frames++;
 			totalFrames++;
 			//m_World->Update(m_DeltaTime);
 			m_ResourceManager->LoadTextures();
-			if (currentTime - m_FrameTimer >= 1000)
+			if ((currentTime - m_FrameTimer )>= 1000)
 			{
-				m_FPS = m_Frames * 1000 / (currentTime - m_FrameTimer);
+				m_FPS = m_Renderer->GetFrames();
+				//m_FPS = m_Frames * 1000.0f / (currentTime - m_FrameTimer);
 				m_FrameTimer = currentTime;
 				m_Frames = 0;
 			}
