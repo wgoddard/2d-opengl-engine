@@ -41,11 +41,13 @@ int Window::Start()
 
 	
 	//Assume OpenGL
-		SDL_GL_SetAttribute( SDL_GL_RED_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 8 );
-		SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
-		SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
+	SDL_GL_SetAttribute( SDL_GL_RED_SIZE, 8 );
+	SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 8 );
+	SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 8 );
+	SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
+	SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
+	SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 0 );
+
 	m_Flags |= SDL_OPENGL | SDL_RESIZABLE | SDL_DOUBLEBUF;
 
 	SDL_WM_SetCaption(m_Title.c_str(), NULL);
@@ -57,13 +59,12 @@ int Window::Start()
 		m_Logger.Outputf(P_ERROR, WINDOW, "Failed to create window %dx%dx%d\n", m_Width, m_Height, m_Bpp);
 	}
 
-	//Resize event, because flag allows window resize
-	SDL_Event resizeEvent;
-	resizeEvent.type = SDL_VIDEORESIZE;
-	resizeEvent.resize.w = m_Width;
-	resizeEvent.resize.h = m_Height;
-	
-	SDL_PushEvent(&resizeEvent);
+	//SDL_Event resizeEvent;
+	//resizeEvent.type = SDL_VIDEORESIZE;
+	//resizeEvent.resize.w = m_Width;
+	//resizeEvent.resize.h = m_Height;
+	//
+	//SDL_PushEvent(&resizeEvent);
 
 
 	if(errors != 0)

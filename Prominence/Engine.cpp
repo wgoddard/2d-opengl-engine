@@ -145,6 +145,7 @@ namespace Prominence {
 
 	int Engine::Resize(Uint32 width, Uint32 height, Uint16 bpp, bool fullscreen)
 	{
+		//m_ResourceManager->FlushGLTextures();
 		if (m_Window->ResizeWindow(width, height, bpp, fullscreen))
 			return 1;
 		m_ScreenWidth = width;
@@ -153,6 +154,7 @@ namespace Prominence {
 		m_Fullscreen = fullscreen;
 		m_Renderer->SetOrtho(0, 800, 0, 600);
 		m_Renderer->SetViewPort(0, 0, 800, 600);
+		//m_ResourceManager->ReloadGLTextures();
 		return 0;
 	}
 

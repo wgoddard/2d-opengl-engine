@@ -127,7 +127,7 @@ bool RenderFunc()
 
 
 	//e.GetWorld().DrawBoxes();
-	sprite->Render(0,0);
+	sprite->Render(-1/44.0f,-1/44.0f);
 	wall->Render(5/44, 0);
 	megaman->Render();
 	megaman2->Render();

@@ -53,7 +53,7 @@ namespace Prominence {
 		
 		glMatrixMode( GL_MODELVIEW );
 		glLoadIdentity();
-		glScaled(PIXELS_PER_UNIT, PIXELS_PER_UNIT, 0.0f);
+		glScaled(PIXELS_PER_UNIT, PIXELS_PER_UNIT, 0);
 
 	}
 
