@@ -51,57 +51,13 @@ namespace Prominence {
 		m_b2World->CreateBody(&groundBodyDef)->CreateShape(&groundShapeDef);
 
 
-		//b2ContactListener listener;
-		//body->
-	//	m_b2World->SetContactListener(&listener);
-
-		// Define the dynamic body. We set its position and call the body factory.
-		//b2BodyDef bodyDef;
-		//bodyDef.position.Set(0.0f, 500.0f);
-		//body = m_b2World->CreateBody(&bodyDef);
-
-		// Define another box shape for our dynamic body.
-		//b2PolygonDef shapeDef;
-		//shapeDef.SetAsBox(1.0f, 1.0f);
-
-		// Set the box density to be non-zero, so it will be dynamic.
-		//shapeDef.density = 1.0f;
-
-		// Override the default friction.
-		//shapeDef.friction = 0.3f;
-
-		// Add the shape to the body.
-		//body->CreateShape(&shapeDef);
-
-		// Now tell the dynamic body to compute it's mass properties base
-		// on its shape.
-		//body->SetMassFromShapes();
-
-		// Prepare for simulation. Typically we use a time step of 1/60 of a
-		// second (60Hz) and 10 iterations. This provides a high quality simulation
-		// in most game scenarios.
-		///float32 timeStep = 1.0f / 60.0f;
-		//int32 iterations = 10;
-
-
-		// This is our little game loop.
-		//for (int32 i = 0; i < 60; ++i)
-		//{
-		//	// Instruct the world to perform a single step of simulation. It is
-		//	// generally best to keep the time step and iterations fixed.
-		//	m_World->Step(timeStep, iterations);
-
-		//	// Now print the position and angle of the body.
-		//	b2Vec2 position = body->GetPosition();
-		//	float32 angle = body->GetAngle();
-
-		//	printf("%4.2f %4.2f %4.2f\n", position.x, position.y, angle);
-		//}
+		m_CurrentLevel = new Level();
 	}
 
 	World::~World(void)
 	{
 		delete m_b2World;
+		delete m_CurrentLevel;
 	}
 
 	void World::Update(Uint32 dt)
@@ -110,6 +66,12 @@ namespace Prominence {
 		//float32 timeStep = 1.0f / 66.0f;
 		float32 timeStep = dt / 1000.0f;
 		m_b2World->Step(timeStep, iterations);
+		m_CurrentLevel->Update(dt);
+	}
+
+	void World::Render()
+	{
+		m_CurrentLevel->Render();
 	}
 
 	Quad World::GetBody()
@@ -200,6 +162,14 @@ namespace Prominence {
 
 			m_Renderer.AddFrame(q);
 		}
+	}
+
+	Entity * World::CreateEntity(AnimatedSprite * sprite, float x, float y)
+	{
+		b2Body * body = CreateBody(sprite->GetPolyDef(), x, y);
+		Entity * e = new Entity(*sprite, *body);
+		m_CurrentLevel->AddEntity(e);
+		return e;
 	}
 
 }

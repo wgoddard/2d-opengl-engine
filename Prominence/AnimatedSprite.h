@@ -38,6 +38,7 @@ namespace Prominence {
 			AnimatedSprite(ResourceManager & rm, Renderer & renderer, Logger & logger, std::string xml_file);
 			virtual ~AnimatedSprite(void);
 			void Render(GLfloat x, GLfloat y, Uint32 sequence, Uint32 frame, bool hflip = false);
+			void Render(GLfloat x, GLfloat y) { Render(x, y, 0, 0, false); }
 			Sequence * GetSequence(Uint32 sequence) { return sequences[sequence]; }
 			int32 GetSequence(std::string sequence_name);
 			unsigned int GetSequenceCount() { return sequences.size(); }

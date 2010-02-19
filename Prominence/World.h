@@ -6,6 +6,7 @@
 #include "Logger.h"
 #include "Box2d.h"
 #include "Entity.h"
+#include "Level.h"
 
 #include "DebugDraw.h"
 
@@ -67,12 +68,16 @@ namespace Prominence {
 		Renderer & m_Renderer;
 		b2World * m_b2World;
 		b2Body* body;
+		//Vector of Levels or level defs or such
+		Level * m_CurrentLevel;
 	public:
 		World(Logger & logger, Renderer & renderer);
 		~World(void);
 		void Update(Uint32 dt);
+		void Render();
 		Quad GetBody();
 		b2Body * CreateBody(b2PolygonDef * polyDef, float x, float y);
+		Entity * CreateEntity(AnimatedSprite * sprite, float x, float y);
 
 		void DrawBoxes();
 

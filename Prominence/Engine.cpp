@@ -170,8 +170,9 @@ namespace Prominence {
 
 	Entity * Engine::CreateEntity(AnimatedSprite * sprite, float x, float y)
 	{
-		b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
-		return new Entity(*sprite, *body);
+		//b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
+		//return new Entity(*sprite, *body);
+		return m_World->CreateEntity(sprite, x, y);
 	}
 
 	IsoEntity * Engine::CreateIsoEntity(AnimatedSprite * sprite, float x, float y)

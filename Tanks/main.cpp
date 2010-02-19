@@ -122,7 +122,10 @@ bool RenderFunc()
 {
 	e.GetRenderer().StartFrame();
 	e.GetRenderer().ClearFrame();
+
+	//Update it in here for now because b2d's built in debugdraw happens in update
 	e.GetWorld().Update(e.GetDelta());
+	
 
 	b2Vec2 pos = archer->GetPos();
 
@@ -134,14 +137,15 @@ bool RenderFunc()
 	//e.GetWorld().DrawBoxes();
 	sprite->Render(-1/44.0f,-1/44.0f);
 	wall->Render(5/44, 0);
-	megaman->Render();
-	megaman2->Render();
+	//megaman->Render();
+	//megaman2->Render();
 	archer->Render();
 
 
 
 
 
+	e.GetWorld().Render();
 
 	e.GetRenderer().EndFrame();
 
@@ -186,8 +190,8 @@ int main(int argc, char *argv[])
 	delete sprite;
 	delete anim;
 	//delete kis;
-	delete megaman;
-	delete megaman2;
+	//delete megaman;
+	//delete megaman2;
 	delete iso;
 	delete archer;
 
