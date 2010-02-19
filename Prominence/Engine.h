@@ -59,6 +59,7 @@ namespace Prominence {
 		void SetFrameFunc	(bool (*framefunc)())	{ m_FrameFunc = framefunc; }
 		void SetRenderFunc	(bool (*renderfunc)())	{ m_RenderFunc = renderfunc; }
 		void SetName(std::string name) { m_Name = name;  m_Window->SetTitle(name); };
+		//void SetWindow(Uint32 width, Uint32 height, Uint16 bpp, bool fullscreen) {  m_ScreenWidth = width; m_ScreenHeight = height; m_ScreenBpp = bpp; m_Fullscreen = fullscreen;}
 		int Resize(Uint32 width, Uint32 height, Uint16 bpp = 32, bool fullscreen = true);
 		void SetMode(E_Mode mode) { m_Mode = mode; if (mode == E_RELEASE) m_Logger->SetTolerance(WARNING_TOLERANCE); else m_Logger->SetTolerance(FULL_TOLERANCE); }
 

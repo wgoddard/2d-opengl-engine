@@ -107,10 +107,10 @@ namespace Prominence {
 				}
 				frame->quad.z = 0.5f;
 
-				frame->width = width / PIXELS_PER_UNIT;
-				frame->height = height / PIXELS_PER_UNIT;
-				frame->xAnchor = xAnchor / PIXELS_PER_UNIT;
-				frame->yAnchor = yAnchor / PIXELS_PER_UNIT;
+				frame->width = width / FPU;
+				frame->height = height / FPU;
+				frame->xAnchor = xAnchor / FPU;
+				frame->yAnchor = yAnchor / FPU;
 
 				int texW = textures[texindex]->width;
 				int texH = textures[texindex]->height;

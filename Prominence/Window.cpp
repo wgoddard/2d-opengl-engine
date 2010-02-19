@@ -32,12 +32,14 @@ int Window::Start()
 
 	int errors = 0;
 
+
 	//Start SDL 
 	if (SDL_Init(SDL_INIT_VIDEO) != 0)
 	{
 		m_Logger.Outputf(P_ERROR, WINDOW, "Failed to initialize SDL. %s\n", SDL_GetError());
 		errors++;
 	}
+	SDL_WM_SetCaption(m_Title.c_str(), NULL);
 
 	
 	//Assume OpenGL
@@ -47,10 +49,11 @@ int Window::Start()
 	SDL_GL_SetAttribute( SDL_GL_ALPHA_SIZE, 8);
 	SDL_GL_SetAttribute( SDL_GL_DOUBLEBUFFER, 1 ); 
 	SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 0 );
+	//SDL_GL_SetAttribute( SDL_GL_SWAP_CONTROL, 1);
 
-	m_Flags |= SDL_OPENGL | SDL_RESIZABLE | SDL_DOUBLEBUF;
+	m_Flags |= SDL_OPENGL | SDL_RESIZABLE;
 
-	SDL_WM_SetCaption(m_Title.c_str(), NULL);
+	
 
 
 	if(NULL == (m_Screen = SDL_SetVideoMode(m_Width, m_Height, m_Bpp, m_Flags)))

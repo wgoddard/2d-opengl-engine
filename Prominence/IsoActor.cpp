@@ -14,7 +14,7 @@ namespace Prominence {
 	{
 		b2Vec2 pos = m_Body.GetPosition();
 
-		m_Animator->Render(pos.x, pos.y, false);
+		m_Animator->Render(pos.x * PPU, pos.y * PPU, false);
 	}
 
 	void IsoActor::SetAngle(float angle)

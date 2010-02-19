@@ -24,7 +24,7 @@ namespace Prominence {
 	void Actor::Render()
 	{
 		b2Vec2 pos = m_Body.GetPosition();
-		m_Animator->Render(pos.x, pos.y, m_HFlip);
+		m_Animator->Render(pos.x * PPU, pos.y * PPU, m_HFlip);
 	}
 
 	void Actor::UpdateState()

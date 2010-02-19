@@ -95,6 +95,7 @@ namespace Prominence {
 			m_Renderer->SetOrtho(0, m_ScreenWidth, 0, m_ScreenHeight);
 			m_Renderer->SetViewPort(0, 0, m_ScreenWidth, m_ScreenHeight);
 			//m_Renderer.Test2();
+			Load_Title();
 		}
 
 		return 0;

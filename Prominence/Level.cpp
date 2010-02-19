@@ -141,9 +141,9 @@ namespace Prominence {
 						//height +=500;
 						float x = atof(Texture->Attribute("X"));
 						float y = atof(Texture->Attribute("Y"));
-						SimpleSprite * s = new SimpleSprite(m_ResourceManager, m_Renderer, images[id], 0, 0, width/PPU, height/PPU, width/PPU, height/PPU);
+						SimpleSprite * s = new SimpleSprite(m_ResourceManager, m_Renderer, images[id], 0, 0, width/FPU, height/FPU, width/FPU, height/FPU);
 						//Warning memory leak
-						AddEntity(new Entity(*s, x/PPU , y/PPU));
+						AddEntity(new Entity(*s, x/FPU , y/FPU));
 					}
 					while (Texture = Texture->NextSiblingElement("Texture"));
 				}
