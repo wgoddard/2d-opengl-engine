@@ -46,6 +46,7 @@ namespace Prominence {
 		void SetViewPort(GLint x, GLint y, GLsizei width, GLsizei height);
 
 		void StartFrame();
+		void ViewAt(float x, float y) { glTranslatef(x, y, 0); }
 		void ClearFrame() { glClear(GL_COLOR_BUFFER_BIT); }
 		void ClearFrame(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)
 			{ glClearColor(red, green, blue, alpha); glClear(GL_COLOR_BUFFER_BIT); }

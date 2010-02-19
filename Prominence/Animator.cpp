@@ -16,22 +16,18 @@ namespace Prominence {
 
 	void Animator::Animate(std::string sequence_name)
 	{
-		if (sequence_name == m_Sprite.GetSequence(m_CurrentSequence)->name)
+		int32 id = m_Sprite.GetSequence(sequence_name);
+
+
+		if (id == -1 || id == m_CurrentSequence)
 			return;
 
-		//std::vector<Sequence *>::iterator i;
-		
-		for (unsigned int i = 0; i < m_Sprite.GetSequenceCount(); ++i)
-		{
-			if (m_Sprite.GetSequence(i)->name == sequence_name)
-			{
-				m_CurrentSequence = i;
-				m_CurrentFrame = 0;
-				m_FrameTimer = 0;
-				m_LoopsPlayed = 0;
-				return;
-			}
-		}
+
+		m_CurrentSequence = id;
+		m_CurrentFrame = 0;
+		m_FrameTimer = 0;
+		m_LoopsPlayed = 0;
+
 	}
 
 	void Animator::Update(Uint32 dt)

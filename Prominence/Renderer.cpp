@@ -49,7 +49,8 @@ namespace Prominence {
 		glMatrixMode( GL_PROJECTION );
 		glLoadIdentity();
 		 
-		glOrtho(left, right, bottom, top, -1.0f, 1.0f);
+		//glOrtho(left, right, bottom, top, -1.0f, 1.0f);
+		glOrtho(-right/2, right/2, -top/2, top/2, 0, 1);
 		
 		glMatrixMode( GL_MODELVIEW );
 		glLoadIdentity();
@@ -91,6 +92,7 @@ namespace Prominence {
 
 	void Renderer::StartFrame()
 	{
+		glPushMatrix();
 	}
 
 	void Renderer::RenderQuads()
@@ -167,6 +169,8 @@ namespace Prominence {
 
 		QuadLists.clear();
 		QuadFrames.clear();
+
+		glPopMatrix();
 	}
 
 	void Renderer::Test2()

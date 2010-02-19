@@ -31,6 +31,7 @@ namespace Prominence {
 
 		private:
 			std::vector<Sequence *> sequences;
+			std::string m_Name;
 			Logger & m_Logger;
 			b2PolygonDef * m_PolyDef;
 		public:
@@ -38,6 +39,7 @@ namespace Prominence {
 			virtual ~AnimatedSprite(void);
 			void Render(GLfloat x, GLfloat y, Uint32 sequence, Uint32 frame, bool hflip = false);
 			Sequence * GetSequence(Uint32 sequence) { return sequences[sequence]; }
+			int32 GetSequence(std::string sequence_name);
 			unsigned int GetSequenceCount() { return sequences.size(); }
 			b2PolygonDef * GetPolyDef() { return m_PolyDef; }
 	};

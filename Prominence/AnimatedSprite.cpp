@@ -16,6 +16,7 @@ namespace Prominence {
 
 		TiXmlElement * root = doc.FirstChildElement("sprites");
 		TiXmlElement * sprite = root->FirstChildElement("sprite");
+		m_Name = sprite->Attribute("Name");
 
 		TiXmlElement * elem = sprite->FirstChildElement("texture");
 
@@ -153,6 +154,20 @@ namespace Prominence {
 
 		delete m_PolyDef;
 
+	}
+
+	int32 AnimatedSprite::GetSequence(std::string sequence_name)
+	{
+		for (unsigned int i = 0; i < sequences.size(); ++i)
+		{
+			if (sequences[i]->name == sequence_name)
+			{
+
+				return i;
+			}
+		}
+		m_Logger.Outputf(P_WARNING, OTHER, "Failed to find sequence %s in sprite %s of %i sequences\n", sequence_name.c_str(), m_Name.c_str(), sequences.size());
+		return -1;
 	}
 
 	void AnimatedSprite::Render(GLfloat x, GLfloat y, Uint32 sequence, Uint32 frame, bool hflip)

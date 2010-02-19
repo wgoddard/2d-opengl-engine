@@ -93,6 +93,9 @@ namespace Prominence {
 				//const unsigned char * const buf2 = buf;
 
 				unsigned char * loaded = SOIL_load_image_from_memory(reinterpret_cast<const unsigned char* const>(buf), length, &width, &height, &channels, 0);
+				
+				///Should just replace with this code here:
+				//unsigned char * loaded = SOIL_load_image(current->Name.c_str(), &width, &height, &channels, 0);
 
 				delete buf;
 				in.close();

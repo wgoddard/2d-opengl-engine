@@ -194,6 +194,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\IsoEntity.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Logger.cpp"
 				>
 			</File>
@@ -265,6 +269,10 @@
 			</File>
 			<File
 				RelativePath=".\Global.h"
+				>
+			</File>
+			<File
+				RelativePath=".\IsoEntity.h"
 				>
 			</File>
 			<File

@@ -11,10 +11,12 @@ Engine e(E_DEBUG);
 SimpleSprite * sprite;
 SimpleSprite * wall;
 AnimatedSprite * anim;
+AnimatedSprite * iso;
 //AnimatedSprite * kis;
 
 Entity * megaman;
 Entity * megaman2;
+IsoEntity * archer;
 //World * world;
 
 float x; float y;
@@ -42,6 +44,7 @@ bool FrameFunc()
 	//kis->Update(e.GetDelta());
 	megaman->Update(e.GetDelta());
 	megaman2->Update(e.GetDelta());
+	archer->Update(e.GetDelta());
 	//world->Update(e.GetDelta());
 	
 	e.SetName(name);
@@ -56,74 +59,76 @@ bool FrameFunc()
 				return false;
 			}
 			break;
+			case SDL_MOUSEMOTION:
+				{
+				int x = event.motion.x;
+				int y = event.motion.y;
+				double angle = atan2((double)y-300, (double)x-400);
+				//std::cout << "Angle is " << angle << '\n';
+				archer->SetAngle(angle);
+				}
+
+				break;
+			case SDL_MOUSEBUTTONDOWN:
+				std::cout << "Archer is at " << archer->GetPos().x << ", " << archer->GetPos().y << '\n';
+				break;
 			case SDL_KEYDOWN:
-			{
 				if (event.key.keysym.sym == SDLK_z)
 				{
-					e.Resize(800, 600, 32, true);
-					std::cout << "Hello";
+					//archer->UpdateState();
 				}
 				switch (event.key.keysym.sym)
 				{
 				case SDLK_a:
-					//kis->Animate("Attack");
-					//anim->Animate("Enter");
-					megaman->Left(true);
-					break;
-				case SDLK_s:
-					//kis->Animate("Still");
-					//anim->Animate("Still");
+					archer->Left(true);
 					break;
 				case SDLK_d:
-					//kis->Animate("Walking");
-					//anim->Animate("Running");
-					megaman->Right(true);
-					break;
-				case SDLK_f:
-					//anim->Animate("Injured");
-					break;
-				case SDLK_g:
-					//anim->Animate("Skidding");
-					break;
-				case SDLK_h:
-					//anim->Animate("Shooting");
+					archer->Right(true);
 					break;
 				case SDLK_w:
-					megaman->Jump(true);
+					archer->Up(true);
+					break;
+				case SDLK_s:
+					archer->Down(true);
 					break;
 				case SDLK_ESCAPE:
 					return false;
 				}
-			}
-			break;
+				break;
 			case SDL_KEYUP:
 				switch(event.key.keysym.sym)
 				{
 				case SDLK_a:
-					megaman->Left(false);
+					archer->Left(false);
 					break;
 				case SDLK_d:
-					megaman->Right(false);
+					archer->Right(false);
+					break;
+				case SDLK_w:
+					archer->Up(false);
+					break;
+				case SDLK_s:
+					archer->Down(false);
 					break;
 				}
 				break;
 		}
 	}
 
-	if (e.GetKeyDown(SDLK_RIGHT))
-	{
-		//AnimatedSprite leaktest(e.GetResourceManager(), e.GetRenderer(), e.GetLogger(), "megaman6b.txt");
-		x++;
-	}
-	//SDL_Delay(12);
 	return true;
 }
 
 bool RenderFunc()
 {
-	//e.GetRenderer().StartFrame();
+	e.GetRenderer().StartFrame();
 	e.GetRenderer().ClearFrame();
 	e.GetWorld().Update(e.GetDelta());
+
+	b2Vec2 pos = archer->GetPos();
+
+	e.GetRenderer().ViewAt(-pos.x, -pos.y);
+	//e.GetRenderer().ViewAt(-400/44, -600/44);
+	//glTranslatef(pos.x, pos.y, 0);
 
 
 	//e.GetWorld().DrawBoxes();
@@ -131,6 +136,7 @@ bool RenderFunc()
 	wall->Render(5/44, 0);
 	megaman->Render();
 	megaman2->Render();
+	archer->Render();
 
 
 
@@ -162,8 +168,11 @@ int main(int argc, char *argv[])
 	//kis = e.CreateSprite("kis5.txt");
 	sprite = e.CreateSprite("bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
 
-	megaman = e.CreateEntity(anim, 0.10f, 20);//new Entity(*anim);
-	megaman2 = e.CreateEntity(anim, 10.0f, 20);
+	megaman = e.CreateEntity(anim, 18, 2.5);//new Entity(*anim);
+	megaman2 = e.CreateEntity(anim, 12, 2.5);
+
+	iso = e.CreateSprite("blue archer.xml");
+	archer = e.CreateIsoEntity(iso, 6, 2.5);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 
@@ -179,6 +188,8 @@ int main(int argc, char *argv[])
 	//delete kis;
 	delete megaman;
 	delete megaman2;
+	delete iso;
+	delete archer;
 
 	e.GetLogger().Outputf(P_WARNING, AUDIO, "No sound yet!\n");
 

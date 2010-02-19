@@ -9,12 +9,18 @@ namespace Prominence {
 
 		m_GroundedCount = 0;
 
-		m_Right = false;
 		m_Left = false;
-		m_HFlip = false;
-		m_Skidding = false;
+		m_Right = false;
+		m_Up = false;
+		m_Down = false;
 
-		m_RightTimer = m_RightCounter = 0;
+		m_HFlip = false;
+		//m_Skidding = false;
+
+		//m_Body.SetLinearVelocity(b2Vec2());
+		//UpdateState();
+
+		//m_RightTimer = m_RightCounter = 0;
 	}
 
 	Entity::~Entity(void)
@@ -30,20 +36,20 @@ namespace Prominence {
 		m_Animator->Update(dt);
 
 		
-		if (m_RightCounter > 0)
-			m_RightTimer += dt;
-		
-		if (m_RightTimer >500)
-		{
-			m_RightTimer = m_RightCounter = 0;
-		}
+		//if (m_RightCounter > 0)
+		//	m_RightTimer += dt;
+		//
+		//if (m_RightTimer >500)
+		//{
+		//	m_RightTimer = m_RightCounter = 0;
+		//}
 
-		if (m_Skidding && m_Animator->Played() > 0)
-		{
-			m_Skidding = false;
-			m_Body.ApplyImpulse(b2Vec2(-6.0f, 0.0f), m_Body.GetWorldCenter());
-			UpdateState();
-		}
+		//if (m_Skidding && m_Animator->Played() > 0)
+		//{
+		//	m_Skidding = false;
+		//	m_Body.ApplyImpulse(b2Vec2(-6.0f, 0.0f), m_Body.GetWorldCenter());
+		//	UpdateState();
+		//}
 
 		if (m_Animator->LoopFinished())
 			m_Animator->Animate("Still");
@@ -60,14 +66,26 @@ namespace Prominence {
 	void Entity::Right(bool key)
 	{
 		m_Right = key;
-		if (key)
-			m_RightCounter++;
+		//if (key)
+		//	m_RightCounter++;
 		UpdateState();
 	}
 
 	void Entity::Left(bool key)
 	{
 		m_Left = key;
+		UpdateState();
+	}
+
+	void Entity::Up(bool key)
+	{
+		m_Up = key;
+		UpdateState();
+	}
+
+	void Entity::Down(bool key)
+	{
+		m_Down = key;
 		UpdateState();
 	}
 
@@ -79,25 +97,29 @@ namespace Prominence {
 
 	void Entity::UpdateState()
 	{
-		if (m_Skidding) return;
-		if (m_RightCounter >= 2)
-		{
-			m_RightTimer = m_RightCounter = 0;
-			m_Skidding = true;
-			m_HFlip = false;
-			m_Animator->Animate("Skidding");
-			//m_XV = 0.4;
-			//m_Body.SetLinearVelocity(b2Vec2(300.0f, 0.0f));
-			m_Body.ApplyImpulse(b2Vec2(6.0f, 0.0f), m_Body.GetWorldCenter());
-			//m_Right = false;
-			//m_Left = false;
-			return;
-		}
-		if (m_Right && m_Left)
-		{
-			
-		}
-		else if (m_Right)
+		if (m_Left) std::cout << "Left\t";
+		if (m_Right) std::cout << "Right\t";
+		if (m_Up) std::cout << "Up\t";
+		if (m_Down) std::cout << "Down\t";
+		std::cout << '\n';
+
+		m_Body.SetLinearVelocity(b2Vec2(0,0));
+		//if (m_Skidding) return;
+		//if (m_RightCounter >= 2)
+		//{
+		//	m_RightTimer = m_RightCounter = 0;
+		//	m_Skidding = true;
+		//	m_HFlip = false;
+		//	m_Animator->Animate("Skidding");
+		//	//m_XV = 0.4;
+		//	//m_Body.SetLinearVelocity(b2Vec2(300.0f, 0.0f));
+		//	m_Body.ApplyImpulse(b2Vec2(6.0f, 0.0f), m_Body.GetWorldCenter());
+		//	//m_Right = false;
+		//	//m_Left = false;
+		//	return;
+		//}
+
+		if (m_Right && !m_Left)
 		{
 			//m_XV = 0.1;
 			//m_Body.ApplyForce(b2Vec2(1000.0f, 1000.0f), b2Vec2(10.0f,10.0f));
@@ -116,7 +138,16 @@ namespace Prominence {
 			m_Animator->Animate("Running");
 			m_HFlip = true;
 		}
-		else
+		if (m_Up && !m_Down)
+		{
+			m_Body.ApplyImpulse(b2Vec2(0.0f, 3.0f), m_Body.GetWorldCenter());
+		}
+		else if (m_Down)
+		{
+			m_Body.ApplyImpulse(b2Vec2(0.0f, -3.0f), m_Body.GetWorldCenter());
+		}
+
+		if (!(m_Down || m_Up || m_Left || m_Right))
 		{
 			m_Animator->Animate("Still");
 			//m_XV = 0;

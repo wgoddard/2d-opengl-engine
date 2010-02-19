@@ -174,6 +174,12 @@ namespace Prominence {
 		return new Entity(*sprite, *body);
 	}
 
+	IsoEntity * Engine::CreateIsoEntity(AnimatedSprite * sprite, float x, float y)
+	{
+		b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
+		return new IsoEntity(*sprite, *body);
+	}
+
 	bool Engine::m_Instantiated = false;
 
 }

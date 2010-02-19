@@ -6,6 +6,7 @@
 #include <string>
 
 #define PIXELS_PER_UNIT 44.0f
+#define MATH_PI 3.1416f
 
 namespace Prominence {
 

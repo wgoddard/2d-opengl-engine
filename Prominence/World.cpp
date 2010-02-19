@@ -12,7 +12,7 @@ namespace Prominence {
 
 
 		// Define the gravity vector.
-		b2Vec2 gravity(0.0f, -20.0f);
+		b2Vec2 gravity(0.0f, 0.0f);
 
 		// Do we want to let bodies sleep?
 		bool doSleep = true;
@@ -132,7 +132,7 @@ namespace Prominence {
 		bodyDef.fixedRotation = true;
 		bodyDef.position.Set(x, y);
 		b2Body * body = m_b2World->CreateBody(&bodyDef);
-		polyDef->friction = 0.0f;
+		polyDef->friction = 1.0f;
 		polyDef->restitution = 0.0f;
 		//bodyDef.linearDamping = 100.0f;
 		//bodyDef.
