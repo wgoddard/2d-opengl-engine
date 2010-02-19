@@ -9,7 +9,7 @@
 
 #include "AnimatedSprite.h"
 #include "SimpleSprite.h"
-#include "IsoEntity.h"
+#include "IsoActor.h"
 #include "Entity.h"
 
 #include "World.h"
@@ -79,8 +79,8 @@ namespace Prominence {
 		AnimatedSprite * CreateSprite(std::string filename) { return new AnimatedSprite(*m_ResourceManager, *m_Renderer, *m_Logger, filename); }
 		SimpleSprite * CreateSprite(std::string tex_name, float tex_x, float tex_y, float w, float h, float tex_w, float tex_h)
 				{ return new SimpleSprite(*m_ResourceManager, *m_Renderer, tex_name, tex_x, tex_y, w, h, tex_w, tex_h); }
-		Entity * CreateEntity(AnimatedSprite * sprite, float x, float y);
-		IsoEntity * CreateIsoEntity(AnimatedSprite * sprite, float x, float y);
+		Entity * CreateEntity(Sprite * sprite, float x, float y);
+		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
 	};
 
 }

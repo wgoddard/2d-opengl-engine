@@ -48,13 +48,16 @@ namespace Prominence {
 	{
 		glMatrixMode( GL_PROJECTION );
 		glLoadIdentity();
-		 
+		
+		
 		//glOrtho(left, right, bottom, top, -1.0f, 1.0f);
 		glOrtho(-right/2, right/2, -top/2, top/2, 0, 1);
+
+		glScaled(PPU, PPU, 0);
 		
 		glMatrixMode( GL_MODELVIEW );
 		glLoadIdentity();
-		glScaled(PIXELS_PER_UNIT, PIXELS_PER_UNIT, 0);
+		//glScaled(1, 1, 0);
 
 	}
 
@@ -121,11 +124,11 @@ namespace Prominence {
 
 						//glColor4f(j->v[2].color[0], j->v[2].color[1], j->v[2].color[2], j->v[2].color[3]);
 						glTexCoord2f(j->v[2].tx, j->v[2].ty);
-						glVertex3d( j->v[2].x, j->v[0].y,  j->z );
+						glVertex3d( j->v[2].x , j->v[0].y,  j->z );
 
 						//glColor4f(j->v[3].color[0], j->v[3].color[1], j->v[3].color[2], j->v[3].color[3]);
 						glTexCoord2f(j->v[3].tx, j->v[3].ty);
-						glVertex3d( j->v[3].x, j->v[1].y,  j->z );
+						glVertex3d( j->v[3].x, j->v[1].y ,  j->z );
 					}
 				glEnd();
 				//glPopMatrix();

@@ -26,7 +26,7 @@ namespace Prominence {
 		m_Window = new Window(*m_Logger, m_ScreenWidth, m_ScreenHeight, m_ScreenBpp, m_Name);
 		m_Renderer = new Renderer(*m_Logger);
 		m_ResourceManager = new ResourceManager(*m_Logger);
-		m_World = new World(*m_Logger, *m_Renderer);
+		m_World = new World(*m_ResourceManager, *m_Logger, *m_Renderer);
 
 		m_FrameFunc = &m_DefaultFrame;
 		m_RenderFunc = &m_DefaultRender;
@@ -168,17 +168,17 @@ namespace Prominence {
 		return true;
 	}
 
-	Entity * Engine::CreateEntity(AnimatedSprite * sprite, float x, float y)
+	Entity * Engine::CreateEntity(Sprite * sprite, float x, float y)
 	{
 		//b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
 		//return new Entity(*sprite, *body);
 		return m_World->CreateEntity(sprite, x, y);
 	}
 
-	IsoEntity * Engine::CreateIsoEntity(AnimatedSprite * sprite, float x, float y)
+	IsoActor * Engine::CreateIsoActor(AnimatedSprite * sprite, float x, float y)
 	{
 		b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
-		return new IsoEntity(*sprite, *body);
+		return new IsoActor(*sprite, *body);
 	}
 
 	bool Engine::m_Instantiated = false;

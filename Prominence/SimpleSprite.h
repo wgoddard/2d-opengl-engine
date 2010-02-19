@@ -4,7 +4,7 @@
 
 namespace Prominence {
 
-	class DECLSPEC SimpleSprite : Sprite
+	class DECLSPEC SimpleSprite : public Sprite
 	{
 	private:
 		Quad quad;

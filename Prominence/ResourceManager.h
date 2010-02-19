@@ -12,6 +12,7 @@
 #include "SDL_mutex.h"
 #include "SOIL.h"
 #include "image_helper.h"
+
 #include "Logger.h"
 #include "Global.h"
 
@@ -46,6 +47,7 @@ class DECLSPEC ResourceManager
 
 private:
 	std::vector <Texture *> textures;
+	//std::vector <SimpleSprite *> simpleSprites;
 	std::vector <unsigned int> pending_textures;
 	std::deque <PendingInMemory> pending_memory;
 	SDL_Thread * thread;

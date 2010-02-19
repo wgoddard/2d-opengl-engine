@@ -26,7 +26,7 @@ namespace Prominence {
 	};
 
 	
-	class DECLSPEC AnimatedSprite : Sprite
+	class DECLSPEC AnimatedSprite : public Sprite
 	{
 
 		private:

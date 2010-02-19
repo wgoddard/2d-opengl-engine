@@ -5,7 +5,7 @@
 #include "Texture.h"
 #include <string>
 
-#define PIXELS_PER_UNIT 44.0f
+const double PIXELS_PER_UNIT = 44.0,  PPU = 44.0;
 #define MATH_PI 3.1416f
 
 namespace Prominence {

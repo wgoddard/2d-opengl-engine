@@ -11,9 +11,9 @@ namespace Prominence {
 	enum Tolerance {FULL_TOLERANCE, WARNING_TOLERANCE, ERROR_TOLERANCE, NO_TOLERANCE};
 	enum Priority {P_INFO, P_WARNING, P_ERROR};
 	enum L_Mode {OFF_MODE, CONSOLE_MODE, FILE_MODE};
-	enum Topic {WINDOW, VIDEO, AUDIO, INPUT, TIMER, GAME, ENGINE, OTHER };
+	enum Topic {WINDOW, VIDEO, AUDIO, INPUT, TIMER, GAME, ENGINE, OTHER, ANIMATION, WORLD };
 	const std::string priorities[] = { "INFO", "WARNING", "ERROR" };
-	const std::string topics[] = { "WINDOW", "VIDEO", "AUDIO", "INPUT", "TIMER", "GAME", "ENGINE", "OTHER" };
+	const std::string topics[] = { "WINDOW", "VIDEO", "AUDIO", "INPUT", "TIMER", "GAME", "ENGINE", "OTHER", "ANIMATION", "WORLD" };
 
 
 	class DECLSPEC Logger

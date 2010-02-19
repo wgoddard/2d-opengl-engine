@@ -1,23 +1,23 @@
-#include "IsoEntity.h"
+#include "IsoActor.h"
 
 namespace Prominence {
 
-	IsoEntity::IsoEntity(AnimatedSprite & sprite, b2Body & body) : Entity(sprite, body)
+	IsoActor::IsoActor(AnimatedSprite & sprite, b2Body & body) : Actor(sprite, body)
 	{
 	}
 
-	IsoEntity::~IsoEntity(void)
+	IsoActor::~IsoActor(void)
 	{
 	}
 
-	void IsoEntity::Render()
+	void IsoActor::Render()
 	{
 		b2Vec2 pos = m_Body.GetPosition();
 
 		m_Animator->Render(pos.x, pos.y, false);
 	}
 
-	void IsoEntity::SetAngle(float angle)
+	void IsoActor::SetAngle(float angle)
 	{
 		m_Angle = angle;
 		//negative is north, positive is south, increases clockwise
@@ -54,13 +54,13 @@ namespace Prominence {
 		//m_Animator->Animate(directions[m_Direction] + std::string("Walking"));
 	}
 
-	void IsoEntity::UpdateState()
+	void IsoActor::UpdateState()
 	{
-		if (m_Left) std::cout << "Left\t";
-		if (m_Right) std::cout << "Right\t";
-		if (m_Up) std::cout << "Up\t";
-		if (m_Down) std::cout << "Down\t";
-		std::cout << '\n';
+		//if (m_Left) std::cout << "Left\t";
+		//if (m_Right) std::cout << "Right\t";
+		//if (m_Up) std::cout << "Up\t";
+		//if (m_Down) std::cout << "Down\t";
+		//std::cout << '\n';
 
 		m_Body.SetLinearVelocity(b2Vec2(0,0));
 

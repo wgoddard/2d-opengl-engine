@@ -23,6 +23,7 @@ namespace Prominence {
 		quad.v[2].ty = tex_y + h/tex_h;
 		quad.v[3].ty = tex_y + h/tex_h;
 
+
 		quad.z = 0.5f;
 	}
 
