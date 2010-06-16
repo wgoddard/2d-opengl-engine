@@ -214,7 +214,7 @@
 				>
 			</File>
 			<File
-				RelativePath="..\Debug\logo.cpp"
+				RelativePath=".\logo.cpp"
 				>
 			</File>
 			<File

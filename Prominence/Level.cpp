@@ -88,7 +88,7 @@ namespace Prominence {
 		}
 		else
 		{
-			m_Name = level->Attribute("Name");
+			m_Name = std::string(level->Attribute("Name"));
 		}
 
 		
@@ -98,7 +98,7 @@ namespace Prominence {
 
 		if (image == 0)
 		{	
-			logger.Outputf(P_INFO, WORLD, "%s has no textures.\n", m_Name);
+			logger.Outputf(P_INFO, WORLD, "%s has no textures.\n", m_Name.c_str());
 		}
 		else
 		{
@@ -127,7 +127,7 @@ namespace Prominence {
 
 				if (Texture == NULL)
 				{
-					logger.Outputf(P_INFO, WORLD, "No static graphics exist in %s\n", m_Name);
+					logger.Outputf(P_INFO, WORLD, "No static graphics exist in %s\n", m_Name.c_str());
 				}
 				else
 				{
@@ -141,12 +141,59 @@ namespace Prominence {
 						//height +=500;
 						float x = atof(Texture->Attribute("X"));
 						float y = atof(Texture->Attribute("Y"));
-						SimpleSprite * s = new SimpleSprite(m_ResourceManager, m_Renderer, images[id], 0, 0, width/FPU, height/FPU, width/FPU, height/FPU);
+						SimpleSprite s = SimpleSprite(m_ResourceManager, m_Renderer, images[id], 0, 0, width/FPU, height/FPU, width/FPU, height/FPU);
 						//Warning memory leak
-						AddEntity(new Entity(*s, x/FPU , y/FPU));
+						s.StaticRender(x/FPU, y/FPU);
+						//AddEntity(new Entity(*s, x/FPU , y/FPU));
 					}
 					while (Texture = Texture->NextSiblingElement("Texture"));
 				}
+
+				TiXmlElement * Rectangle = layer->FirstChildElement("Rectangle");
+				if (Rectangle == NULL)
+				{
+					logger.Outputf(P_INFO, WORLD, "No rectangles exist in layer %s of %s\n", layer->Attribute("Name"), m_Name.c_str());
+				}
+				else
+				{
+					
+					do
+					{
+						std::cout << "Making a rectangle\n";
+						float x = atof(Rectangle->Attribute("X"));
+						float y = atof(Rectangle->Attribute("Y"));
+						int width = atoi(Rectangle->Attribute("Width"));
+						int height = atoi(Rectangle->Attribute("Height"));
+
+						float awidth = width/2/PPU;
+						float aheight = height/2/PPU;
+
+						if (awidth < 0.1) awidth = 0.1;
+						if (aheight < 0.1) aheight = 0.1;
+
+						b2BodyDef groundBodyDef;
+						groundBodyDef.position.Set(x/PPU, y/PPU);
+						b2Body* groundBody = m_b2World->CreateBody(&groundBodyDef);
+						b2PolygonDef groundShapeDef;
+
+						// The extents are the half-widths of the box.
+
+						std::cout << "Width = " << width/2/PPU << '\n';
+
+
+						groundShapeDef.SetAsBox(awidth, aheight);
+						//groundShapeDef.SetAsBox(2,2);
+
+						// Add the ground shape to the ground body.
+						groundBody->CreateShape(&groundShapeDef);
+
+						//groundShapeDef.SetAsBox(5.0f, 400.0f);
+						//groundBodyDef.position.Set(0.0f, 0.0f);
+						m_b2World->CreateBody(&groundBodyDef)->CreateShape(&groundShapeDef);
+					}
+					while (Rectangle = Rectangle->NextSiblingElement("Rectangle"));
+				}
+
 				layerIndex++;
 			} while (layer = layer->NextSiblingElement("layer"));
 		}
@@ -176,6 +223,34 @@ namespace Prominence {
 		for (i = m_Entities.begin(); i != m_Entities.end(); ++i)
 		{
 			(*i)->Render();
+		}
+		DrawBoxes();
+	}
+
+	void Level::DrawBoxes()
+	{
+		for (b2Body* b = m_b2World->GetBodyList(); b; b = b->GetNext())
+		{
+			Quad q = {0};
+			b2Shape * shape = b->GetShapeList();
+			if (shape == NULL)
+			{
+				//std::cout << "NILL\n\n\n";
+				continue;
+			}
+			b2AABB bb;
+
+			shape->ComputeAABB(&bb, b[0].GetXForm());
+
+
+
+			q.v[0].x = bb.lowerBound.x * PPU;		q.v[0].y = bb.lowerBound.y * PPU;
+			q.v[1].x = bb.upperBound.x * PPU;		q.v[1].y = bb.lowerBound.y * PPU;
+			q.v[2].x = bb.upperBound.x * PPU;		q.v[2].y = bb.upperBound.y * PPU;
+			q.v[3].x = bb.lowerBound.x * PPU;		q.v[3].y = bb.upperBound.y * PPU;
+			q.z = 0.6f;
+
+			m_Renderer.AddFrame(q);
 		}
 	}
 

@@ -42,7 +42,21 @@ namespace Prominence {
 		//quad.v[3].tx = 0; quad.v[3].ty = 1; 
 		quad.v[3].x = x; quad.v[3].y = y+height; //quad.v[3].color[3] = 0;
 
-		m_Renderer.AddQuad(texture->GetId(), quad);
+		m_Renderer.AddQuad(texture, quad);
+	}
+
+	void SimpleSprite::StaticRender(GLfloat x, GLfloat y)
+	{
+		quad.v[0].x = x-width/2; quad.v[0].y = y-height/2;
+		//quad.v[0].tx = 0; quad.v[0].ty = 0; quad.v[0].x = 0; quad.v[0].y = 0; quad.v[0].color[3] = 0;
+		//quad.v[1].tx = 1; quad.v[1].ty = 0; 
+		quad.v[1].x = x+width/2; quad.v[1].y = y-height/2; //quad.v[1].color[3] = 0;
+		//quad.v[2].tx = 1; quad.v[2].ty = 1; 
+		quad.v[2].x = x+width/2; quad.v[2].y = y+height/2;// quad.v[2].color[3] = 0;
+		//quad.v[3].tx = 0; quad.v[3].ty = 1; 
+		quad.v[3].x = x-width/2; quad.v[3].y = y+height/2; //quad.v[3].color[3] = 0;
+
+		m_Renderer.AddStaticQuad(texture, quad);
 	}
 
 } // Exit Prominence Namespace

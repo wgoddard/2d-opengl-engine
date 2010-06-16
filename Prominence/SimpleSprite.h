@@ -15,6 +15,7 @@ namespace Prominence {
 		virtual ~SimpleSprite(void);
 
 		void Render(GLfloat x, GLfloat y);
+		void StaticRender(GLfloat x, GLfloat y);
 	};
 
 } // Exit Prominence Namespace

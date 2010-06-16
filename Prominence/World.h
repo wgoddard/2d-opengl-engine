@@ -9,8 +9,6 @@
 #include "IsoActor.h"
 #include "Level.h"
 
-#include "DebugDraw.h"
-
 namespace Prominence {
 
 	class DECLSPEC World
@@ -89,8 +87,6 @@ namespace Prominence {
 		AnimatedEntity * World::CreateAnimatedEntity(AnimatedSprite * sprite, float x, float y);
 		Actor * World::CreateActor(AnimatedSprite * sprite, float x, float y);
 		IsoActor * World::CreateIsoActor(AnimatedSprite * sprite, float x, float y);
-
-		//void DrawBoxes();
 
 	};
 

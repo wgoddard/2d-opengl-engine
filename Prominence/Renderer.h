@@ -4,6 +4,7 @@
 #include "Export.h"
 #include "Logger.h"
 #include "ResourceManager.h"
+#include "Texture.h"
 
 #include "SDL.h"
 #include "SDL_opengl.h"
@@ -29,7 +30,10 @@ namespace Prominence {
 		struct QuadList
 		{
 			std::deque <Quad> Quads;
-			GLuint texture;
+			std::deque <Quad> StaticQuads;
+			//GLuint texture;
+			Texture *texture;
+			QuadList(Texture *texture_) : texture(texture_) { }
 		};
 		std::deque <QuadList> QuadLists;
 		std::deque <Quad> QuadFrames;
@@ -46,11 +50,12 @@ namespace Prominence {
 		void SetViewPort(GLint x, GLint y, GLsizei width, GLsizei height);
 
 		void StartFrame();
-		void ViewAt(float x, float y) { glTranslatef(x, y, 0); }
+		void ViewAt(float x, float y) { glTranslated(x, y, 0); }
 		void ClearFrame() { glClear(GL_COLOR_BUFFER_BIT); }
 		void ClearFrame(GLclampf red, GLclampf green, GLclampf blue, GLclampf alpha)
 			{ glClearColor(red, green, blue, alpha); glClear(GL_COLOR_BUFFER_BIT); }
-		void AddQuad(GLuint texture, const Quad quad);
+		void AddQuad(Texture * texture, const Quad quad);
+		void AddStaticQuad(Texture * texture, const Quad quad);
 		void AddFrame(const Quad quad);
 		void EndFrame();
 		Uint32 GetFrames() { Uint32 frames = m_Frames; m_Frames = 0; return frames; }

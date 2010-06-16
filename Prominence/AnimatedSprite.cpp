@@ -202,7 +202,7 @@ namespace Prominence {
 
 		}
 
-		m_Renderer.AddQuad(workingFrame->texture->GetId(), quad);
+		m_Renderer.AddQuad(workingFrame->texture, quad);
 	}
 
 }

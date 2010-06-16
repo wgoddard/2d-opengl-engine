@@ -64,31 +64,6 @@ namespace Prominence {
 		return m_CurrentLevel->CreateBody(polyDef, x, y);
 	}
 
-	//void World::DrawBoxes()
-	//{
-	//	for (b2Body* b = m_b2World->GetBodyList(); b; b = b->GetNext())
-	//	{
-	//		Quad q = {0};
-	//		b2Shape * shape = b->GetShapeList();
-	//		if (shape == NULL)
-	//		{
-	//			//std::cout << "NILL\n\n\n";
-	//			continue;
-	//		}
-	//		b2AABB bb;
-
-	//		shape->ComputeAABB(&bb, b[0].GetXForm());
-
-	//		q.v[0].x = bb.lowerBound.x;		q.v[0].y = bb.lowerBound.y;
-	//		q.v[1].x = bb.upperBound.x;		q.v[1].y = bb.lowerBound.y;
-	//		q.v[2].x = bb.upperBound.x;		q.v[2].y = bb.upperBound.y;
-	//		q.v[3].x = bb.lowerBound.x;		q.v[3].y = bb.upperBound.y;
-	//		q.z = 0.6f;
-
-	//		m_Renderer.AddFrame(q);
-	//	}
-	//}
-
 	Entity * World::CreateEntity(Sprite * sprite, float x, float y)
 	{
 		//b2Body * body = CreateBody(sprite->GetPolyDef(), x, y);

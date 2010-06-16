@@ -161,6 +161,7 @@ namespace Prominence {
 
 	bool Engine::m_DefaultFrame()
 	{
+		SDL_Delay(100);
 		return true;
 	}
 

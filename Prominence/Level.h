@@ -9,6 +9,7 @@
 #include "Renderer.h"
 #include "SimpleSprite.h"
 #include "Box2d.h"
+#include "DebugDraw.h"
 
 #include <vector>
 
@@ -28,6 +29,7 @@ namespace Prominence {
 		~Level(void);
 		void Update(Uint32 dt);
 		void Render();
+		void DrawBoxes();
 		void AddEntity(Entity * e) { m_Entities.push_back(e); }
 		bool LoadXML(Logger & logger, std::string file, int index);
 		b2Body * CreateBody(b2PolygonDef * polyDef, float x, float y);
