@@ -112,6 +112,12 @@ namespace Prominence {
 		QuadLists.push_back(ql);
 	}
 
+	void Renderer::ClearStaticFrames()
+	{
+		QuadLists.clear();
+
+	}
+
 	void Renderer::AddFrame(const Quad quad)
 	{
 		QuadFrames.push_back(quad);

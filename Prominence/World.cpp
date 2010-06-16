@@ -22,6 +22,8 @@ namespace Prominence {
 	{
 		Level * nextLevel = new Level(m_ResourceManager, m_Renderer);
 
+		m_Renderer.ClearStaticFrames();
+		
 		if (nextLevel->LoadXML(m_Logger, m_WorldFile, m_LevelIndex + 1) )
 		{
 			delete m_CurrentLevel;

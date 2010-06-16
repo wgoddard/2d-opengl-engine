@@ -4,6 +4,7 @@ namespace Prominence {
 
 	IsoActor::IsoActor(AnimatedSprite & sprite, b2Body & body) : Actor(sprite, body)
 	{
+		m_Direction = E;
 	}
 
 	IsoActor::~IsoActor(void)
@@ -50,7 +51,7 @@ namespace Prominence {
 		if (angle > MATH_PI-0.3 || angle < -(MATH_PI+0.3))
 			m_Direction = W;
 
-		UpdateState();
+		IsoActor::UpdateState();
 		//m_Animator->Animate(directions[m_Direction] + std::string("Walking"));
 	}
 

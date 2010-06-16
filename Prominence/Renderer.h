@@ -56,6 +56,7 @@ namespace Prominence {
 			{ glClearColor(red, green, blue, alpha); glClear(GL_COLOR_BUFFER_BIT); }
 		void AddQuad(Texture * texture, const Quad quad);
 		void AddStaticQuad(Texture * texture, const Quad quad);
+		void ClearStaticFrames();
 		void AddFrame(const Quad quad);
 		void EndFrame();
 		Uint32 GetFrames() { Uint32 frames = m_Frames; m_Frames = 0; return frames; }

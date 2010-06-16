@@ -108,45 +108,53 @@ int Window::ToggleFullscreen()
 
 int Window::ResizeWindow(Uint32 width, Uint32 height, Uint16 bpp, bool fullscreen)
 {
-
-	if (m_Screen == NULL)
-	{
-		m_Width = width;
-		m_Height = height;
-		m_Bpp = bpp;
-		//m_Fullscreen = fullscreen;
-		if (fullscreen)
-			m_Flags |= SDL_FULLSCREEN;
-		else
-			m_Flags &= ~(SDL_FULLSCREEN);
-	}
-
-	SDL_Surface * tempscreen = NULL;
-	Uint32 flags = 0;
+	m_Width = width;
+	m_Height = height;
+	m_Bpp = bpp;
 	if (fullscreen)
-		flags |= SDL_FULLSCREEN;
-	if(NULL == (tempscreen = SDL_SetVideoMode(width, height, bpp, flags|m_Flags)))
-	{
-		m_Logger.Outputf(P_WARNING, WINDOW, "Failed to create window %dx%dx%d\n", width, height, bpp);
-		return 1;
-	}
-	else
-	{
-		SDL_FreeSurface(m_Screen);
-		m_Screen = tempscreen;
-		m_Width = width;
-		m_Height = height;
-		m_Bpp = bpp;
-		//m_Fullscreen = fullscreen;
 		m_Flags |= SDL_FULLSCREEN;
-		if (fullscreen)
-			m_Flags |= SDL_FULLSCREEN;
-		else
-			m_Flags &= ~(SDL_FULLSCREEN);
-		m_Logger.Outputf(P_INFO, WINDOW, "Resized window to %dx%dx%d %s.\n",
-			width, height, bpp, m_Flags & SDL_FULLSCREEN ? "Fullscreen" : "Windowed");
-		return 0;
-	}
+	else
+		m_Flags &= ~(SDL_FULLSCREEN);
+	return 0;
+
+	//if (m_Screen == NULL)
+	//{
+	//	m_Width = width;
+	//	m_Height = height;
+	//	m_Bpp = bpp;
+	//	//m_Fullscreen = fullscreen;
+	//	if (fullscreen)
+	//		m_Flags |= SDL_FULLSCREEN;
+	//	else
+	//		m_Flags &= ~(SDL_FULLSCREEN);
+	//}
+
+	//SDL_Surface * tempscreen = NULL;
+	//Uint32 flags = 0;
+	//if (fullscreen)
+	//	flags |= SDL_FULLSCREEN;
+	//if(NULL == (tempscreen = SDL_SetVideoMode(width, height, bpp, flags|m_Flags)))
+	//{
+	//	m_Logger.Outputf(P_WARNING, WINDOW, "Failed to create window %dx%dx%d\n", width, height, bpp);
+	//	return 1;
+	//}
+	//else
+	//{
+	//	SDL_FreeSurface(m_Screen);
+	//	m_Screen = tempscreen;
+	//	m_Width = width;
+	//	m_Height = height;
+	//	m_Bpp = bpp;
+	//	//m_Fullscreen = fullscreen;
+	//	m_Flags |= SDL_FULLSCREEN;
+	//	if (fullscreen)
+	//		m_Flags |= SDL_FULLSCREEN;
+	//	else
+	//		m_Flags &= ~(SDL_FULLSCREEN);
+	//	m_Logger.Outputf(P_INFO, WINDOW, "Resized window to %dx%dx%d %s.\n",
+	//		width, height, bpp, m_Flags & SDL_FULLSCREEN ? "Fullscreen" : "Windowed");
+	//	return 0;
+	//}
 }
 
 }//Exit Prominence namespace

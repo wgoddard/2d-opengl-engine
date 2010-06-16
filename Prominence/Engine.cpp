@@ -17,8 +17,8 @@ namespace Prominence {
 		m_Initialized = false;
 
 
-		m_ScreenHeight = 600;
-		m_ScreenWidth = 800;
+		m_ScreenHeight = 300;
+		m_ScreenWidth = 400;
 		m_ScreenBpp = 32;
 		m_Name = "Prominence Engine";
 
@@ -153,8 +153,8 @@ namespace Prominence {
 		m_ScreenHeight = height;
 		m_ScreenBpp = bpp;
 		m_Fullscreen = fullscreen;
-		m_Renderer->SetOrtho(0, 800, 0, 600);
-		m_Renderer->SetViewPort(0, 0, 800, 600);
+		//m_Renderer->SetOrtho(0, width, 0, height);
+		//m_Renderer->SetViewPort(0, 0, width, height);
 		//m_ResourceManager->ReloadGLTextures();
 		return 0;
 	}

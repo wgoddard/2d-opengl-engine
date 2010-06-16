@@ -51,14 +51,16 @@ namespace Prominence {
 
 	Level::~Level(void)
 	{
-		delete m_b2World;
+
+		
 		for (unsigned int i = 0; i < m_Entities.size(); ++i)
 			delete m_Entities[i];
+		delete m_b2World;
 	}
 
 	bool Level::LoadXML(Logger & logger, std::string file, int index)
 	{
-		
+
 		TiXmlDocument doc(file.c_str());
 
 		if (!doc.LoadFile())
@@ -198,6 +200,7 @@ namespace Prominence {
 			} while (layer = layer->NextSiblingElement("layer"));
 		}
 
+		logger.Outputf(P_WARNING, WORLD, doc.Error() ? "there is an xml error\n" : "there is no xml error\n");
 
 		return true;
 	}

@@ -174,14 +174,6 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\Actor.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\AnimatedEntity.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\AnimatedSprite.cpp"
 				>
 			</File>
@@ -195,14 +187,6 @@
 			</File>
 			<File
 				RelativePath=".\Engine.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Entity.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\IsoActor.cpp"
 				>
 			</File>
 			<File
@@ -249,20 +233,32 @@
 				RelativePath=".\World.cpp"
 				>
 			</File>
+			<Filter
+				Name="Entities"
+				>
+				<File
+					RelativePath=".\Actor.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\AnimatedEntity.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Entity.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\IsoActor.cpp"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\Actor.h"
-				>
-			</File>
-			<File
-				RelativePath=".\AnimatedEntity.h"
-				>
-			</File>
 			<File
 				RelativePath=".\AnimatedSprite.h"
 				>
@@ -280,19 +276,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Entity.h"
-				>
-			</File>
-			<File
 				RelativePath=".\Export.h"
 				>
 			</File>
 			<File
 				RelativePath=".\Global.h"
-				>
-			</File>
-			<File
-				RelativePath=".\IsoActor.h"
 				>
 			</File>
 			<File
@@ -335,6 +323,26 @@
 				RelativePath=".\World.h"
 				>
 			</File>
+			<Filter
+				Name="Entities"
+				>
+				<File
+					RelativePath=".\Actor.h"
+					>
+				</File>
+				<File
+					RelativePath=".\AnimatedEntity.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Entity.h"
+					>
+				</File>
+				<File
+					RelativePath=".\IsoActor.h"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Resource Files"

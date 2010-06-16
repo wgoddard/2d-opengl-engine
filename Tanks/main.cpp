@@ -94,6 +94,11 @@ bool FrameFunc()
 				case SDLK_s:
 					archer->Down(true);
 					break;
+				case SDLK_z:
+					std::cout << "Woot\n\n\n";
+					e.GetWorld().NextLevel();
+					archer = e.GetWorld().CreateIsoActor(iso, 126, 93);
+					break;
 				case SDLK_ESCAPE:
 					return false;
 				}
@@ -156,8 +161,8 @@ int main(int argc, char *argv[])
 	//Engine f;
 	//e.SetName("WordXX");
 	//e.SetMode(E_RELEASE);
-	//e.SetWindow(1920, 1080, 32, true);
-	//e.Resize(1920, 1080, 32, true);
+	//e.SetWindow(1280, 720, 32, false);
+	e.Resize(1024, 768, 32, false);
 	//e.GetWindow().ToggleFullscreen();
 
 	e.Initialize();
