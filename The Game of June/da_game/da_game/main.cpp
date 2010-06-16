@@ -1,8 +1,6 @@
 /*
 *
-*   Sky Raiders - September 2009
-*   Paul Fox
-*	Nathan Perry
+*   
 *
 */
 
@@ -14,6 +12,8 @@
 #include "hgeanim.h"
 #include "hgefont.h"
 #include "hgeparticle.h"
+
+#include "global.h"
 
 #include "XInput.h"
 
