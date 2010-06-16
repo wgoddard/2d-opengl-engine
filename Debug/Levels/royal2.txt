@@ -1,0 +1,2213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N805.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B000N806.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1B0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1B0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1B0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1B0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1S1A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1S1B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1S1E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B1S1I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N805.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N806.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N807.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N808.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100N809.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100S800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100S801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100S810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B100S811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B101S800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B101S801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B101S810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B101S811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S812.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\B102S813.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000N800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000N801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000N802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D000N803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0B0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0B0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0B0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0B0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D0G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1B0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1B0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1B0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1B0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1S2A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1S2B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1S2E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D1S2I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D2G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D2G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D2G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D2G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D3D2I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D100M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D200M805.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D300M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D300M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D300M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D300M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\D300M804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G000M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G000M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G000M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0G0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0S0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0S0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0S0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0S0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G0S0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G1G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G1G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G1G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G1G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G2G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G2G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G2G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G2G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G3G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G3G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G3G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G3G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G100M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G200M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G200M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G200M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\G300M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M805.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M806.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P000M807.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P0G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P0G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P0G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P0G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P1G0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M805.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\P100M806.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0C800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0C801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0F800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0F801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0J800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\R0D0J801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S000M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2D0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S2S2I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S3G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S3G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S3G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S3G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0A802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0B802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4D0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0A802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0B802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0E802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4G0I802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0A810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0A811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0B810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0B811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0E810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0E811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0I810.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S4S0I811.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0A800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0A801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0B800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0B801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0E800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0E801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0I800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S5G0I801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S100M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200N800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200N801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200N802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200N803.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S200N804.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S300M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S300M802.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S400M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S400M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S500M800.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\TEXTURES\S500M801.BMP" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Brown Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Boy.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Cat Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Horn Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Pink Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Princess Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Closed.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Lid.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Open.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Dirt Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Door Tall Closed.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Door Tall Open.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Enemy Bug.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Blue.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Green.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Orange.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Grass Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Heart.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Key.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Plain Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\PlanetCuteShadowMockup.jpg" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\PlanetCuteShadowTest.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Rock.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Selector.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow Side West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\SpeechBubble.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Star.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Stone Block Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Stone Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Short.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Ugly.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wall Block Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wall Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Water Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Window Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wood Block.png" />
+  <level Name="New Level" Width="35200" Height="35200">
+    <layer Name="Tile Layer" GridX="128" GridY="128">
+      <Texture Name="Texture0" X="4160" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture1" X="4160" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture2" X="4160" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture3" X="4160" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture4" X="4160" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture5" X="4160" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture6" X="4160" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture7" X="4160" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture8" X="4160" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture9" X="4160" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture10" X="4160" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture11" X="4160" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture12" X="4160" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture13" X="4160" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture14" X="4160" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture15" X="4160" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture16" X="4160" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture17" X="4160" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture18" X="4288" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture19" X="4288" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture20" X="4288" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture21" X="4288" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture22" X="4288" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture23" X="4288" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture24" X="4288" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture25" X="4288" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture26" X="4288" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture27" X="4288" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture28" X="4288" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture29" X="4288" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture30" X="4288" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture31" X="4288" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture32" X="4288" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture33" X="4288" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture34" X="4288" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture35" X="4288" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture36" X="4416" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture37" X="4416" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture38" X="4416" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture39" X="4416" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture40" X="4416" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture41" X="4416" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture42" X="4416" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture43" X="4416" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture44" X="4416" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture45" X="4416" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture46" X="4416" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture47" X="4416" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture48" X="4416" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture49" X="4416" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture50" X="4416" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture51" X="4416" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture52" X="4416" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture53" X="4544" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture54" X="4544" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture55" X="4544" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture56" X="4544" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture57" X="4544" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture58" X="4544" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture59" X="4544" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture60" X="4544" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture61" X="4544" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture62" X="4544" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture63" X="4544" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture64" X="4544" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture65" X="4544" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture66" X="4544" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture67" X="4544" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture68" X="4544" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture69" X="4544" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture70" X="4544" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture71" X="4672" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture72" X="4672" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture73" X="4672" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture74" X="4672" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture75" X="4672" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture76" X="4672" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture77" X="4672" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture78" X="4672" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture79" X="4672" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture80" X="4672" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture81" X="4672" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture82" X="4672" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture83" X="4672" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture84" X="4672" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture85" X="4672" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture86" X="4672" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture87" X="4672" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture88" X="4672" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture89" X="4800" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture90" X="4800" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture91" X="4800" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture92" X="4800" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture93" X="4800" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture94" X="4800" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture95" X="4800" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture96" X="4800" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture97" X="4800" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture98" X="4800" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture99" X="4800" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture100" X="4800" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture101" X="4800" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture102" X="4800" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture103" X="4800" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture104" X="4800" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture105" X="4800" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture106" X="4800" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture107" X="4928" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture108" X="4928" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture109" X="4928" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture110" X="4928" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture111" X="4928" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture112" X="4928" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture113" X="4928" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture114" X="4928" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture115" X="4928" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture116" X="4928" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture117" X="4928" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture118" X="4928" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture119" X="4928" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture120" X="4928" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture121" X="4928" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture122" X="4928" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture123" X="4928" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture124" X="4928" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture125" X="5056" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture126" X="5056" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture127" X="5056" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture128" X="5056" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture129" X="5056" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture130" X="5056" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture131" X="5056" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture132" X="5056" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture133" X="5056" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture134" X="5056" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture135" X="5056" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture136" X="5056" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture137" X="5056" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture138" X="5056" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture139" X="5056" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture140" X="5056" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture141" X="5056" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture142" X="5056" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture143" X="5184" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture144" X="5184" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture145" X="5184" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture146" X="5184" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture147" X="5184" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture148" X="5184" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture149" X="5184" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture150" X="5184" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture151" X="5184" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture152" X="5184" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture153" X="5184" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture154" X="5184" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture155" X="5184" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture156" X="5184" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture157" X="5184" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture158" X="5184" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture159" X="5312" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture160" X="5312" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture161" X="5312" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture162" X="5312" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture163" X="5312" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture164" X="5312" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture165" X="5312" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture166" X="5312" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture167" X="5312" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture168" X="5312" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture169" X="5312" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture170" X="5312" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture171" X="5312" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture172" X="5312" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture173" X="5312" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture174" X="5312" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture175" X="5312" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture176" X="5312" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture177" X="5440" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture178" X="5440" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture179" X="5440" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture180" X="5440" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture181" X="5440" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture182" X="5440" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture183" X="5440" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture184" X="5440" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture185" X="5440" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture186" X="5440" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture187" X="5440" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture188" X="5440" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture189" X="5440" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture190" X="5440" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture191" X="5440" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture192" X="5440" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture193" X="5440" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture194" X="5568" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture195" X="5568" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture196" X="5568" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture197" X="5568" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture198" X="5568" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture199" X="5568" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture200" X="5568" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture201" X="5568" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture202" X="5568" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture203" X="5568" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture204" X="5568" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture205" X="5568" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture206" X="5568" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture207" X="5568" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture208" X="5568" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture209" X="5568" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture210" X="5568" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture211" X="5568" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture212" X="5696" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture213" X="5696" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture214" X="5696" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture215" X="5696" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture216" X="5696" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture217" X="5696" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture218" X="5696" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture219" X="5696" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture220" X="5696" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture221" X="5696" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture222" X="5696" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture223" X="5696" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture224" X="5696" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture225" X="5696" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture226" X="5696" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture227" X="5696" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture228" X="5696" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture229" X="5696" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture230" X="5824" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture231" X="5824" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture232" X="5824" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture233" X="5824" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture234" X="5824" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture235" X="5824" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture236" X="5824" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture237" X="5824" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture238" X="5824" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture239" X="5824" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture240" X="5824" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture241" X="5824" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture242" X="5824" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture243" X="5824" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture244" X="5824" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture245" X="5824" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture246" X="5824" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture247" X="5824" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture248" X="5952" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture249" X="5952" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture250" X="5952" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture251" X="5952" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture252" X="5952" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture253" X="5952" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture254" X="5952" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture255" X="5952" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture256" X="5952" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture257" X="5952" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture258" X="5952" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture259" X="5952" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture260" X="5952" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture261" X="5952" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture262" X="5952" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture263" X="5952" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture264" X="5952" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture265" X="5952" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture266" X="6080" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture267" X="6080" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture268" X="6080" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture269" X="6080" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture270" X="6080" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture271" X="6080" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture272" X="6080" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture273" X="6080" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture274" X="6080" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture275" X="6080" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture276" X="6080" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture277" X="6080" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture278" X="6080" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture279" X="6080" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture280" X="6080" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture281" X="6080" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture282" X="6080" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture283" X="6208" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture284" X="6208" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture285" X="6208" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture286" X="6208" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture287" X="6208" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture288" X="6208" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture289" X="6208" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture290" X="6208" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture291" X="6208" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture292" X="6208" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture293" X="6208" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture294" X="6208" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture295" X="6208" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture296" X="6208" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture297" X="6208" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture298" X="6208" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture299" X="6208" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture300" X="6208" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture301" X="6336" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture302" X="6336" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture303" X="6336" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture304" X="6336" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture305" X="6336" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture306" X="6336" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture307" X="6336" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture308" X="6336" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture309" X="6336" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture310" X="6336" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture311" X="6336" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture312" X="6336" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture313" X="6336" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture314" X="6336" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture315" X="6336" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture316" X="6336" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture317" X="6336" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture318" X="6336" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture319" X="6464" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture320" X="6464" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture321" X="6464" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture322" X="6464" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture323" X="6464" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture324" X="6464" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture325" X="6464" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture326" X="6464" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture327" X="6464" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture328" X="6464" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture329" X="6464" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture330" X="6464" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture331" X="6464" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture332" X="6464" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture333" X="6464" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture334" X="6464" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture335" X="6464" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture336" X="6464" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture337" X="6592" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture338" X="6592" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture339" X="6592" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture340" X="6592" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture341" X="6592" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture342" X="6592" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture343" X="6592" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture344" X="6592" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture345" X="6592" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture346" X="6592" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture347" X="6592" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture348" X="6592" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture349" X="6592" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture350" X="6592" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture351" X="6592" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture352" X="6592" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture353" X="6592" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture354" X="6592" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture355" X="6720" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture356" X="6720" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture357" X="6720" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture358" X="6720" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture359" X="6720" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture360" X="6720" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture361" X="6720" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture362" X="6720" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture363" X="6720" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture364" X="6720" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture365" X="6720" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture366" X="6720" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture367" X="6720" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture368" X="6720" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture369" X="6720" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture370" X="6720" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture371" X="6720" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture372" X="6720" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture373" X="6848" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture374" X="6848" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture375" X="6848" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture376" X="6848" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture377" X="6848" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture378" X="6848" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture379" X="6848" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture380" X="6848" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture381" X="6848" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture382" X="6848" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture383" X="6848" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture384" X="6848" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture385" X="6848" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture386" X="6848" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture387" X="6848" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture388" X="6848" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture389" X="6848" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture390" X="6976" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture391" X="6976" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture392" X="6976" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture393" X="6976" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture394" X="6976" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture395" X="6976" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture396" X="6976" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture397" X="6976" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture398" X="6976" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture399" X="6976" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture400" X="6976" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture401" X="6976" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture402" X="6976" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture403" X="6976" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture404" X="6976" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture405" X="6976" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture406" X="6976" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture407" X="7104" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture408" X="7104" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture409" X="7104" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture410" X="7104" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture411" X="7104" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture412" X="7104" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture413" X="7104" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture414" X="7104" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture415" X="7104" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture416" X="7104" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture417" X="7104" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture418" X="7104" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture419" X="7104" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture420" X="7104" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture421" X="7104" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture422" X="7104" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture423" X="7104" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture424" X="7104" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture425" X="7232" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture426" X="7232" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture427" X="7232" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture428" X="7232" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture429" X="7232" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture430" X="7232" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture431" X="7232" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture432" X="7232" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture433" X="7232" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture434" X="7232" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture435" X="7232" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture436" X="7232" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture437" X="7232" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture438" X="7232" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture439" X="7232" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture440" X="7232" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture441" X="7232" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture442" X="7232" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture443" X="7360" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture444" X="7360" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture445" X="7360" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture446" X="7360" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture447" X="7360" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture448" X="7360" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture449" X="7360" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture450" X="7360" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture451" X="7360" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture452" X="7360" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture453" X="7360" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture454" X="7360" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture455" X="7360" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture456" X="7360" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture457" X="7360" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture458" X="7360" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture459" X="7360" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture460" X="7488" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture461" X="7488" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture462" X="7488" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture463" X="7488" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture464" X="7488" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture465" X="7488" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture466" X="7488" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture467" X="7488" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture468" X="7488" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture469" X="7488" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture470" X="7488" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture471" X="7488" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture472" X="7488" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture473" X="7488" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture474" X="7488" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture475" X="7488" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture476" X="7488" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture477" X="7488" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture478" X="7616" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture479" X="7616" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture480" X="7616" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture481" X="7616" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture482" X="7616" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture483" X="7616" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture484" X="7616" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture485" X="7616" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture486" X="7616" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture487" X="7616" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture488" X="7616" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture489" X="7616" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture490" X="7616" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture491" X="7616" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture492" X="7616" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture493" X="7616" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture494" X="7744" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture495" X="7744" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture496" X="7744" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture497" X="7744" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture498" X="7744" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture499" X="7744" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture500" X="7744" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture501" X="7744" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture502" X="7744" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture503" X="7744" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture504" X="7744" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture505" X="7744" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture506" X="7744" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture507" X="7744" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture508" X="7744" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture509" X="7744" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture510" X="7744" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture511" X="7744" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture512" X="7872" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture513" X="7872" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture514" X="7872" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture515" X="7872" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture516" X="7872" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture517" X="7872" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture518" X="7872" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture519" X="7872" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture520" X="7872" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture521" X="7872" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture522" X="7872" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture523" X="7872" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture524" X="7872" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture525" X="7872" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture526" X="7872" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture527" X="7872" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture528" X="7872" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture529" X="8000" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture530" X="8000" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture531" X="8000" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture532" X="8000" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture533" X="8000" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture534" X="8000" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture535" X="8000" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture536" X="8000" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture537" X="8000" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture538" X="8000" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture539" X="8000" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture540" X="8000" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture541" X="8000" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture542" X="8000" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture543" X="8000" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture544" X="8000" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture545" X="8000" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture546" X="8000" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture547" X="8128" Y="4800" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture548" X="8128" Y="4672" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture549" X="8128" Y="4544" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture550" X="8128" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture551" X="8128" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture552" X="8128" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture553" X="8128" Y="4032" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture554" X="8128" Y="3904" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture555" X="8128" Y="3776" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture556" X="8128" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture557" X="8128" Y="3520" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture558" X="8128" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture559" X="8128" Y="3264" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture560" X="8128" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture561" X="8128" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture562" X="8128" Y="2880" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture563" X="8128" Y="2752" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture564" X="8128" Y="2624" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+      <Texture Name="Texture565" X="4416" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="97" />
+      </Texture>
+      <Texture Name="Texture566" X="5184" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="97" />
+      </Texture>
+      <Texture Name="Texture567" X="6976" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="97" />
+      </Texture>
+      <Texture Name="Texture568" X="7616" Y="3392" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="97" />
+      </Texture>
+      <Texture Name="Texture569" X="6848" Y="3008" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="96" />
+      </Texture>
+      <Texture Name="Texture570" X="6080" Y="4160" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="96" />
+      </Texture>
+      <Texture Name="Texture571" X="5440" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="96" />
+      </Texture>
+      <Texture Name="Texture572" X="5184" Y="4288" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="96" />
+      </Texture>
+      <Texture Name="Texture573" X="7616" Y="4416" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="94" />
+      </Texture>
+      <Texture Name="Texture574" X="7872" Y="3136" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="94" />
+      </Texture>
+      <Texture Name="Texture575" X="7360" Y="3648" Width="128" Height="128" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="93" />
+      </Texture>
+    </layer>
+    <layer Name="New Layer" GridX="0" GridY="0">
+      <Texture Name="Texture576" X="6823" Y="4480" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture577" X="6823" Y="4388" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture578" X="6819" Y="4299" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture579" X="6823" Y="4215" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture580" X="5003" Y="4484" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture581" X="5005" Y="4396" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture582" X="5005" Y="4292" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture583" X="5003" Y="4207" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+    </layer>
+    <layer Name="New Layer" GridX="0" GridY="0">
+      <Texture Name="Texture584" X="5009" Y="4203" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture585" X="5007" Y="4213" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture586" X="6831" Y="4200" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture587" X="6835" Y="4221" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture588" X="6225" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture589" X="6326" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture590" X="6427" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture591" X="6528" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture592" X="6629" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture593" X="6730" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+      <Texture Name="Texture594" X="6831" Y="4037" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="292" />
+      </Texture>
+    </layer>
+    <layer Name="Sprite Layer" GridX="0" GridY="0">
+      <Texture Name="Texture595" X="5719.092" Y="3947.421" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture596" X="5719.092" Y="3776.418" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture597" X="5719.092" Y="3605.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture598" X="5719.092" Y="3434.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture599" X="5719.092" Y="3263.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture600" X="6203.092" Y="3947.421" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture601" X="6203.092" Y="3776.418" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture602" X="6203.092" Y="3605.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture603" X="6203.092" Y="3434.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture604" X="6203.092" Y="3263.417" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="298" />
+      </Texture>
+      <Texture Name="Texture605" X="6222" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture606" X="6323" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture607" X="6424" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture608" X="6525" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture609" X="6626" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture610" X="6727" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture611" X="6828" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture612" X="4993" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture613" X="5094" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture614" X="5195" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture615" X="5296" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture616" X="5397" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture617" X="5498" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture618" X="5599" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture619" X="5700" Y="4112" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="301" />
+      </Texture>
+      <Texture Name="Texture620" X="6700" Y="4507" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="255" />
+      </Texture>
+      <Texture Name="Texture621" X="5141" Y="4523" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="255" />
+      </Texture>
+      <Texture Name="Texture622" X="5962" Y="4380" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="284" />
+      </Texture>
+      <Texture Name="Texture623" X="5809" Y="4133" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="262" />
+      </Texture>
+      <Texture Name="Texture626" X="6112" Y="4133" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="262" />
+      </Texture>
+      <Texture Name="Texture627" X="5231" Y="4305" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="261" />
+      </Texture>
+      <Texture Name="Texture628" X="5962" Y="4384" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="254" />
+      </Texture>
+      <Rectangle Name="Rectangle1" X="6107.75" Y="4107.75" Width="125" Height="125" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle2" X="6520.25" Y="4105.25" Width="710" Height="160" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle3" X="6827.75" Y="4350.25" Width="95" Height="340" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle4" X="6697.75" Y="4465.25" Width="85" Height="80" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle6" X="5010.25" Y="4060.25" Width="0" Height="0" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle7" X="5807.75" Y="4102.75" Width="95" Height="105" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle8" X="5400.25" Y="4085.25" Width="700" Height="130" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle9" X="5000.25" Y="4270.25" Width="80" Height="470" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle10" X="4960.25" Y="4105.25" Width="40" Height="130" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle11" X="5140.25" Y="4482.75" Width="90" Height="85" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle12" X="5712.75" Y="3922.75" Width="95" Height="75" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle13" X="6200.25" Y="3925.25" Width="90" Height="70" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle14" X="5960.25" Y="4330.25" Width="90" Height="80" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+    </layer>
+  </level>
+</world>
