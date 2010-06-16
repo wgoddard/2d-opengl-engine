@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprite Name="Megaman">
+  <texture File="C:\Users\William\Pictures\megamanX4-5[X].png" Width="715" Height="2826" />
+  <sequence Name="Enter" Frames="14" Return_Loop_Frame="0">
+    <frame Time="0.1" Tex_X="35" Tex_Y="1" Width="42" Height="78" Anchor_X="21" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="80" Tex_Y="1" Width="64" Height="78" Anchor_X="32" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="146" Tex_Y="1" Width="68" Height="78" Anchor_X="34" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="217" Tex_Y="1" Width="69" Height="78" Anchor_X="34.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="287" Tex_Y="1" Width="58" Height="78" Anchor_X="29.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="346" Tex_Y="1" Width="43" Height="78" Anchor_X="21.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="396" Tex_Y="1" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="436" Tex_Y="1" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="476" Tex_Y="1" Width="34" Height="78" Anchor_X="17" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="516" Tex_Y="1" Width="22" Height="78" Anchor_X="11" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="542" Tex_Y="1" Width="24" Height="78" Anchor_X="12" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="569" Tex_Y="1" Width="44" Height="78" Anchor_X="22" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="622" Tex_Y="1" Width="42" Height="78" Anchor_X="21" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="668" Tex_Y="1" Width="41" Height="78" Anchor_X="20.5" Anchor_Y="39" Texture="0" />
+  </sequence>
+  <sequence Name="Still" Frames="8" Return_Loop_Frame="0">
+    <frame Time="0.2" Tex_X="185" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="233" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="276" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="319" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="361" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="319" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="276" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.2" Tex_X="233" Tex_Y="134" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+  </sequence>
+  <sequence Name="Injured" Frames="10" Return_Loop_Frame="0">
+    <frame Time="0.4" Tex_X="415" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="455" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="496" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="538" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="577" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="615" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="577" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="538" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="496" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+    <frame Time="0.4" Tex_X="455" Tex_Y="134" Width="36" Height="78" Anchor_X="18" Anchor_Y="39" Texture="0" />
+  </sequence>
+  <sequence Name="Running" Frames="14" Return_Loop_Frame="0">
+    <frame Time="0.08" Tex_X="347" Tex_Y="257" Width="31" Height="78" Anchor_X="15.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="383" Tex_Y="257" Width="34" Height="78" Anchor_X="17" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="424" Tex_Y="257" Width="40" Height="78" Anchor_X="20.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="470" Tex_Y="257" Width="48" Height="78" Anchor_X="24" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="526" Tex_Y="257" Width="51" Height="78" Anchor_X="25.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="583" Tex_Y="257" Width="43" Height="78" Anchor_X="21.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="632" Tex_Y="257" Width="34" Height="78" Anchor_X="17" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="678" Tex_Y="257" Width="31" Height="78" Anchor_X="15.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="13" Tex_Y="364" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="60" Tex_Y="364" Width="42" Height="78" Anchor_X="21.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="108" Tex_Y="364" Width="46" Height="78" Anchor_X="23" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="161" Tex_Y="364" Width="46" Height="78" Anchor_X="23" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="212" Tex_Y="364" Width="42" Height="78" Anchor_X="21" Anchor_Y="39" Texture="0" />
+    <frame Time="0.08" Tex_X="259" Tex_Y="364" Width="36" Height="78" Anchor_X="18.5" Anchor_Y="39" Texture="0" />
+  </sequence>
+  <sequence Name="Skidding" Frames="8" Return_Loop_Frame="0">
+    <frame Time="0.1" Tex_X="539" Tex_Y="470" Width="38" Height="78" Anchor_X="18.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="580" Tex_Y="470" Width="48" Height="78" Anchor_X="24.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="631" Tex_Y="470" Width="58" Height="78" Anchor_X="28.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="1" Tex_Y="584" Width="60" Height="78" Anchor_X="30" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="64" Tex_Y="584" Width="42" Height="78" Anchor_X="21" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="108" Tex_Y="584" Width="35" Height="78" Anchor_X="17.5" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="145" Tex_Y="584" Width="48" Height="78" Anchor_X="24" Anchor_Y="39" Texture="0" />
+    <frame Time="0.1" Tex_X="194" Tex_Y="584" Width="38" Height="78" Anchor_X="19" Anchor_Y="39" Texture="0" />
+  </sequence>
+</sprite>

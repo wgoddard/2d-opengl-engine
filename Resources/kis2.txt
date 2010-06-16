@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprite Name="kis2">
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1600.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1601.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1602.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1603.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1604.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1605.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1606.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1607.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1608.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1609.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1610.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1611.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou1612.png" Width="256" Height="256" />
+  <sequence Name="Attack" Frames="13">
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="0" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="1" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="2" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="3" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="4" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="5" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="6" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="7" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="8" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="9" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="10" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="11" />
+    <frame Time="0.05" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="12" />
+  </sequence>
+</sprite>

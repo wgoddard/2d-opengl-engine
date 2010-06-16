@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprite Name="Ken">
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0000.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0001.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0002.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0003.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0004.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0005.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0006.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0007.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0008.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0009.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0010.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0011.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0012.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0013.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0014.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0015.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0016.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0017.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0018.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0019.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0020.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0021.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0022.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0023.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0024.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0025.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0026.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0027.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0028.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0029.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0030.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0031.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0032.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0033.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0034.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0035.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0036.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0037.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0038.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0039.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0040.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0041.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0042.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0043.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0044.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0045.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0046.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0047.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0048.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0049.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0050.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0051.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou0052.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2600.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2601.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2602.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2603.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2604.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2605.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2606.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2607.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2608.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2609.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2610.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2611.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2612.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2613.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2614.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2615.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2616.png" Width="256" Height="256" />
+  <texture File="C:\Users\William\Desktop\Textures\kishima\kou2617.png" Width="256" Height="256" />
+  <sequence Name="Still" Frames="53">
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="0" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="1" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="2" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="3" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="4" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="5" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="6" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="7" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="8" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="9" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="10" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="11" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="12" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="13" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="14" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="15" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="16" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="17" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="18" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="19" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="20" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="21" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="22" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="23" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="24" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="25" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="26" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="27" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="28" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="29" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="30" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="31" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="32" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="33" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="34" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="35" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="36" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="37" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="38" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="39" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="40" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="41" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="42" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="43" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="44" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="45" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="46" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="47" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="48" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="49" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="50" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="51" />
+    <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="0" Anchor_Y="0" Texture="52" />
+  </sequence>
+  <sequence Name="Walking" Frames="18">
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="53" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="54" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="55" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="56" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="57" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="58" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="59" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="60" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="61" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="62" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="63" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="64" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="65" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="66" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="67" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="68" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="69" />
+    <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="256" Height="256" Anchor_X="128" Anchor_Y="128" Texture="70" />
+  </sequence>
+</sprite>

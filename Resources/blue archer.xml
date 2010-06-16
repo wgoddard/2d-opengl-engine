@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <sprite Name="..\\Resources\\BlueArcher">
+    <rect Width="34" Height="44" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking n0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking ne0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking e0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking se0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking s0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking sw0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking w0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\walking nw0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused n0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused ne0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused e0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused se0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused s0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused sw0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused w0008.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0000.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0001.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0002.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0003.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0004.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0005.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0006.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0007.png" Width="96" Height="96" />
+    <texture File="C:\Users\William\Desktop\blue archer bitmaps 96x96\output\paused nw0008.png" Width="96" Height="96" />
+    <sequence Name="N-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="0" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="1" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="2" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="3" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="4" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="5" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="6" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="7" />
+    </sequence>
+    <sequence Name="NE-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="8" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="9" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="10" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="11" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="12" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="13" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="14" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="15" />
+    </sequence>
+    <sequence Name="E-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="16" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="17" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="18" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="19" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="20" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="21" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="22" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="23" />
+    </sequence>
+    <sequence Name="SE-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="24" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="25" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="26" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="27" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="28" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="29" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="30" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="31" />
+    </sequence>
+    <sequence Name="S-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="32" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="33" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="34" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="35" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="36" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="37" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="38" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="39" />
+    </sequence>
+    <sequence Name="SW-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="40" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="41" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="42" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="43" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="44" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="45" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="46" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="47" />
+    </sequence>
+    <sequence Name="W-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="48" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="49" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="50" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="51" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="52" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="53" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="54" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="55" />
+    </sequence>
+    <sequence Name="NW-Walking" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="56" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="57" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="58" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="59" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="60" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="61" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="62" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="63" />
+    </sequence>
+    <sequence Name="N-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="64" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="65" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="66" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="67" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="68" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="69" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="70" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="71" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="72" />
+    </sequence>
+    <sequence Name="NE-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="73" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="74" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="75" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="76" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="77" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="78" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="79" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="80" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="81" />
+    </sequence>
+    <sequence Name="E-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="82" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="83" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="84" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="85" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="86" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="87" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="88" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="89" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="90" />
+    </sequence>
+    <sequence Name="SE-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="91" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="92" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="93" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="94" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="95" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="96" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="97" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="98" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="99" />
+    </sequence>
+    <sequence Name="S-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="100" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="101" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="102" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="103" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="104" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="105" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="106" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="107" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="108" />
+    </sequence>
+    <sequence Name="SW-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="109" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="110" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="111" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="112" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="113" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="114" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="115" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="116" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="117" />
+    </sequence>
+    <sequence Name="W-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="118" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="119" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="120" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="121" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="122" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="123" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="124" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="125" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="126" />
+    </sequence>
+    <sequence Name="NW-Paused" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="127" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="128" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="129" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="130" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="131" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="132" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="133" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="134" />
+      <frame Time="0.1" Tex_X="0" Tex_Y="0" Width="96" Height="96" Anchor_X="48" Anchor_Y="48" Texture="135" />
+    </sequence>
+  </sprite>
+</sprites>

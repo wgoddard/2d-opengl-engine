@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprite Name="Gintoki">
+  <texture File="C:\Users\William\Pictures\Gintoki.png" Width="913" Height="2547" />
+  <sequence Name="Attack" Frames="5">
+    <frame Time="0.2" Tex_X="15" Tex_Y="549" Width="40" Height="54" Anchor_X="20" Anchor_Y="27" Texture="0" />
+    <frame Time="0.2" Tex_X="54" Tex_Y="549" Width="43" Height="54" Anchor_X="21.5" Anchor_Y="27" Texture="0" />
+    <frame Time="0.2" Tex_X="98" Tex_Y="549" Width="61" Height="54" Anchor_X="30.5" Anchor_Y="27" Texture="0" />
+    <frame Time="0.2" Tex_X="159" Tex_Y="549" Width="48" Height="54" Anchor_X="24" Anchor_Y="27" Texture="0" />
+    <frame Time="0.2" Tex_X="206" Tex_Y="549" Width="39" Height="54" Anchor_X="19.5" Anchor_Y="27" Texture="0" />
+  </sequence>
+</sprite>
