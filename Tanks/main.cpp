@@ -16,7 +16,7 @@ AnimatedSprite * iso;
 
 Entity * megaman;
 Entity * megaman2;
-IsoEntity * archer;
+IsoActor * archer;
 //World * world;
 
 float x; float y;
@@ -24,6 +24,8 @@ float x; float y;
 bool FrameFunc()
 {
 
+	e.Delay(10);
+	e.GetWorld().Update(e.GetDelta());
 	//std::cout << "Hello\n";
 	//std::cout << e.GetDelta() << '\n';
 	//e.Delay(10);
@@ -42,9 +44,9 @@ bool FrameFunc()
 
 	//anim->Update(e.GetDelta());
 	//kis->Update(e.GetDelta());
-	megaman->Update(e.GetDelta());
-	megaman2->Update(e.GetDelta());
-	archer->Update(e.GetDelta());
+	//megaman->Update(e.GetDelta());
+	//megaman2->Update(e.GetDelta());
+	//archer->Update(e.GetDelta());
 	//world->Update(e.GetDelta());
 	
 	e.SetName(name);
@@ -61,6 +63,7 @@ bool FrameFunc()
 			break;
 			case SDL_MOUSEMOTION:
 				{
+				
 				int x = event.motion.x;
 				int y = event.motion.y;
 				double angle = atan2((double)y-300, (double)x-400);
@@ -124,14 +127,14 @@ bool RenderFunc()
 	e.GetRenderer().ClearFrame();
 
 	//Update it in here for now because b2d's built in debugdraw happens in update
-	e.GetWorld().Update(e.GetDelta());
+	e.GetWorld().Render();
 	
 
 	b2Vec2 pos = archer->GetPos();
 
-	e.GetRenderer().ViewAt(-pos.x, -pos.y);
-	//e.GetRenderer().ViewAt(-400/44, -600/44);
-	//glTranslatef(pos.x, pos.y, 0);
+	e.GetRenderer().ViewAt(-pos.x*PPU, -pos.y*PPU);
+	//e.GetRenderer().ViewAt(400, 600);
+	//e.GetRenderer().ViewAt(126*44, 93*44);
 
 
 	//e.GetWorld().DrawBoxes();
@@ -139,13 +142,8 @@ bool RenderFunc()
 	wall->Render(5/44, 0);
 	//megaman->Render();
 	//megaman2->Render();
-	archer->Render();
+	//archer->Render();
 
-
-
-
-
-	e.GetWorld().Render();
 
 	e.GetRenderer().EndFrame();
 
@@ -156,27 +154,36 @@ int main(int argc, char *argv[])
 {	
 	//Engine e(E_DEBUG);
 	//Engine f;
-	e.SetName("WordXX");
+	//e.SetName("WordXX");
 	//e.SetMode(E_RELEASE);
-	//e.Resize(640, 640, 32, false);
+	//e.SetWindow(1920, 1080, 32, true);
+	//e.Resize(1920, 1080, 32, true);
 	//e.GetWindow().ToggleFullscreen();
 
 	e.Initialize();
+
+	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\royal2.txt");
+	e.GetWorld().NextLevel();
 
 	//world = new World(e.GetLogger());
 
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
-	anim = e.CreateSprite("megaman6c.txt");
-	wall = e.CreateSprite("wall.png", 0.0f, 0.0f, 240/44, 480/44, 240/44, 480/44);
+	anim = e.CreateSprite("..\\Resources\\megaman6c.txt");
+	wall = e.CreateSprite("..\\Resources\\wall.png", 0.0f, 0.0f, 240/FPU, 480/FPU, 240/FPU, 480/FPU);
 	//kis = e.CreateSprite("kis5.txt");
-	sprite = e.CreateSprite("bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
+	sprite = e.CreateSprite("..\\Resources\\bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
 
-	megaman = e.CreateEntity(anim, 18, 2.5);//new Entity(*anim);
-	megaman2 = e.CreateEntity(anim, 12, 2.5);
+	//megaman = e.CreateEntity(anim, 18, 2.5);//new Entity(*anim);
+	//megaman2 = e.CreateEntity(anim, 12, 2.5);
+	//megaman = e.GetWorld().CreateAnimatedEntity(anim, 18, 2.5);
+	megaman2 = e.GetWorld().CreateAnimatedEntity(anim, 12, 2.5);
+	megaman = e.GetWorld().CreateActor(anim, 18, 2.5);
 
-	iso = e.CreateSprite("blue archer.xml");
-	archer = e.CreateIsoEntity(iso, 6, 2.5);
+	iso = e.CreateSprite("..\\Resources\\blue archer.xml");
+	//archer = e.CreateIsoActor(iso, 6, 2.5);
+	 archer = e.GetWorld().CreateIsoActor(iso, 126, 93);
+	//archer = e.GetWorld().CreateIsoActor(iso, 12, 2.5);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
 
@@ -193,7 +200,7 @@ int main(int argc, char *argv[])
 	//delete megaman;
 	//delete megaman2;
 	delete iso;
-	delete archer;
+	//delete archer;
 
 	e.GetLogger().Outputf(P_WARNING, AUDIO, "No sound yet!\n");
 
