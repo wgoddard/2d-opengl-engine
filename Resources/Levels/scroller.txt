@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_000.png" />
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_001.png" />
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_002.png" />
+  <level Name="New Level" Width="35200" Height="35200">
+    <layer Name="New Layer" GridX="128" GridY="128">
+      <Texture Name="Texture1" X="512" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture3" X="1536" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="1" />
+      </Texture>
+      <Texture Name="Texture5" X="2560" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="2" />
+      </Texture>
+    </layer>
+    <layer Name="New Layer" GridX="0" GridY="0">
+      <Rectangle Name="Rectangle3" X="1665.25" Y="82.75" Width="3380" Height="435" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle4" X="-104.75" Y="600.25" Width="210" Height="880" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle5" X="1300.25" Y="930.25" Width="2640" Height="340" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle6" X="2630.25" Y="560.25" Width="300" Height="900" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+    </layer>
+  </level>
+</world>

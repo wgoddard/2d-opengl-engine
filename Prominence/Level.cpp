@@ -138,6 +138,7 @@ namespace Prominence {
 						TiXmlElement * resource = Texture->FirstChildElement("resource");
 						int id = atoi(resource->Attribute("ID"));
 						int width = atoi(Texture->Attribute("Width"));
+						//width *= 2;
 						int height = atoi(Texture->Attribute("Height"));
 						//width +=500;
 						//height +=500;

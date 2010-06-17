@@ -4,8 +4,8 @@
     <rect Width="34" Height="44" />
     <texture File="C:\Users\William\Desktop\OpenGL\Resources\Health bars\Voodoo.png" Width="250" Height="150" />
     <sequence Name="Main" Return_Loop_Frame="0" Loops="1">
-      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="250" Height="150" Anchor_X="125" Anchor_Y="75" Texture="0" />
-      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="250" Height="150" Anchor_X="125" Anchor_Y="75" Texture="0" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="250" Height="150" Anchor_X="125" Anchor_Y="75" Texture="0" ScaleX="1" ScaleY="1"/>
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="250" Height="150" Anchor_X="125" Anchor_Y="75" Texture="0" ScaleX="1" ScaleY="1"/>
     </sequence>
   </sprite>
 </sprites>

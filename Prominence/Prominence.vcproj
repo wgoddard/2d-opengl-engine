@@ -206,10 +206,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\PlayerCharacter.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\Renderer.cpp"
 				>
 			</File>
@@ -227,6 +223,10 @@
 			</File>
 			<File
 				RelativePath=".\Texture.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Voodoo.cpp"
 				>
 			</File>
 			<File
@@ -285,6 +285,26 @@
 					>
 				</File>
 			</Filter>
+			<Filter
+				Name="Players"
+				>
+				<File
+					RelativePath=".\PlayerCharacter.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\RockTard.cpp"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Monster"
+				>
+				<File
+					RelativePath=".\Monster.cpp"
+					>
+				</File>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -324,10 +344,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\PlayerCharacter.h"
-				>
-			</File>
-			<File
 				RelativePath=".\Prominence.h"
 				>
 			</File>
@@ -349,6 +365,10 @@
 			</File>
 			<File
 				RelativePath=".\Texture.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Voodoo.h"
 				>
 			</File>
 			<File
@@ -404,6 +424,26 @@
 				</File>
 				<File
 					RelativePath=".\XInputController.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Players"
+				>
+				<File
+					RelativePath=".\PlayerCharacter.h"
+					>
+				</File>
+				<File
+					RelativePath=".\RockTard.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Monster"
+				>
+				<File
+					RelativePath=".\Monster.h"
 					>
 				</File>
 			</Filter>

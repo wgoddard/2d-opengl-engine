@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <sprite Name="Orb">
+    <rect Width="34" Height="44" />
+    <texture File="E:\48hrs\enemy 3\attack01.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack02.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack03.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack04.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack05.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack06.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack07.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death01.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death02.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death03.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death04.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death05.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\death06.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\idle.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\hit.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\shock01.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\shock02.png" Width="512" Height="512" />
+    <sequence Name="Attack" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="0" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="1" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="2" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="3" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="4" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="5" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="6" />
+    </sequence>
+    <sequence Name="Death" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="7" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="8" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="9" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="10" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="11" />
+      <frame Time="0.15" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="12" />
+    </sequence>
+    <sequence Name="Idle" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="13" />
+    </sequence>
+    <sequence Name="Hit" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="13" />
+      <frame Time="0.8" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="14" />
+    </sequence>
+    <sequence Name="Shock" Return_Loop_Frame="1" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="13" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="15" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="16" />
+    </sequence>
+  </sprite>
+</sprites>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<world>
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_000.png" />
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_001.png" />
+  <image File="C:\Users\William\Desktop\daRealGame\Debug\data\regions\Tile_002.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Brown Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Boy.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Cat Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Horn Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Pink Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Character Princess Girl.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Closed.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Lid.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Chest Open.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Dirt Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Door Tall Closed.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Door Tall Open.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Enemy Bug.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Blue.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Green.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Gem Orange.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Grass Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Heart.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Key.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Plain Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\PlanetCuteShadowMockup.jpg" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\PlanetCuteShadowTest.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Ramp West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Rock.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Roof West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Selector.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow North.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow Side West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South East.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow South.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Shadow West.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\SpeechBubble.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Star.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Stone Block Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Stone Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Short.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Tree Ugly.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wall Block Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wall Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Water Block.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Window Tall.png" />
+  <image File="C:\Users\William\Desktop\Textures\Planet Cute\Wood Block.png" />
+  <level Name="New Level" Width="35200" Height="35200">
+    <layer Name="New Layer" GridX="128" GridY="128">
+      <Texture Name="Texture0" X="512" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture1" X="2560" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="2" />
+      </Texture>
+      <Texture Name="Texture2" X="1536" Y="512" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture3" X="512" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture4" X="1536" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture5" X="2560" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture6" X="3584" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture7" X="4608" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="0" />
+      </Texture>
+      <Texture Name="Texture8" X="5632" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="1" />
+      </Texture>
+      <Texture Name="Texture9" X="6656" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="1" />
+      </Texture>
+      <Texture Name="Texture10" X="7680" Y="640" Width="1024" Height="1024" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="1" />
+      </Texture>
+    </layer>
+    <layer Name="New Layer" GridX="0" GridY="0">
+      <Rectangle Name="Rectangle1" X="1665.25" Y="82.75" Width="3380" Height="435" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle2" X="-104.75" Y="600.25" Width="210" Height="880" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+      <Rectangle Name="Rectangle3" X="1300.25" Y="930.25" Width="2640" Height="340" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False" />
+    </layer>
+    <layer Name="New Layer" GridX="0" GridY="0">
+      <Texture Name="Texture11" X="1905" Y="585" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="29" />
+      </Texture>
+      <Texture Name="Texture12" X="1390" Y="760" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="29" />
+      </Texture>
+      <Texture Name="Texture13" X="585" Y="595" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="29" />
+      </Texture>
+      <Texture Name="Texture14" X="1070" Y="575" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="53" />
+      </Texture>
+      <Texture Name="Texture15" X="325" Y="875" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="53" />
+      </Texture>
+      <Texture Name="Texture16" X="2745" Y="605" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="53" />
+      </Texture>
+      <Texture Name="Texture17" X="3290" Y="660" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="53" />
+      </Texture>
+      <Texture Name="Texture18" X="836" Y="472" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="15" />
+      </Texture>
+      <Texture Name="Texture19" X="1739" Y="824" Width="101" Height="171" ScaleX="1" ScaleY="1" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="7" />
+      </Texture>
+      <Texture Name="Texture21" X="210.1818" Y="522.7272" Width="101" Height="171" ScaleX="5.511001" ScaleY="5.511001" Rotation="0" FlipX="False" FlipY="False">
+        <resource Type="Texture" ID="5" />
+      </Texture>
+    </layer>
+  </level>
+</world>

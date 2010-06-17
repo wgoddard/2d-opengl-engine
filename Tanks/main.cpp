@@ -13,14 +13,15 @@ Engine e(E_DEBUG);
 //SimpleSprite * sprite;
 //SimpleSprite * wall;
 //AnimatedSprite * anim;
-AnimatedSprite * iso;
+AnimatedSprite * voodoo;
+AnimatedSprite * rocktard;
 AnimatedSprite * orb;
 //AnimatedSprite * kis;
 
 //Entity * megaman;
 //Entity * megaman2;
 //IsoActor * archer;
-PlayerCharacter * archer;
+PlayerCharacter * archer = NULL;
 //World * world;
 
 InputDevice * newPlayer = NULL;
@@ -29,10 +30,29 @@ float x; float y;
 
 bool FrameFunc()
 {
+	if (newPlayer == NULL)
+		newPlayer = e.NewPlayer();
+	else
+	{
+		if (newPlayer->GetAKey())
+		{
+			//std::cout << "Yaaa on a key\n";
+			archer = e.GetWorld().CreatePlayerCharacter(rocktard, 5, 10, newPlayer, Rocktard);
+			//e.UseController(newPlayer);
+			e.GetInputHandler()->UseController(newPlayer);
+			newPlayer = NULL;
+		}
+		else if (newPlayer->GetBKey())
+		{
+			archer = e.GetWorld().CreatePlayerCharacter(voodoo, 5, 10, newPlayer, Voodoo);
+			//e.UseController(newPlayer);
+			e.GetInputHandler()->UseController(newPlayer);
+			newPlayer = NULL;
+		}
 
-	//newPlayer = e.NewPlayer();
+	}
 	//e.NewPlayer();
-	e.Delay(10);
+	//e.Delay(10);
 
 
 	//e.GetInputHandler()->Poll();
@@ -77,13 +97,23 @@ bool FrameFunc()
 				break;
 			case SDL_MOUSEBUTTONDOWN:
 				std::cout << "Archer is at " << archer->GetPos().x << ", " << archer->GetPos().y << '\n';
+				{
+				int x = event.motion.x;
+				int y = event.motion.y;
+				b2Vec2 pos;
+
+				if (archer != NULL)
+					pos = archer->GetPos();
+				std::cout << "Mouse is at " << ((x)/PPU + pos.x -15) << '\n';
+				e.GetWorld().CreateMonster(orb, (x/PPU) + pos.x-15, 15);
+				}
 				break;
 			case SDL_KEYDOWN:
 				switch (event.key.keysym.sym)
 				{
 				case SDLK_z:
 					std::cout << "Woot\n\n\n";
-					e.GetWorld().NextLevel();
+					//e.GetWorld().NextLevel();
 					//archer = e.GetWorld().CreatePlayerCharacter(iso, 126, 93, voodoo);
 					break;
 				case SDLK_ESCAPE:
@@ -105,9 +135,12 @@ bool RenderFunc()
 	e.GetWorld().Render();
 	
 
-	b2Vec2 pos = archer->GetPos();
+	if (archer != NULL)
+	{
+		b2Vec2 pos = archer->GetPos();
 
-	e.GetRenderer().ViewAt(-pos.x*PPU, -15.1*PPU);
+		e.GetRenderer().ViewAt(-pos.x*PPU, -15.1*PPU);
+	}
 
 	//iso->Render(10*PPU,30*PPU, 0, 0);
 
@@ -141,7 +174,7 @@ int main(int argc, char *argv[])
 	e.Initialize();
 
 
-	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\scroller.txt");
+	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\scroller3.txt");
 	e.GetWorld().NextLevel();
 
 	//world = new World(e.GetLogger());
@@ -162,15 +195,15 @@ int main(int argc, char *argv[])
 	//AnimatedSprite * voodoosprite = e.CreateSprite("..\\Resources\\Health bars\\voodoo.txt");
 	
 
-	iso = e.CreateSprite("..\\Resources\\Health bars\\voodoo.txt");
-	orb = e.CreateSprite("..\\Resources\\Characters\\orb.txt");
+	rocktard = e.CreateSprite("..\\Resources\\Characters\\rocktard2.txt");
+	voodoo = e.CreateSprite("..\\Resources\\Characters\\voodoo.txt");
+	orb = e.CreateSprite("..\\Resources\\Characters\\orbsmall.txt");
 	//iso = e.CreateSprite("..\\Resources\\blue archer.xml");
 	//CharacterClass *voodoo = new CharacterClass();
 	//archer = e.CreateIsoActor(iso, 6, 2.5);
 	 //archer = e.GetWorld().CreatePlayerCharacter(iso, 126, 93);
-	 archer = e.GetWorld().CreatePlayerCharacter(iso, 5, 10);
 
-	 e.GetWorld().CreatePlayerCharacter(orb,6,10);
+	 //e.GetWorld().CreatePlayerCharacter(orb,6,10);
 	 //archer->SetClass(voodoo);
 	//archer = e.GetWorld().CreateIsoActor(iso, 12, 2.5);
 	//anim = new AnimatedSprite("gintoki.txt");
@@ -188,7 +221,8 @@ int main(int argc, char *argv[])
 	//delete kis;
 	//delete megaman;
 	//delete megaman2;
-	delete iso;
+	delete voodoo;
+	delete rocktard;
 	delete orb;
 	//delete voodoosprite;
 	//delete archer;

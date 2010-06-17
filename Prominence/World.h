@@ -10,9 +10,13 @@
 #include "Level.h"
 #include "InputHandler.h"
 #include "PlayerCharacter.h"
+#include "Monster.h"
+#include "RockTard.h"
 //#include "CharacterClass.h"
 
 namespace Prominence {
+
+	enum Class{Rocktard, Voodoo, Fridge, Janitor};
 
 	class DECLSPEC World
 	{
@@ -90,7 +94,8 @@ namespace Prominence {
 		AnimatedEntity * CreateAnimatedEntity(AnimatedSprite * sprite, float x, float y);
 		Actor * CreateActor(AnimatedSprite * sprite, float x, float y);
 		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
-		PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y);//, CharacterClass &cclass);
+		PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y, InputDevice * d, Class cclass = Rocktard);//, CharacterClass &cclass);
+		Monster * CreateMonster(AnimatedSprite * sprite, float x, float y);
 
 	};
 

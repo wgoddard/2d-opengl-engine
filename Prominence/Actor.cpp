@@ -4,6 +4,8 @@ namespace Prominence {
 
 	Actor::Actor(AnimatedSprite & sprite, b2Body & body) : AnimatedEntity(sprite), m_Body(body)
 	{
+		m_MagX = 0;
+		m_MagY = 0;
 		m_Body.SetUserData(this);
 	}
 
@@ -17,6 +19,11 @@ namespace Prominence {
 
 		m_Body.SetLinearVelocity(b2Vec2(0,0));
 
+		if (m_MagX >= 0)
+			m_HFlip = true;
+		else
+			m_HFlip = false;
+
 
 		//m_XV = 0.1;
 		//m_Body.ApplyForce(b2Vec2(1000.0f, 1000.0f), b2Vec2(10.0f,10.0f));
@@ -25,7 +32,7 @@ namespace Prominence {
 		m_Body.ApplyImpulse(b2Vec2(m_MagX/100, m_MagY/100), m_Body.GetWorldCenter());
 		//m_Body.ApplyForce(b2Vec2(3000000000.0f, 0.0), m_Body.GetWorldCenter());
 		//m_Animator->Animate("Running");
-		m_HFlip = false;
+		//m_HFlip = false;
 	}
 
 	void Actor::Render()

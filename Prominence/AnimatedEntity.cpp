@@ -15,8 +15,8 @@ namespace Prominence {
 	void AnimatedEntity::Update(Uint32 dt)
 	{
 			m_Animator->Update(dt);
-			if (m_Animator->LoopFinished())
-				m_Animator->Animate("Still");
+			//if (m_Animator->LoopFinished())
+			//	m_Animator->Animate("Still");
 	}
 
 	void AnimatedEntity::Render()

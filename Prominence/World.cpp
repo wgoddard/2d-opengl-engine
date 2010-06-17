@@ -97,14 +97,33 @@ namespace Prominence {
 		return e;
 	}
 
-	PlayerCharacter * World::CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y)//, CharacterClass &cclass)
+	PlayerCharacter * World::CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y, InputDevice * d, Class cclass)//, CharacterClass &cclass)
 	{
 		b2Body * body = m_CurrentLevel->CreateBody(sprite->GetPolyDef(), x, y);
-		InputDevice * d = new KeyboardA();
-		PlayerCharacter * pc = new PlayerCharacter(*sprite, *body, *d);//, cclass);
+		//InputDevice * d = new KeyboardA();
+		PlayerCharacter *pc = NULL;
+		switch (cclass)
+		{
+		case Rocktard:
+			pc = new RockTard(*sprite, *body, *d);//, cclass);
+			break;
+		case Voodoo:
+			pc = new PlayerCharacter(*sprite, *body, *d);//, cclass);
+			break;
+		};
 		m_CurrentLevel->AddEntity(pc);
 		return pc;
 		//return new PlayerCharacter(*sprite, *body, *d);
+	}
+
+	Monster * World::CreateMonster(AnimatedSprite * sprite, float x, float y)
+	{
+		b2Body * body = m_CurrentLevel->CreateBody(sprite->GetPolyDef(), x, y);
+		//InputDevice * d = new KeyboardA();
+		Monster * m = new Monster(*sprite, *body);//, cclass);
+		m_CurrentLevel->AddEntity(m);
+		return m;
+
 	}
 
 }

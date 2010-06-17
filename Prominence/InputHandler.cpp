@@ -27,7 +27,29 @@ namespace Prominence {
 
 	InputDevice * InputHandler::NewPlayer()
 	{
+		std::vector<InputDevice *>::iterator i;
+		for (i = FreeControllers.begin(); i != FreeControllers.end(); ++i)
+		{
+			if ( (*i)->GetStart() )
+				return (*i);
+		}
 		return NULL;
+	}
+
+	void InputHandler::UseController(InputDevice * id)
+	{
+		std::vector<InputDevice *>::iterator i;
+		for (i = FreeControllers.begin(); i != FreeControllers.end(); ++i)
+		{
+			if ( (*i) == id )
+			{
+				m_Logger.Outputf(P_INFO, INPUT, "Found device, binding it.\n");
+				UsedControllers.push_back( (*i) );
+				FreeControllers.erase(i);
+				return;
+			}
+		}
+		m_Logger.Outputf(P_INFO, INPUT, "Couldn't find device.\n");
 	}
 
 }

@@ -17,6 +17,7 @@ namespace Prominence {
 		virtual void GetDirection(int &MagX, int &MagY) = 0;
 		virtual bool GetLKey() = 0;
 		virtual bool GetRKey() = 0;
+		virtual bool GetStart() = 0;
 	};
 
 }

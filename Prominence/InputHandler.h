@@ -30,6 +30,7 @@ namespace Prominence {
 
 		void Poll();
 		InputDevice * NewPlayer();
+		void UseController(InputDevice *id);
 		//void Yo() { std::cout << "sup"; }
 	};
 

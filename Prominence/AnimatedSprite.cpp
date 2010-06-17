@@ -90,7 +90,11 @@ namespace Prominence {
 				int tex_x = atoi(frameElem->Attribute("Tex_X"));
 				int tex_y = atoi(frameElem->Attribute("Tex_Y"));
 				float width = atof(frameElem->Attribute("Width"));
+				float scalex = atof(frameElem->Attribute("ScaleX"));
+				width *= scalex;
 				float height = atof(frameElem->Attribute("Height"));
+				float scaley = atof(frameElem->Attribute("ScaleY"));
+				height *= scaley;
 				int texindex = atoi(frameElem->Attribute("Texture"));
 				float xAnchor = atof(frameElem->Attribute("Anchor_X"));
 				float yAnchor = atof(frameElem->Attribute("Anchor_Y"));
@@ -109,11 +113,13 @@ namespace Prominence {
 
 				frame->width = width / FPU;
 				frame->height = height / FPU;
-				frame->xAnchor = xAnchor / FPU;
-				frame->yAnchor = yAnchor / FPU;
+				frame->xAnchor = xAnchor / FPU * scalex;
+				frame->yAnchor = yAnchor / FPU * scaley;
 
 				int texW = textures[texindex]->width;
+				texW *= scalex;
 				int texH = textures[texindex]->height;
+				texH *= scaley;
 
 				frame->quad.v[0].tx = (GLfloat)tex_x / texW;				frame->quad.v[0].ty = (GLfloat)tex_y / texH;
 				frame->quad.v[1].tx = (GLfloat)(tex_x + width) / texW;		frame->quad.v[1].ty = (GLfloat)tex_y / texH;

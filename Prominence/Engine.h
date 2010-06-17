@@ -88,8 +88,9 @@ namespace Prominence {
 		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
 		//PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y);
 
-		//InputHandler * GetInputHandler() { return m_InputHandler; }
-		InputDevice * Engine::NewPlayer() { return NULL; }
+		InputHandler * GetInputHandler() { return m_InputHandler; }
+		InputDevice * NewPlayer();
+		//void UseController(InputDevice * id) { m_InputHandler->UseController(InputDevice * id); }
 		//InputDevice * 
 	};
 

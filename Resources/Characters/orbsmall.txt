@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <sprite Name="Orb">
+    <rect Width="34" Height="44" />
+    <texture File="E:\48hrs\enemy 3\attack01.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack02.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack03.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack04.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack05.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack06.png" Width="512" Height="512" />
+    <texture File="E:\48hrs\enemy 3\attack07.png" Width="512" Height="512" />
+    <sequence Name="Attack" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="0" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="1" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="2" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="3" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="4" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="5" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="512" Height="512" Anchor_X="256" Anchor_Y="256" Texture="6" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+  </sprite>
+</sprites>

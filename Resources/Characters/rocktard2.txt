@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sprites>
+  <sprite Name="Rocktard">
+    <rect Width="34" Height="44" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Idle_1.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Idle_2.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack_1.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack_2.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack_3.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack_4.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Stand_1.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Walk_1.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Walk_2.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack(R)_1.png" Width="1015" Height="615" />
+    <texture File="C:\Users\William\Desktop\OpenGL\Resources\Characters\Rocktard\Attack(R)_2.png" Width="1015" Height="615" />
+    <sequence Name="Idle" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="0" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="1" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+    <sequence Name="Attack" Return_Loop_Frame="0" Loops="0">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="2" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="3" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="4" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="5" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+    <sequence Name="Stand" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="6" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+    <sequence Name="Walk" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="7" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="8" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+    <sequence Name="Ranged" Return_Loop_Frame="0" Loops="1">
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="9" ScaleX="0.3" ScaleY="0.3" />
+      <frame Time="0.2" Tex_X="0" Tex_Y="0" Width="1015" Height="615" Anchor_X="507" Anchor_Y="307" Texture="10" ScaleX="0.3" ScaleY="0.3" />
+    </sequence>
+  </sprite>
+</sprites>
