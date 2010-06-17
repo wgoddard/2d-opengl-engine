@@ -57,52 +57,6 @@ namespace Prominence {
 
 	void IsoActor::UpdateState()
 	{
-		//if (m_Left) std::cout << "Left\t";
-		//if (m_Right) std::cout << "Right\t";
-		//if (m_Up) std::cout << "Up\t";
-		//if (m_Down) std::cout << "Down\t";
-		//std::cout << '\n';
-
-		m_Body.SetLinearVelocity(b2Vec2(0,0));
-
-		std::string state;
-
-		if (m_Right && !m_Left)
-		{
-
-			m_Body.ApplyImpulse(b2Vec2(3.0f, 0.0f), m_Body.GetWorldCenter());
-			state = "Walking";
-			m_HFlip = false;
-		}
-		else if (m_Left)
-		{
-			//m_XV = -0.1;
-			//m_Body.SetLinearVelocity(b2Vec2(-100.0f, 0.0f));
-			m_Body.ApplyImpulse(b2Vec2(-3.0f, 0.0f), m_Body.GetWorldCenter());
-			state = "Walking";
-			m_HFlip = true;
-		}
-		if (m_Up && !m_Down)
-		{
-			m_Body.ApplyImpulse(b2Vec2(0.0f, 3.0f), m_Body.GetWorldCenter());
-			state = "Walking";
-		}
-		else if (m_Down)
-		{
-			m_Body.ApplyImpulse(b2Vec2(0.0f, -3.0f), m_Body.GetWorldCenter());
-			state = "Walking";
-		}
-
-		if (!(m_Down || m_Up || m_Left || m_Right))
-		{
-			//m_Animator->Animate("Still");
-			state = "Paused";
-			//m_XV = 0;
-			b2Vec2 vec = m_Body.GetLinearVelocity();
-			vec.x = 0.0f;
-			m_Body.SetLinearVelocity(vec);
-		}
-		m_Animator->Animate(directions[m_Direction] + state);
 	}
 
 }

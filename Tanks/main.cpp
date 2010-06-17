@@ -4,6 +4,7 @@
 #include "..\Prominence\AnimatedSprite.h"
 #include "..\Prominence\Entity.h"
 #include "..\Prominence\InputHandler.h"
+#include "..\Prominence\PlayerCharacter.h"
 
 
 using namespace Prominence;
@@ -11,15 +12,16 @@ Engine e(E_DEBUG);
 
 InputHandler inputHandler;
 
-SimpleSprite * sprite;
-SimpleSprite * wall;
-AnimatedSprite * anim;
+//SimpleSprite * sprite;
+//SimpleSprite * wall;
+//AnimatedSprite * anim;
 AnimatedSprite * iso;
 //AnimatedSprite * kis;
 
-Entity * megaman;
-Entity * megaman2;
-IsoActor * archer;
+//Entity * megaman;
+//Entity * megaman2;
+//IsoActor * archer;
+PlayerCharacter * archer;
 //World * world;
 
 float x; float y;
@@ -29,7 +31,7 @@ bool FrameFunc()
 
 	inputHandler.Poll();
 
-	e.Delay(10);
+	//e.Delay(10);
 	e.GetWorld().Update(e.GetDelta());
 	//std::cout << "Hello\n";
 	//std::cout << e.GetDelta() << '\n';
@@ -73,7 +75,7 @@ bool FrameFunc()
 				int y = event.motion.y;
 				double angle = atan2((double)y-300, (double)x-400);
 				//std::cout << "Angle is " << angle << '\n';
-				archer->SetAngle(angle);
+				//archer->SetAngle(angle);
 				}
 
 				break;
@@ -81,48 +83,15 @@ bool FrameFunc()
 				std::cout << "Archer is at " << archer->GetPos().x << ", " << archer->GetPos().y << '\n';
 				break;
 			case SDL_KEYDOWN:
-				if (event.key.keysym.sym == SDLK_z)
-				{
-					//archer->UpdateState();
-				}
 				switch (event.key.keysym.sym)
 				{
-				case SDLK_a:
-					archer->Left(true);
-					break;
-				case SDLK_d:
-					archer->Right(true);
-					break;
-				case SDLK_w:
-					archer->Up(true);
-					break;
-				case SDLK_s:
-					archer->Down(true);
-					break;
 				case SDLK_z:
 					std::cout << "Woot\n\n\n";
 					e.GetWorld().NextLevel();
-					archer = e.GetWorld().CreateIsoActor(iso, 126, 93);
+					//archer = e.GetWorld().CreatePlayerCharacter(iso, 126, 93, voodoo);
 					break;
 				case SDLK_ESCAPE:
 					return false;
-				}
-				break;
-			case SDL_KEYUP:
-				switch(event.key.keysym.sym)
-				{
-				case SDLK_a:
-					archer->Left(false);
-					break;
-				case SDLK_d:
-					archer->Right(false);
-					break;
-				case SDLK_w:
-					archer->Up(false);
-					break;
-				case SDLK_s:
-					archer->Down(false);
-					break;
 				}
 				break;
 		}
@@ -142,14 +111,14 @@ bool RenderFunc()
 
 	b2Vec2 pos = archer->GetPos();
 
-	e.GetRenderer().ViewAt(-pos.x*PPU, -pos.y*PPU);
+	e.GetRenderer().ViewAt(-pos.x*PPU, -15.1*PPU);
 	//e.GetRenderer().ViewAt(400, 600);
 	//e.GetRenderer().ViewAt(126*44, 93*44);
 
 
 	//e.GetWorld().DrawBoxes();
-	sprite->Render(-1/44.0f,-1/44.0f);
-	wall->Render(5/44, 0);
+	//sprite->Render(-1/44.0f,-1/44.0f);
+	//wall->Render(5/44, 0);
 	//megaman->Render();
 	//megaman2->Render();
 	//archer->Render();
@@ -167,32 +136,39 @@ int main(int argc, char *argv[])
 	//e.SetName("WordXX");
 	//e.SetMode(E_RELEASE);
 	//e.SetWindow(1280, 720, 32, false);
-	e.Resize(1024, 768, 32, false);
+	e.Resize(1280, 720, 32, false);
 	//e.GetWindow().ToggleFullscreen();
 
 	e.Initialize();
 
-	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\royal2.txt");
+	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\scroller.txt");
 	e.GetWorld().NextLevel();
 
 	//world = new World(e.GetLogger());
 
 	//sprite = new SimpleSprite("A.png", 0.25f, 0.25f, 256, 256, 512, 512);
 
-	anim = e.CreateSprite("..\\Resources\\megaman6c.txt");
-	wall = e.CreateSprite("..\\Resources\\wall.png", 0.0f, 0.0f, 240/FPU, 480/FPU, 240/FPU, 480/FPU);
+	//anim = e.CreateSprite("..\\Resources\\megaman6c.txt");
+	//wall = e.CreateSprite("..\\Resources\\wall.png", 0.0f, 0.0f, 240/FPU, 480/FPU, 240/FPU, 480/FPU);
 	//kis = e.CreateSprite("kis5.txt");
-	sprite = e.CreateSprite("..\\Resources\\bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
+	//sprite = e.CreateSprite("..\\Resources\\bg.png", 0.0f, 0.0f, 480/22, 320/22, 480/22, 320/22);
 
 	//megaman = e.CreateEntity(anim, 18, 2.5);//new Entity(*anim);
 	//megaman2 = e.CreateEntity(anim, 12, 2.5);
 	//megaman = e.GetWorld().CreateAnimatedEntity(anim, 18, 2.5);
-	megaman2 = e.GetWorld().CreateAnimatedEntity(anim, 12, 2.5);
-	megaman = e.GetWorld().CreateActor(anim, 18, 2.5);
+	//megaman2 = e.GetWorld().CreateAnimatedEntity(anim, 12, 2.5);
+	//megaman = e.GetWorld().CreateActor(anim, 18, 2.5);
 
-	iso = e.CreateSprite("..\\Resources\\blue archer.xml");
+	//AnimatedSprite * voodoosprite = e.CreateSprite("..\\Resources\\Health bars\\voodoo.txt");
+	
+
+	iso = e.CreateSprite("..\\Resources\\Health bars\\voodoo.txt");
+	//iso = e.CreateSprite("..\\Resources\\blue archer.xml");
+	//CharacterClass *voodoo = new CharacterClass();
 	//archer = e.CreateIsoActor(iso, 6, 2.5);
-	 archer = e.GetWorld().CreateIsoActor(iso, 126, 93);
+	 //archer = e.GetWorld().CreatePlayerCharacter(iso, 126, 93);
+	 archer = e.GetWorld().CreatePlayerCharacter(iso, 5, 10);
+	 //archer->SetClass(voodoo);
 	//archer = e.GetWorld().CreateIsoActor(iso, 12, 2.5);
 	//anim = new AnimatedSprite("gintoki.txt");
 	//kis = new AnimatedSprite("kis4.txt");
@@ -204,12 +180,13 @@ int main(int argc, char *argv[])
 
 	e.Execute();
 
-	delete sprite;
-	delete anim;
+	//delete sprite;
+	//delete anim;
 	//delete kis;
 	//delete megaman;
 	//delete megaman2;
 	delete iso;
+	//delete voodoosprite;
 	//delete archer;
 
 	e.GetLogger().Outputf(P_WARNING, AUDIO, "No sound yet!\n");

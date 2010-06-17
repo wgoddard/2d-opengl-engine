@@ -1,12 +1,15 @@
 #pragma once
 
 #include "InputDevice.h"
+#include "SDL.h"
 
 namespace Prominence {
 
 	class KeyboardController :
 		public InputDevice
 	{
+	private:
+		Uint8* keys;
 	public:
 		KeyboardController(void);
 		~KeyboardController(void);

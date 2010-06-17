@@ -27,26 +27,26 @@ namespace Prominence {
 		//m_b2World->SetDebugDraw(new DebugDraw());
 
 		// Define the ground body.
-		b2BodyDef groundBodyDef;
-		groundBodyDef.position.Set(400.0f, 0.0f);
+		//b2BodyDef groundBodyDef;
+		//groundBodyDef.position.Set(400.0f, 0.0f);
 
 		// Call the body factory which allocates memory for the ground body
 		// from a pool and creates the ground box shape (also from a pool).
 		// The body is also added to the world.
-		b2Body* groundBody = m_b2World->CreateBody(&groundBodyDef);
+		//b2Body* groundBody = m_b2World->CreateBody(&groundBodyDef);
 
 		// Define the ground box shape.
-		b2PolygonDef groundShapeDef;
+		//b2PolygonDef groundShapeDef;
 
 		// The extents are the half-widths of the box.
-		groundShapeDef.SetAsBox(400.0f, 2.0f);
+		//groundShapeDef.SetAsBox(400.0f, 2.0f);
 
 		// Add the ground shape to the ground body.
-		groundBody->CreateShape(&groundShapeDef);
+		//groundBody->CreateShape(&groundShapeDef);
 
-		groundShapeDef.SetAsBox(5.0f, 400.0f);
-		groundBodyDef.position.Set(0.0f, 0.0f);
-		m_b2World->CreateBody(&groundBodyDef)->CreateShape(&groundShapeDef);
+		//groundShapeDef.SetAsBox(5.0f, 400.0f);
+		//groundBodyDef.position.Set(0.0f, 0.0f);
+		//m_b2World->CreateBody(&groundBodyDef)->CreateShape(&groundShapeDef);
 	}
 
 	Level::~Level(void)

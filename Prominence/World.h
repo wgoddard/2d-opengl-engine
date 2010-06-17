@@ -8,6 +8,9 @@
 #include "Entity.h"
 #include "IsoActor.h"
 #include "Level.h"
+#include "InputHandler.h"
+#include "PlayerCharacter.h"
+//#include "CharacterClass.h"
 
 namespace Prominence {
 
@@ -84,9 +87,10 @@ namespace Prominence {
 		b2Body * CreateBody(b2PolygonDef * polyDef, float x, float y);
 
 		Entity * CreateEntity(Sprite * sprite, float x, float y);
-		AnimatedEntity * World::CreateAnimatedEntity(AnimatedSprite * sprite, float x, float y);
-		Actor * World::CreateActor(AnimatedSprite * sprite, float x, float y);
-		IsoActor * World::CreateIsoActor(AnimatedSprite * sprite, float x, float y);
+		AnimatedEntity * CreateAnimatedEntity(AnimatedSprite * sprite, float x, float y);
+		Actor * CreateActor(AnimatedSprite * sprite, float x, float y);
+		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
+		PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y);//, CharacterClass &cclass);
 
 	};
 

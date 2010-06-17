@@ -6,11 +6,13 @@
 #include "Logger.h"
 #include "Renderer.h"
 #include "ResourceManager.h"
+#include "InputHandler.h"
 
 #include "AnimatedSprite.h"
 #include "SimpleSprite.h"
 #include "IsoActor.h"
 #include "Entity.h"
+#include "PlayerCharacter.h"
 
 #include "World.h"
 
@@ -82,6 +84,7 @@ namespace Prominence {
 				{ return new SimpleSprite(*m_ResourceManager, *m_Renderer, tex_name, tex_x, tex_y, w, h, tex_w, tex_h); }
 		Entity * CreateEntity(Sprite * sprite, float x, float y);
 		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
+		//PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y);
 	};
 
 }

@@ -2,6 +2,7 @@
 
 #include "Export.h"
 #include "XInputController.h"
+#include "KeyboardController.h"
 //#include "PlayerCharacter.h"
 #include <vector>
 

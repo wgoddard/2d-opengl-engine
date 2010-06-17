@@ -183,6 +183,13 @@ namespace Prominence {
 		return new IsoActor(*sprite, *body);
 	}
 
+	//PlayerCharacter * Engine::CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y)
+	//{
+	//	b2Body * body = m_World->CreateBody(sprite->GetPolyDef(), x, y);
+	//	InputDevice * d = new KeyboardController();
+	//	return new PlayerCharacter(*sprite, *body, *d);
+	//}
+
 	bool Engine::m_Instantiated = false;
 
 }
