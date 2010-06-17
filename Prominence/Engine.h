@@ -13,6 +13,7 @@
 #include "IsoActor.h"
 #include "Entity.h"
 #include "PlayerCharacter.h"
+#include "InputHandler.h"
 
 #include "World.h"
 
@@ -31,6 +32,7 @@ namespace Prominence {
 		Window * m_Window;
 		Renderer * m_Renderer;
 		World * m_World;
+		InputHandler * m_InputHandler;
 		ResourceManager * m_ResourceManager;
 
 		std::string m_Name;
@@ -85,6 +87,10 @@ namespace Prominence {
 		Entity * CreateEntity(Sprite * sprite, float x, float y);
 		IsoActor * CreateIsoActor(AnimatedSprite * sprite, float x, float y);
 		//PlayerCharacter * CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y);
+
+		//InputHandler * GetInputHandler() { return m_InputHandler; }
+		InputDevice * Engine::NewPlayer() { return NULL; }
+		//InputDevice * 
 	};
 
 }

@@ -8,19 +8,20 @@ namespace Prominence {
 	class KeyboardController :
 		public InputDevice
 	{
-	private:
+	protected:
 		Uint8* keys;
 	public:
 		KeyboardController(void);
-		~KeyboardController(void);
+		virtual ~KeyboardController(void);
 
-		bool GetAKey();
-		bool GetBKey();
-		bool GeyXKey();
-		bool GetYKey();
-		void GetDirection(int &MagX, int &MagY);
-		bool GetLKey();
-		bool GetRKey();
+		virtual bool GetAKey() = 0;
+		virtual bool GetBKey() = 0;
+		virtual bool GeyXKey() = 0;
+		virtual bool GetYKey() = 0;
+		virtual void GetDirection(int &MagX, int &MagY) = 0;
+		virtual bool GetLKey() = 0;
+		virtual bool GetRKey() = 0;
+		virtual bool GetStart() = 0;
 	};
 
 }

@@ -3,19 +3,18 @@
 #include "..\Prominence\SimpleSprite.h"
 #include "..\Prominence\AnimatedSprite.h"
 #include "..\Prominence\Entity.h"
-#include "..\Prominence\InputHandler.h"
 #include "..\Prominence\PlayerCharacter.h"
 
+#include "..\Prominence\InputHandler.h"
 
 using namespace Prominence;
 Engine e(E_DEBUG);
-
-InputHandler inputHandler;
 
 //SimpleSprite * sprite;
 //SimpleSprite * wall;
 //AnimatedSprite * anim;
 AnimatedSprite * iso;
+AnimatedSprite * orb;
 //AnimatedSprite * kis;
 
 //Entity * megaman;
@@ -24,12 +23,20 @@ AnimatedSprite * iso;
 PlayerCharacter * archer;
 //World * world;
 
+InputDevice * newPlayer = NULL;
+
 float x; float y;
 
 bool FrameFunc()
 {
 
-	inputHandler.Poll();
+	//newPlayer = e.NewPlayer();
+	//e.NewPlayer();
+	e.Delay(10);
+
+
+	//e.GetInputHandler()->Poll();
+	//e.GetInputHandler()->Yo();
 
 	//e.Delay(10);
 	e.GetWorld().Update(e.GetDelta());
@@ -44,17 +51,6 @@ bool FrameFunc()
 	_snprintf(hz, 9, "%.3f", e.GetDelta()/1000.0f);
 	std::string name = std::string("Engine delta:") + delta + std::string(" fps: ") + fps + std::string(" timestep ") + hz;
 
-	//std::cout << "Fps should be " << 1000.0f/e.GetDelta() << '\n';
-
-	//std::cout << "FPS: " << e.GetFPS() << " but is listed as " << fps << '\n';
-	
-
-	//anim->Update(e.GetDelta());
-	//kis->Update(e.GetDelta());
-	//megaman->Update(e.GetDelta());
-	//megaman2->Update(e.GetDelta());
-	//archer->Update(e.GetDelta());
-	//world->Update(e.GetDelta());
 	
 	e.SetName(name);
 
@@ -112,6 +108,9 @@ bool RenderFunc()
 	b2Vec2 pos = archer->GetPos();
 
 	e.GetRenderer().ViewAt(-pos.x*PPU, -15.1*PPU);
+
+	//iso->Render(10*PPU,30*PPU, 0, 0);
+
 	//e.GetRenderer().ViewAt(400, 600);
 	//e.GetRenderer().ViewAt(126*44, 93*44);
 
@@ -141,6 +140,7 @@ int main(int argc, char *argv[])
 
 	e.Initialize();
 
+
 	e.GetWorld().SetWorldFile("..\\Resources\\Levels\\scroller.txt");
 	e.GetWorld().NextLevel();
 
@@ -163,11 +163,14 @@ int main(int argc, char *argv[])
 	
 
 	iso = e.CreateSprite("..\\Resources\\Health bars\\voodoo.txt");
+	orb = e.CreateSprite("..\\Resources\\Characters\\orb.txt");
 	//iso = e.CreateSprite("..\\Resources\\blue archer.xml");
 	//CharacterClass *voodoo = new CharacterClass();
 	//archer = e.CreateIsoActor(iso, 6, 2.5);
 	 //archer = e.GetWorld().CreatePlayerCharacter(iso, 126, 93);
 	 archer = e.GetWorld().CreatePlayerCharacter(iso, 5, 10);
+
+	 e.GetWorld().CreatePlayerCharacter(orb,6,10);
 	 //archer->SetClass(voodoo);
 	//archer = e.GetWorld().CreateIsoActor(iso, 12, 2.5);
 	//anim = new AnimatedSprite("gintoki.txt");
@@ -186,6 +189,7 @@ int main(int argc, char *argv[])
 	//delete megaman;
 	//delete megaman2;
 	delete iso;
+	delete orb;
 	//delete voodoosprite;
 	//delete archer;
 

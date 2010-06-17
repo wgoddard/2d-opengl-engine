@@ -27,6 +27,7 @@ namespace Prominence {
 		m_Renderer = new Renderer(*m_Logger);
 		m_ResourceManager = new ResourceManager(*m_Logger);
 		m_World = new World(*m_ResourceManager, *m_Logger, *m_Renderer);
+		m_InputHandler = new InputHandler(*m_Logger);
 
 		m_FrameFunc = &m_DefaultFrame;
 		m_RenderFunc = &m_DefaultRender;
@@ -43,6 +44,11 @@ namespace Prominence {
 	Engine::~Engine(void)
 	{
 		delete m_ResourceManager;
+
+		if (m_InputHandler != NULL)
+			delete m_InputHandler;
+		else
+			m_Logger->Outputf(P_WARNING, INPUT, "Failed to shut down input handler.\n");
 		
 		if (m_Renderer != NULL)
 			delete m_Renderer;
@@ -55,6 +61,7 @@ namespace Prominence {
 			m_Logger->Outputf(P_WARNING, WINDOW, "Engine cannot destroy window.  It does not exist.\n");
 
 		delete m_World;
+
 
 
 		m_Logger->Outputf(P_INFO, ENGINE, "Engine destroyed.\n");
@@ -132,6 +139,8 @@ namespace Prominence {
 			totalFrames++;
 			//m_World->Update(m_DeltaTime);
 			m_ResourceManager->LoadTextures();
+			//m_InputHandler->Poll();
+
 			if ((currentTime - m_FrameTimer )>= 1000)
 			{
 				m_FPS = m_Renderer->GetFrames();

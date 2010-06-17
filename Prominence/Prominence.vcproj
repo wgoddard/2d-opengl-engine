@@ -190,18 +190,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\InputDevice.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\InputHandler.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\KeyboardController.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\Level.cpp"
 				>
 			</File>
@@ -249,10 +237,6 @@
 				RelativePath=".\World.cpp"
 				>
 			</File>
-			<File
-				RelativePath=".\XInputController.cpp"
-				>
-			</File>
 			<Filter
 				Name="Entities"
 				>
@@ -270,6 +254,34 @@
 				</File>
 				<File
 					RelativePath=".\IsoActor.cpp"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Input"
+				>
+				<File
+					RelativePath=".\InputDevice.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\InputHandler.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardA.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardB.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardController.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\XInputController.cpp"
 					>
 				</File>
 			</Filter>
@@ -301,18 +313,6 @@
 			</File>
 			<File
 				RelativePath=".\Global.h"
-				>
-			</File>
-			<File
-				RelativePath=".\InputDevice.h"
-				>
-			</File>
-			<File
-				RelativePath=".\InputHandler.h"
-				>
-			</File>
-			<File
-				RelativePath=".\KeyboardController.h"
 				>
 			</File>
 			<File
@@ -359,10 +359,6 @@
 				RelativePath=".\World.h"
 				>
 			</File>
-			<File
-				RelativePath=".\XInputController.h"
-				>
-			</File>
 			<Filter
 				Name="Entities"
 				>
@@ -380,6 +376,34 @@
 				</File>
 				<File
 					RelativePath=".\IsoActor.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Input"
+				>
+				<File
+					RelativePath=".\InputDevice.h"
+					>
+				</File>
+				<File
+					RelativePath=".\InputHandler.h"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardA.h"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardB.h"
+					>
+				</File>
+				<File
+					RelativePath=".\KeyboardController.h"
+					>
+				</File>
+				<File
+					RelativePath=".\XInputController.h"
 					>
 				</File>
 			</Filter>

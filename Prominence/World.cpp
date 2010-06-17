@@ -100,7 +100,7 @@ namespace Prominence {
 	PlayerCharacter * World::CreatePlayerCharacter(AnimatedSprite * sprite, float x, float y)//, CharacterClass &cclass)
 	{
 		b2Body * body = m_CurrentLevel->CreateBody(sprite->GetPolyDef(), x, y);
-		InputDevice * d = new KeyboardController();
+		InputDevice * d = new KeyboardA();
 		PlayerCharacter * pc = new PlayerCharacter(*sprite, *body, *d);//, cclass);
 		m_CurrentLevel->AddEntity(pc);
 		return pc;
