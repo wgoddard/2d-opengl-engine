@@ -190,6 +190,18 @@
 				>
 			</File>
 			<File
+				RelativePath=".\InputDevice.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\InputHandler.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\KeyboardController.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Level.cpp"
 				>
 			</File>
@@ -203,6 +215,10 @@
 			</File>
 			<File
 				RelativePath=".\MemberThreads.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\PlayerCharacter.cpp"
 				>
 			</File>
 			<File
@@ -231,6 +247,10 @@
 			</File>
 			<File
 				RelativePath=".\World.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\XInputController.cpp"
 				>
 			</File>
 			<Filter
@@ -284,11 +304,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\InputDevice.h"
+				>
+			</File>
+			<File
+				RelativePath=".\InputHandler.h"
+				>
+			</File>
+			<File
+				RelativePath=".\KeyboardController.h"
+				>
+			</File>
+			<File
 				RelativePath=".\Level.h"
 				>
 			</File>
 			<File
 				RelativePath=".\Logger.h"
+				>
+			</File>
+			<File
+				RelativePath=".\PlayerCharacter.h"
 				>
 			</File>
 			<File
@@ -321,6 +357,10 @@
 			</File>
 			<File
 				RelativePath=".\World.h"
+				>
+			</File>
+			<File
+				RelativePath=".\XInputController.h"
 				>
 			</File>
 			<Filter

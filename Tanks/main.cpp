@@ -3,10 +3,13 @@
 #include "..\Prominence\SimpleSprite.h"
 #include "..\Prominence\AnimatedSprite.h"
 #include "..\Prominence\Entity.h"
+#include "..\Prominence\InputHandler.h"
 
 
 using namespace Prominence;
 Engine e(E_DEBUG);
+
+InputHandler inputHandler;
 
 SimpleSprite * sprite;
 SimpleSprite * wall;
@@ -23,6 +26,8 @@ float x; float y;
 
 bool FrameFunc()
 {
+
+	inputHandler.Poll();
 
 	e.Delay(10);
 	e.GetWorld().Update(e.GetDelta());
